@@ -1,0 +1,256 @@
+lxqt-qtplugin (1.3.0-0.1~S7) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- S.7 <severusseptimius7@gmail.com>  Sat, 20 May 2023 15:13:12 +0300
+
+lxqt-qtplugin (1.2.0-3) unstable; urgency=medium
+
+  * Merge to unstable.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Sat, 03 Dec 2022 01:10:19 +0800
+
+lxqt-qtplugin (1.2.0-2) experimental; urgency=medium
+
+  * Fix Depends.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Thu, 01 Dec 2022 00:30:59 +0800
+
+lxqt-qtplugin (1.2.0-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Update d/watch for GitHub.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Wed, 30 Nov 2022 22:00:10 +0800
+
+lxqt-qtplugin (1.1.0-1) experimental; urgency=medium
+
+  [ Aaron Rainbolt ]
+  * New upstream release 1.1.0.
+  * Removed obsolete debian/compat file.
+  * Switched to GBP.
+  * Upstreamed non-Ubuntu-specific packaging changes from Ubuntu, modifying
+    the following files:
+    - control
+    - copyright
+    - upstream/*
+
+  [ Simon Quigley ]
+  * Re-add the existing uploaders to debian/control.
+
+ -- Aaron Rainbolt <arraybolt3@gmail.com>  Sun, 10 Jul 2022 00:29:24 -0500
+
+lxqt-qtplugin (0.16.0-1) unstable; urgency=medium
+
+  [ Alf Gaida ]
+  * Switched to gbp
+  * Bumped Standards-Version to 4.4.0, no changes needed
+  * Removed no longer needed patches, applied upstream
+
+  [ Andrew Lee (李健秋) ]
+  * New upstream release. (Closes: #977329)
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Thu, 07 Jan 2021 17:53:47 +0800
+
+lxqt-qtplugin (0.14.0-3) unstable; urgency=medium
+
+  * Try to load the versioned libfm-qt.so.6 instead of libfm-qt.so
+    (Closes: #927905)
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 24 Apr 2019 23:05:04 +0200
+
+lxqt-qtplugin (0.14.0-2) unstable; urgency=medium
+
+  * Added missed direct dependency libqt5xdgiconloader-dev, the new
+    build-tools don't depend on it any longer to prevent circular
+    dependencies with libqtxdg (Closes: #924474).
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 13 Mar 2019 17:59:00 +0100
+
+lxqt-qtplugin (0.14.0-1) unstable; urgency=medium
+
+  * Cherry-picking upstream release 0.14.0.
+  * Bumped Standards to 4.3.0, no changes needed
+  * Dropped d/compat, use debhelper-compat = 12, no changes needed
+  * Fixed years in d/copyright
+  * Bumped minimum version liblxqt0-dev (>= 0.14.0~)
+  * Removed build dependency libfm-qt-dev
+  * Recommend libfm-qt6
+  * Added d/upstream/metadata
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 27 Jan 2019 18:08:59 +0100
+
+lxqt-qtplugin (0.13.0-2) unstable; urgency=medium
+
+  * Switched to unstable
+  * Bumped build dependency libfm-qt-dev to >= 0.13.1~
+  * Bumped Standards to 4.1.5, no changes needed
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 07 Jul 2018 14:13:08 +0200
+
+lxqt-qtplugin (0.13.0-1) experimental; urgency=medium
+
+  * Cherry-picking upstream release 0.13.0.
+  * Switched to experimental
+  * Bumped build dependency libfm-qt-dev to >= 0.13.0~
+  * Bumped build dependency lxqt-build-tools to >= 0.5.0~
+  * Removed the ported back upstream patches
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 26 May 2018 01:13:13 +0200
+
+lxqt-qtplugin (0.12.0-7) unstable; urgency=medium
+
+  * Relax debhelper minimum version to >= 11~
+  * Bumped Standard to 4.1.4, no changes needed
+  * Fixde glitches in VCS fields
+  * Changed Homepage, Source and watch for lxqt
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 28 Apr 2018 16:10:41 +0200
+
+lxqt-qtplugin (0.12.0-6) unstable; urgency=medium
+
+  * Backported lxqtplatformtheme-follow-color-scheme.patch
+  * Fixed wrong group in VCS fields
+  * Removed some trailing whitespaces from d/changelog
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 14 Feb 2018 22:42:02 +0100
+
+lxqt-qtplugin (0.12.0-5) unstable; urgency=medium
+
+  * Backported colorize-at-start patch
+  * Bumped debhelper to >= 11
+  * Bumped Standards to 4.1.3, no changes needed
+  * Changed VCS fields for salsa
+  * Bumped compat to 11
+  * Bumped years in copyright
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 12 Feb 2018 19:52:16 +0100
+
+lxqt-qtplugin (0.12.0-4) unstable; urgency=medium
+
+  * Bumped Standards to 4.1.2, no changes needed
+  * Removed branch from VCS fields
+  * Removed debian/gbp.conf
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 14 Dec 2017 22:31:53 +0100
+
+lxqt-qtplugin (0.12.0-3) unstable; urgency=medium
+
+  * Transition to unstable
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 05 Dec 2017 00:18:17 +0100
+
+lxqt-qtplugin (0.12.0-2) experimental; urgency=medium
+
+  * pickup qt abi 5.9.2
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 29 Oct 2017 02:09:04 +0100
+
+lxqt-qtplugin (0.12.0-1) experimental; urgency=medium
+
+  * Cherry-picking upstream release 0.12.0.
+  * Switched to experimental
+  * Bumped Standards to 4.1.1 - no changes needed
+  * Bumped tools dependency to >= 0.4.0
+  * Fixed year in copyrights
+  * Added build dependency libfm-qt-dev (>= 0.12.0),
+  * Bumped lxqt-build-tools to >= 0.4.0
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 24 Oct 2017 19:41:49 +0200
+
+lxqt-qtplugin (0.11.1-2) unstable; urgency=medium
+
+  * Bump Standards to 4.0.0 - no changes needed
+  * Bump year on copyright
+  * Recommends lxqt-session and lxqt-config (Closes: #866780)
+  * Suggests lxqt | lxqt-core
+  * Removed translation stuff from rules, there are no translations for
+    the plugin
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 01 Jul 2017 19:14:21 +0200
+
+lxqt-qtplugin (0.11.1-1) unstable; urgency=medium
+
+  * Cherry-picking upstream release 0.11.1.
+  * Removed some build dependencies
+    - cmake
+    - liblxqt0-dev
+    - libqt5xdg-dev
+    - libqt5xdgiconloader-dev
+    - pkg-config
+    - qttools5-dev
+    - qttools5-dev-tools
+  * Added build dependency lxqt-build-tools (>= 0.3.0)
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 12 Dec 2016 01:38:34 +0100
+
+lxqt-qtplugin (0.11.0-3) unstable; urgency=medium
+
+  * Cherry-picking upstream release 0.11.0.
+  * Synced debian foo with experimental
+  * Added Multi-Arch: same, following the Multiarch hinter
+  * Bumped compat to 10
+  * Removed --parallel from rules, standard in compat 10
+  * Bumped Standards to 3.9.8, no changes needed
+  * Bumped minimum version debhelper (>= 10)
+  * Bumped minimum version liblxqt-dev (>= 0.11.0)
+  * Bumped minimum version libqtxdg-dev (>= 2.0.0)
+  * Added build dependency libqt5svg5-dev
+  * Added build dependency libqt5xdgiconloader-dev
+  * Fixed VCS fields, using https and plain /git/
+  * Removed README.debian, no longer needed
+  * Fixed copyrights Format field to https
+  * Bumped years in copyrights
+  * Fixed copyrights Source field
+  * Removed outdated file and license from copyrights
+  * Added hardening options
+  * Added translation control to rules
+  * Set CMAKE_BUILD_TYPE=RelWithDebInfo
+  * Exported LC_ALL=C.UTF-8, make builds reproducible
+  * Added a basic gbp.conf
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 18 Oct 2016 17:44:28 +0200
+
+lxqt-qtplugin (0.10.0-3) unstable; urgency=medium
+
+  * Remove dbg package in favor of dbgsym.
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 26 Dec 2015 22:27:15 +0100
+
+lxqt-qtplugin (0.10.0-2) unstable; urgency=medium
+
+  * Merge from experimental.
+  * New upstream release.
+  * Set new minimum version for liblxqt.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Thu, 19 Nov 2015 22:55:24 +0800
+
+lxqt-qtplugin (0.9.0+20150819-2) unstable; urgency=medium
+
+  * Fixed czchen's mail address in control and copyright
+  * Fixed the initial changelog entry - the listed points was never released
+    or inluded in any debian release
+  * Fixed .gitignore
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 12 Nov 2015 19:36:00 +0100
+
+lxqt-qtplugin (0.9.0+20150819-1) unstable; urgency=medium
+
+  [ Alf Gaida ]
+  * Initial debian files
+
+  [ ChangZhuo Chen (陳昌倬) ]
+  * Initial release. (Closes: #747604)
+  * Imported Upstream version 0.9.0+20150819.
+  * Update changelog.
+  * Add -Wl,--as-needed.
+  * Update control.
+  * Update copyright.
+
+  [ Yukiharu YABUKI ]
+  * Clarify License for 'LGPL-2.1-or-3-with-Digia-1.1-exception'.
+  * Added a uploader.
+  * Improve debian/changelog.
+  * Added README.Debian.
+
+ -- Yukiharu YABUKI <yyabuki@debian.org>  Thu, 20 Aug 2015 05:49:28 +0900

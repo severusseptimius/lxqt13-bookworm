@@ -1,0 +1,239 @@
+lxqt-powermanagement (1.3.0-0.1~S7) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- S.7 <severusseptimius7@gmail.com>  Sun, 21 May 2023 13:06:38 -0400
+
+lxqt-powermanagement (1.2.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-Version to 4.6.1.
+  * Bump compat to 13.
+    * Remove unnecessary -Wl,--as-needed in d/rules.
+    * Remove unnecessary --fail-missing in d/rules.
+    * Add Rules-Requires-Root: no.
+  * Update d/watch for GitHub.
+  * Fix d/lintian-overrides.
+  * Fix d/upstream/metadata.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Sat, 17 Dec 2022 01:32:56 +0800
+
+lxqt-powermanagement (1.1.0-3) unstable; urgency=medium
+
+  * Merge to unstable.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Sun, 20 Nov 2022 19:19:07 +0800
+
+lxqt-powermanagement (1.1.0-2) experimental; urgency=medium
+
+  * Merge to unstable.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Sun, 20 Nov 2022 18:34:30 +0800
+
+lxqt-powermanagement (1.1.0-1) experimental; urgency=medium
+
+  * Add debian/salsa-ci.yml file.
+  * Update debian/upstream/signing-key.asc.
+  * New upstream version 1.0.0
+  * New upstream version 1.1.0
+  * Build-deps on liblxqt1-dev (>= 1.1.0~).
+  * Build-deps on liblxqt-globalkeys1-dev (>= 1.1.0~).
+  * Build-deps on liblxqt-globalkeys-ui1-dev (>= 1.1.0~).
+  * Drop obsleted Breaks and Replaces lines.
+  * debian/copyright: update years.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Fri, 15 Jul 2022 23:15:01 +0800
+
+lxqt-powermanagement (0.16.0-1) unstable; urgency=medium
+
+  [ Alf Gaida ]
+  * Switched to gbp
+  * Bumped Standards-Version to 4.4.0, no changes needed
+
+  [ Andrew Lee (李健秋) ]
+  * New upstream release.
+  * debian/control: update build-deps.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Wed, 06 Jan 2021 17:58:35 +0800
+
+lxqt-powermanagement (0.14.1-1) unstable; urgency=medium
+
+  * Cherry-picking new upstream version 0.14.1.
+  * Bumped minimum version liblxqt0-dev (>= 0.14.1~)
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 26 Feb 2019 02:47:54 +0100
+
+lxqt-powermanagement (0.14.0-1) unstable; urgency=medium
+
+  * Cherry-picking new upstream version 0.14.0.
+  * Bumped Standards to 4.3.0, no changes needed
+  * Dropped d/compat, use debhelper-compat = 12, no changes needed
+  * Fixed years in d/copyright
+  * Bumped minimum version liblxqt0-dev (>= 0.14.0~)
+  * Removed obsolete PULL_TRANSLATIONS= OFF from dh_auto_configure
+  * Added l10n-package, moved from lxqt-l10n
+  * Added d/upstream/metadata
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 27 Jan 2019 18:03:45 +0100
+
+lxqt-powermanagement (0.13.0-1) unstable; urgency=medium
+
+  * Cherry-picking new upstream version 0.13.0.
+  * Bumped build dependency liblxqt0-dev to >= 0.13.0~
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 24 May 2018 22:46:32 +0200
+
+lxqt-powermanagement (0.12.0-5) unstable; urgency=medium
+
+  * Bumped compat to 11
+  * Bumped debhelper to >= 11~
+  * Bumped Standards to 4.1.4, no changes needed
+  * Changed VCS fields for salsa
+  * Changed Homepage, Source and watch to lxqt
+  * Bumped years in copyright
+  * Removed trailing whitespaces in changelog
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 28 Apr 2018 15:54:07 +0200
+
+lxqt-powermanagement (0.12.0-4) unstable; urgency=medium
+
+  * Bumped Standards to 4.1.2, no changes needed
+  * Removed debian/gbp.conf
+  * Removed branch from VCS fields
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 14 Dec 2017 22:01:39 +0100
+
+lxqt-powermanagement (0.12.0-3) unstable; urgency=medium
+
+  * Transition to unstable
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 05 Dec 2017 00:06:38 +0100
+
+lxqt-powermanagement (0.12.0-2) experimental; urgency=medium
+
+  * Added missed breaks and replaces for lxqt-common << 0.12.0
+    (Closes: #879911) - Thanks Andreas Beckmann <anbe@debian.org>
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 27 Oct 2017 22:10:31 +0200
+
+lxqt-powermanagement (0.12.0-1) experimental; urgency=medium
+
+  * Cherry-picking upstream release 0.12.0.
+  * Switched to experimental
+  * Bumped liblxqt0-dev to >= 0.12.0
+  * Bumped Standards to 4.1.1 - no changes needed
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 24 Oct 2017 19:14:29 +0200
+
+lxqt-powermanagement (0.11.1-2) unstable; urgency=medium
+
+  * Bumped standards to 4.0.0 - no changes needed
+  * Depends on lxqt-policykit
+  * Make upower a dependency instead of recommend it
+  * Recommend lxqt-qtplugin and lxqt-session
+    (Closes: #866256)
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 02 Jul 2017 02:19:42 +0200
+
+lxqt-powermanagement (0.11.1-1) unstable; urgency=medium
+
+  * Cherry-picking upstream release 0.11.1.
+  * Removed some build dependencies:
+    -cmake
+    -libqt5xdg-dev
+    -libqt5xdgiconloader-dev
+    -pkg-config
+    -qttools5-dev
+    -qttools5-dev-tools
+  * Bumped build dependency liblxqt0-dev (>= 0.11.1)
+  * Bumped years in d/copyright
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 02 Jan 2017 15:51:47 +0100
+
+lxqt-powermanagement (0.11.0-2) unstable; urgency=medium
+
+  * Cherry-picking upstream release 0.11.0
+  * Synced debian foo with experimental
+  * Bumped compat to 10
+  * Removed --parallel from rules, standard in compat 10
+  * Bumped minimum version debhelper to />= 10)
+  * Bumped minimum version liblxqt0-dev (>= 0.11.0)
+  * Bumped minimum version libqt5xdg-dev (>= 2.0.0)
+  * Added build dependency libkf5idletime-dev
+  * Added build dependency libqt5svg5-dev
+  * Added Recommends lxqt-powermanagement-l10n
+  * Added build dependency libqt5xdgiconloader-dev (>= 2.0.0)
+  * Removed build dependency libx11-xcb-dev
+  * Removed build dependency libxcb-dpms0-dev
+  * Removed build dependency libxcb-screensaver0-dev
+  * Added translation control to rules
+  * Set CMAKE_BUILD_TYPE=RelWithDebInfo
+  * Exported LC_ALL=C.UTF-8, make builds reproducible
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 18 Oct 2016 17:25:42 +0200
+
+lxqt-powermanagement (0.10.0-4) unstable; urgency=medium
+
+  * Added Recommends: upower (Closes: #828697)
+    Thanks to Martin Küttler <martin.kuettler@os.inf.tu-dresden.de>
+  * Bump Standards to 3.9.8, no changes needed
+  * Bump years in copyright
+  * Changed VCS-fields to use https
+  * Fixed copyright Format field
+  * Add hardening=+all to debian/rules
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 09 Jul 2016 11:05:07 +0200
+
+lxqt-powermanagement (0.10.0-3) unstable; urgency=medium
+
+  * Remove dbg package in favor of dbgsym.
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 26 Dec 2015 20:50:04 +0100
+
+lxqt-powermanagement (0.10.0-2) unstable; urgency=medium
+
+  * Merge from experimental.
+  * New upstream release.
+  * Set minimum version for liblxqt and libqtxdg.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Thu, 19 Nov 2015 21:55:09 +0800
+
+lxqt-powermanagement (0.9.0+20150807-2) unstable; urgency=medium
+
+  * Fixed czchen's email address
+  * Removed breaks/replaces
+  * Fixed control with cme fix
+  * Added linker flags -Wl,--as-needed
+  * Removed not needed minimum versions
+  * Cleaned up .gitignore
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 12 Nov 2015 02:26:31 +0100
+
+lxqt-powermanagement (0.9.0+20150807-1) unstable; urgency=medium
+
+  [ Alf Gaida ]
+  * initial debian files.
+  * Initial release. (Closes: #747611)
+  * rebuild only.
+  * Upstream version 0.8.0.
+  * Min liblxqt-qt5-0-dev version 0.8.0.
+  * Min Qt version 5.3.2.
+  * bump standards to 3.9.6.
+  * lintian overrides for missed manpages and invalid category.
+  * patched desktop file, OnlyShowIn=LXQt.
+  * new release 0.9.0 drop patches fix debian $foo add source/options.
+  * Some cleanup in debian $foo.
+  * some changes in debian $foo.
+  * drop transitional packages.
+
+  [ Andrew Lee (李健秋) ]
+  * Added myself as Uploader.
+  * Sorting build-depends.
+  * Removing whitespaces at EOL and EOF.
+  * Added fullstop in descriptions.
+  * Use lower-case for description.
+  * Use correct license LGPL2.1+ in copyright file.
+  * Warpped lines.
+  * Merging upstream version 0.9.0+20150807.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Sun, 16 Aug 2015 19:19:12 +0800

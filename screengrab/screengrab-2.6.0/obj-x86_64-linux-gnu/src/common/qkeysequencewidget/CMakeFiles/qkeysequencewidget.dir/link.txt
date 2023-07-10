@@ -1,0 +1,2 @@
+/usr/bin/ar qc libqkeysequencewidget.a CMakeFiles/qkeysequencewidget.dir/qkeysequencewidget_autogen/mocs_compilation.cpp.o CMakeFiles/qkeysequencewidget.dir/src/qkeysequencewidget.cpp.o CMakeFiles/qkeysequencewidget.dir/qrc_qkeysequencewidget.cpp.o
+/usr/bin/ranlib libqkeysequencewidget.a

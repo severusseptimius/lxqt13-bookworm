@@ -1,0 +1,14 @@
+/home/debian/Lxqt1.3/pavucontrol-qt/pavucontrol-qt-1.3.0/obj-x86_64-linux-gnu/CMakeFiles/edit_cache.dir
+/home/debian/Lxqt1.3/pavucontrol-qt/pavucontrol-qt-1.3.0/obj-x86_64-linux-gnu/CMakeFiles/rebuild_cache.dir
+/home/debian/Lxqt1.3/pavucontrol-qt/pavucontrol-qt-1.3.0/obj-x86_64-linux-gnu/CMakeFiles/list_install_components.dir
+/home/debian/Lxqt1.3/pavucontrol-qt/pavucontrol-qt-1.3.0/obj-x86_64-linux-gnu/CMakeFiles/install.dir
+/home/debian/Lxqt1.3/pavucontrol-qt/pavucontrol-qt-1.3.0/obj-x86_64-linux-gnu/CMakeFiles/install/local.dir
+/home/debian/Lxqt1.3/pavucontrol-qt/pavucontrol-qt-1.3.0/obj-x86_64-linux-gnu/CMakeFiles/install/strip.dir
+/home/debian/Lxqt1.3/pavucontrol-qt/pavucontrol-qt-1.3.0/obj-x86_64-linux-gnu/src/CMakeFiles/pavucontrol-qt.dir
+/home/debian/Lxqt1.3/pavucontrol-qt/pavucontrol-qt-1.3.0/obj-x86_64-linux-gnu/src/CMakeFiles/edit_cache.dir
+/home/debian/Lxqt1.3/pavucontrol-qt/pavucontrol-qt-1.3.0/obj-x86_64-linux-gnu/src/CMakeFiles/rebuild_cache.dir
+/home/debian/Lxqt1.3/pavucontrol-qt/pavucontrol-qt-1.3.0/obj-x86_64-linux-gnu/src/CMakeFiles/list_install_components.dir
+/home/debian/Lxqt1.3/pavucontrol-qt/pavucontrol-qt-1.3.0/obj-x86_64-linux-gnu/src/CMakeFiles/install.dir
+/home/debian/Lxqt1.3/pavucontrol-qt/pavucontrol-qt-1.3.0/obj-x86_64-linux-gnu/src/CMakeFiles/install/local.dir
+/home/debian/Lxqt1.3/pavucontrol-qt/pavucontrol-qt-1.3.0/obj-x86_64-linux-gnu/src/CMakeFiles/install/strip.dir
+/home/debian/Lxqt1.3/pavucontrol-qt/pavucontrol-qt-1.3.0/obj-x86_64-linux-gnu/src/CMakeFiles/pavucontrol-qt_autogen.dir

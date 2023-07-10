@@ -1,0 +1,46 @@
+Source: qterminal
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Uploaders: Alf Gaida <agaida@siduction.org>,
+           ChangZhuo Chen (陳昌倬) <czchen@debian.org>,
+           Andrew Lee (李健秋) <ajqlee@debian.org>
+Section: x11
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               libkf5windowsystem-dev,
+               libqt5svg5-dev,
+               libqt5x11extras5-dev,
+               libqtermwidget5-1-dev (>= 1.3.0~),
+               libutf8proc-dev,
+               libx11-dev,
+               lxqt-build-tools (>= 0.13.0~)
+Standards-Version: 4.6.1
+Vcs-Browser: https://salsa.debian.org/lxqt-team/qterminal
+Vcs-Git: https://salsa.debian.org/lxqt-team/qterminal.git
+Homepage: https://github.com/lxqt/qterminal
+Rules-Requires-Root: no
+
+Package: qterminal
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends}
+Recommends: qterminal-l10n
+Provides: x-terminal-emulator
+Description: Lightweight Qt terminal emulator
+ QTerminal is a lightweight terminal emulator based on QTermWidget.
+ .
+ Among other it features
+   * Split terminals (horizontally and vertically).
+   * Multiple tabs.
+   * Customizable shortcuts.
+   * Various color schemes.
+
+Package: qterminal-l10n
+Architecture: all
+Multi-Arch: foreign
+Section: localization
+Depends: ${misc:Depends},
+         qttranslations5-l10n
+Description: Language package for qterminal
+ The l10n files for qterminal.
+ .
+ This package contains the l10n files needed by qterminal.

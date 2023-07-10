@@ -1,0 +1,41 @@
+Source: lxqt-qtplugin
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Uploaders: Alf Gaida <agaida@siduction.org>,
+           Andrew Lee (李健秋) <ajqlee@debian.org>,
+           ChangZhuo Chen (陳昌倬) <czchen@debian.org>,
+           Yukiharu YABUKI <yyabuki@debian.org>,
+           Simon Quigley <tsimonq2@debian.org>,
+           Aaron Rainbolt <arraybolt3@gmail.com>
+Section: x11
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               libdbusmenu-qt5-dev,
+               libfm-qt-dev (>= 1.3.0~),
+               libkf5windowsystem-dev,
+               libqt5svg5-dev (>= 3.11.0~),
+               libqt5x11extras5-dev (>= 3.11.0~),
+               libqt5xdg-dev (>= 3.11.0~),
+               libqt5xdgiconloader-dev (>= 3.11.0~),
+               libx11-dev,
+               lxqt-build-tools (>= 0.13.0~),
+               qtbase5-private-dev
+Standards-Version: 4.6.1
+Vcs-Browser: https://salsa.debian.org/lxqt-team/lxqt-qtplugin
+Vcs-Git: https://salsa.debian.org/lxqt-team/lxqt-qtplugin.git
+Homepage: https://github.com/lxqt/lxqt-qtplugin
+Rules-Requires-Root: no
+
+Package: lxqt-qtplugin
+Architecture: any
+Multi-Arch: same
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         libfm-qt13
+Recommends: lxqt-config,
+            lxqt-session
+Suggests: lxqt | lxqt-core
+Description: LXQt system integration plugin for Qt
+ With this plugin, all Qt-based programs can adopt settings of
+ LXQt, such as the icon theme.
+ .
+ This package provides the LXQt qtplugin interface.

@@ -1,0 +1,6 @@
+debian/tmp/etc/xdg/autostart/lxqt-desktop.desktop
+debian/tmp/usr/share/applications/pcmanfm-qt.desktop
+debian/tmp/usr/share/applications/pcmanfm-qt-desktop-pref.desktop
+debian/tmp/usr/share/man/man1/pcmanfm-qt.1
+debian/tmp/usr/share/pcmanfm-qt/lxqt/settings.conf
+debian/tmp/usr/bin/pcmanfm-qt

@@ -1,0 +1,8 @@
+baacf49f24aa3aab4435f22017b20045  usr/libexec/xdg-desktop-portal-lxqt
+726899a7725c06017dc72de0472b2f20  usr/share/applications/org.freedesktop.impl.portal.desktop.lxqt.desktop
+68c299b31dddb14ac151ee4ad7b9fee5  usr/share/dbus-1/services/org.freedesktop.impl.portal.desktop.lxqt.service
+301348bd52b581e3a96ea1c407f09542  usr/share/doc/xdg-desktop-portal-lxqt/README.md
+04be83a8437c03e3925d661a4df63e30  usr/share/doc/xdg-desktop-portal-lxqt/changelog.Debian.gz
+e25f74110d4309ad2bc79ba27c1e9b5f  usr/share/doc/xdg-desktop-portal-lxqt/changelog.gz
+21bd0568bc10e8371dfed2695d45247c  usr/share/doc/xdg-desktop-portal-lxqt/copyright
+2be274d1c58e4d0ea9dca43d90df519e  usr/share/xdg-desktop-portal/portals/lxqt.portal

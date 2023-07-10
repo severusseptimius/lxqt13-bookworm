@@ -1,0 +1,10 @@
+liblxqt-globalkeys-ui1-dbgsym_1.3.0-0.1~S7_amd64.deb debug optional automatic=yes
+liblxqt-globalkeys-ui1-dev_1.3.0-0.1~S7_amd64.deb libdevel optional
+liblxqt-globalkeys-ui1_1.3.0-0.1~S7_amd64.deb libs optional
+liblxqt-globalkeys1-dbgsym_1.3.0-0.1~S7_amd64.deb debug optional automatic=yes
+liblxqt-globalkeys1-dev_1.3.0-0.1~S7_amd64.deb libdevel optional
+liblxqt-globalkeys1_1.3.0-0.1~S7_amd64.deb libs optional
+lxqt-globalkeys-dbgsym_1.3.0-0.1~S7_amd64.deb debug optional automatic=yes
+lxqt-globalkeys-l10n_1.3.0-0.1~S7_all.deb localization optional
+lxqt-globalkeys_1.3.0-0.1~S7_amd64.buildinfo x11 optional
+lxqt-globalkeys_1.3.0-0.1~S7_amd64.deb x11 optional

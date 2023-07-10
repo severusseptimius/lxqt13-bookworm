@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec=lxqt-config-globalkeyshortcuts
+Icon=preferences-desktop-keyboard
+Categories=Settings;DesktopSettings;Qt;LXQt;
+OnlyShowIn=LXQt;
+
+#TRANSLATIONS_DIR=translations

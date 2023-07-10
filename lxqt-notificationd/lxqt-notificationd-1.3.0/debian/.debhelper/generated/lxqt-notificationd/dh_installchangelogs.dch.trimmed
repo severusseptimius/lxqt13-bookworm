@@ -1,0 +1,56 @@
+lxqt-notificationd (1.3.0-0.1~S7) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- S.7 <severusseptimius7@gmail.com>  Sun, 21 May 2023 06:58:48 -0400
+
+lxqt-notificationd (1.2.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Add Rules-Requires-Root: no.
+  * Remove unnecessary -Wl,--as-needed in d/rules.
+  * Remove unnecessary --fail-missing in d/rules.
+  * Fix d/lintian-overrides.
+  * Update d/watch for GitHub.
+  * Add Repository-Browse.
+  * Use LF in d/upstream/signing-key.asc.
+  * Adjust format of d/control.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Fri, 16 Dec 2022 00:16:16 +0800
+
+lxqt-notificationd (1.1.0-2) unstable; urgency=medium
+
+  * Merge to unstable.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Sat, 19 Nov 2022 01:19:33 +0800
+
+lxqt-notificationd (1.1.0-1) experimental; urgency=medium
+
+  [ Andrew Lee (李健秋) ]
+  * New upstream release.
+
+  [ Simon Quigley ]
+  * New upstream release.
+  * Bump debhelper compat to 13, no changes needed.
+  * Bump Standards-version to 4.6.1, no changes needed.
+  * Bump build dependencies.
+  * Add my name to Uploaders.
+  * Run wrap-and-sort.
+  * Drop some old Breaks/Replaces.
+  * Grab some useful changes from Ubuntu so we can sync the package.
+
+ -- Simon Quigley <tsimonq2@debian.org>  Wed, 13 Jul 2022 19:08:18 -0500
+
+lxqt-notificationd (0.16.0-1) unstable; urgency=medium
+
+  [ Alf Gaida ]
+  * Switched to gbp
+  * Bumped Standards-Version to 4.4.0, no changes needed
+
+  [ Andrew Lee (李健秋) ]
+  * New upstream release.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Wed, 06 Jan 2021 17:26:15 +0800
+
+# Older entries have been removed from this changelog.
+# To read the complete changelog use `apt changelog lxqt-notificationd`.

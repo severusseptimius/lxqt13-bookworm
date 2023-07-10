@@ -1,0 +1,5 @@
+# there will not be manpages in a foreseable future
+lxqt-notificationd: no-manual-page *
+
+# LXQt is not in freedesktop specs yet
+lxqt-notificationd: desktop-entry-invalid-category LXQt *

@@ -1,0 +1,10 @@
+46fa14cfed92f1035ca94d25b22805c6  usr/bin/lxqt-config-powermanagement
+426c89359f6ec712e43d5be1687d5ad5  usr/bin/lxqt-powermanagement
+a515c6905fa73874028ab245a20938dd  usr/share/applications/lxqt-config-powermanagement.desktop
+bf34e09a1c5e58024dd8d01bdbd46c24  usr/share/doc/lxqt-powermanagement/AUTHORS
+d3aef9bb39c1e62f142b4522f9ab1bf1  usr/share/doc/lxqt-powermanagement/README.md
+6c0d034a6ab9fb5b3dc377850a8c3c23  usr/share/doc/lxqt-powermanagement/changelog.Debian.gz
+0021b983f33b9355b41341915632e682  usr/share/doc/lxqt-powermanagement/changelog.gz
+de8c44de67d915076dda1bd01caf7a81  usr/share/doc/lxqt-powermanagement/copyright
+0c01a72ba88c9d9e7965c76b55b6461c  usr/share/icons/hicolor/scalable/devices/laptop-lid.svg
+f71d31104fb4f9d4bdd929d452bfa89c  usr/share/lintian/overrides/lxqt-powermanagement

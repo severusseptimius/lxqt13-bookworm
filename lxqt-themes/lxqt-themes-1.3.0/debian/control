@@ -1,0 +1,49 @@
+Source: lxqt-themes
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Uploaders: Alf Gaida <agaida@siduction.org>,
+           Andrew Lee (李健秋) <ajqlee@debian.org>,
+           ChangZhuo Chen (陳昌倬) <czchen@debian.org>,
+           Aaron Rainbolt <arraybolt3@gmail.com>
+Build-Depends: debhelper-compat (= 13),
+               cmake,
+               lxqt-build-tools (>= 0.12.0~)
+Standards-Version: 4.6.1
+Section: x11
+Priority: optional
+Vcs-Browser: https://salsa.debian.org/lxqt-team/lxqt-themes
+Vcs-Git: https://salsa.debian.org/lxqt-team/lxqt-themes.git
+Homepage: https://github.com/lxqt/lxqt-themes
+Rules-Requires-Root: no
+
+Package: lxqt-themes
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends},
+         lxqt-system-theme
+Provides: lxqt-theme
+Description: Themes for LXQt
+ Some upstream themes for LXQt
+  * Ambiance
+  * Dark
+  * Frost
+  * KDE-Plasma
+  * Light
+  * System
+  * Silver
+  * Arch-colors
+ .
+ This Package contains LXQt theme files.
+
+Package: lxqt-system-theme
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends},
+         x11-utils
+Recommends: papirus-icon-theme | breeze-icon-theme | faenza-icon-theme | oxygen-icon-theme
+Breaks: lxqt-common (<< 0.12.0)
+Replaces: lxqt-common (<< 0.12.0)
+Description: System theme for LXQt
+ The System theme for LXQt provide basic styling for LXQt system
+ components
+ .
+ This Package contains LXQt system theme files.

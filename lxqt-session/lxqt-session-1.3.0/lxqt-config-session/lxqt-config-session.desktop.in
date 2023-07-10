@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec=lxqt-config-session
+Icon=preferences-system-session-services
+Categories=Settings;DesktopSettings;Qt;LXQt;
+OnlyShowIn=LXQt;
+
+#TRANSLATIONS_DIR=translations

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libworldclock.a CMakeFiles/worldclock.dir/worldclock_autogen/mocs_compilation.cpp.o CMakeFiles/worldclock.dir/lxqtworldclock.cpp.o CMakeFiles/worldclock.dir/lxqtworldclockconfiguration.cpp.o CMakeFiles/worldclock.dir/lxqtworldclockconfigurationtimezones.cpp.o CMakeFiles/worldclock.dir/lxqtworldclockconfigurationmanualformat.cpp.o CMakeFiles/worldclock.dir/LXQtPluginTranslationLoader.cpp.o
+/usr/bin/ranlib libworldclock.a

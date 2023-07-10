@@ -1,0 +1,5 @@
+libqtermwidget5-1-dbgsym_1.3.0-0.1~S7_amd64.deb debug optional automatic=yes
+libqtermwidget5-1-dev_1.3.0-0.1~S7_amd64.deb libdevel optional
+libqtermwidget5-1_1.3.0-0.1~S7_amd64.deb libs optional
+qtermwidget5-data_1.3.0-0.1~S7_all.deb libs optional
+qtermwidget_1.3.0-0.1~S7_amd64.buildinfo libs optional

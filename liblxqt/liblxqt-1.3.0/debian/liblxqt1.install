@@ -1,0 +1,4 @@
+#!/usr/bin/dh-exec
+usr/lib/*/liblxqt.so.1*
+usr/share/lxqt/power.conf
+[linux-any] usr/share/polkit-1/actions/org.lxqt.backlight.pkexec.policy

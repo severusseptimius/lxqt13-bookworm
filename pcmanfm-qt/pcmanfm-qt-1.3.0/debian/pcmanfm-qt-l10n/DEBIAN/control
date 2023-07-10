@@ -1,0 +1,15 @@
+Package: pcmanfm-qt-l10n
+Source: pcmanfm-qt
+Version: 1.3.0-0.1~S7
+Architecture: all
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 1775
+Depends: qttranslations5-l10n
+Section: localization
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/lxqt/pcmanfm-qt
+Description: Language package for pcmanfm-qt
+ PCManFM-Qt is the Qt port of the LXDE file manager PCManFM.
+ .
+ This package contains the l10n files needed by pcmanfm-qt.

@@ -1,0 +1,15 @@
+3a04ee06b84a70cdbf38950cdd61248e  usr/include/qtermwidget5/Emulation.h
+baa09d3f2fdffeba268268e941dce654  usr/include/qtermwidget5/Filter.h
+f29cd99d6ea3589a0e8b8ed648cf7023  usr/include/qtermwidget5/KeyboardTranslator.h
+2eaa089f95f4d9431d583d8dd345d539  usr/include/qtermwidget5/qtermwidget.h
+bc9d1ea5f1cc516ab0a2ef3dd2d73e37  usr/include/qtermwidget5/qtermwidget_export.h
+80ab9d10148260ca176a68ac383e398b  usr/include/qtermwidget5/qtermwidget_interface.h
+36089cdeacc4c0572dfdd0da44d2acd3  usr/include/qtermwidget5/qtermwidget_version.h
+804617ab95596159a090e1fc69f24d31  usr/lib/x86_64-linux-gnu/cmake/qtermwidget5/qtermwidget5-config-version.cmake
+a77b90da186a68aab5cb9b4f3434ca35  usr/lib/x86_64-linux-gnu/cmake/qtermwidget5/qtermwidget5-config.cmake
+07c7219b7b8cd4a566cc4eaeafcf5b2f  usr/lib/x86_64-linux-gnu/cmake/qtermwidget5/qtermwidget5-targets-relwithdebinfo.cmake
+ac8fe50604ff7793630bb0ddc9095131  usr/lib/x86_64-linux-gnu/cmake/qtermwidget5/qtermwidget5-targets.cmake
+c02c199a695999b1434defd3c2b27ab3  usr/lib/x86_64-linux-gnu/pkgconfig/qtermwidget5.pc
+236c8e8c0553b48e552dd0e5e00884b3  usr/share/doc/libqtermwidget5-1-dev/changelog.Debian.gz
+4b925866e8e67c1ab4a6bedee24b8401  usr/share/doc/libqtermwidget5-1-dev/changelog.gz
+b6a0572aa51270dea23b3ded4b7bd68e  usr/share/doc/libqtermwidget5-1-dev/copyright

@@ -1,0 +1,5 @@
+debian/tmp/etc/xdg/autostart/lxqt-globalkeyshortcuts.desktop
+debian/tmp/usr/bin/lxqt-config-globalkeyshortcuts
+debian/tmp/usr/bin/lxqt-globalkeysd
+debian/tmp/usr/share/applications/lxqt-config-globalkeyshortcuts.desktop
+debian/tmp/usr/share/lxqt/globalkeyshortcuts.conf

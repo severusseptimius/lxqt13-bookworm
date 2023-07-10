@@ -1,0 +1,60 @@
+qtxdg-tools (3.11.0-0.1~S7) unstable; urgency=medium
+
+  * New upstream version
+
+ -- S.7 <severusseptimius7@gmail.com>  Sat, 20 May 2023 13:01:55 +0300
+
+qtxdg-tools (3.10.0-2) unstable; urgency=medium
+
+  * Add missing Breaks/Replaces (Closes: #1034957)
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Fri, 28 Apr 2023 00:10:21 +0800
+
+qtxdg-tools (3.10.0-1) unstable; urgency=medium
+
+  [ Palo Kisa ]
+  * New upstream release
+  * debian/watch: Fix github uscan processing
+  * debian: Add gbp config
+
+  [ ChangZhuo Chen (陳昌倬) ]
+  * Add ChangZhuo Chen as Uploaders.
+  * Add Repository-Browse in d/upstream/mateadata.
+  * Update Build-Depends.
+  * Refactor d/copyright.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Thu, 08 Dec 2022 01:09:08 +0800
+
+qtxdg-tools (3.9.1-3) unstable; urgency=medium
+
+  [ Aaron Rainbolt ]
+  * debian/watch: Overhaul watch file to make it compatible with GitHub
+    again.
+  * debian/control: Added 'Rules-Requires-Root: no' to silence a Lintian
+    gripe.
+  * debian/copyright: Added Aaron Rainbolt.
+  * debian/control: Fixed Vcs-Browser and Vcs-Git fields to point to
+    Debian Salsa rather than Lubuntu GitHub.
+  [ Andrew Lee (李健秋) ]
+  * debian/salsa-ci.yml: disable build in experimental to make piuparts
+    happy.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Fri, 11 Nov 2022 13:03:57 +0800
+
+qtxdg-tools (3.9.1-2) unstable; urgency=medium
+
+  * Added debian/salsa-ci.yml file.
+  * debian/watch: fix uscan error.
+  * debian/rules: Remove unnecessary -Wl,--as-needed.
+  * debian/rules: Drop --fail-missing argument to dh_missing which is now
+    default in debhelper 13.
+  * Added myself as uploader.
+  * debian/lintian-overrides: no-manual-page for qtxdg-mat.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Thu, 27 Oct 2022 12:11:24 +0800
+
+qtxdg-tools (3.9.1-1) experimental; urgency=medium
+
+  * Initial release (Closes: #1014257).
+
+ -- Simon Quigley <tsimonq2@debian.org>  Sat, 02 Jul 2022 20:54:54 -0500

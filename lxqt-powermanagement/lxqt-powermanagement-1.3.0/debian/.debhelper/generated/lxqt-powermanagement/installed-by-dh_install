@@ -1,0 +1,5 @@
+debian/tmp/etc/xdg/autostart/lxqt-powermanagement.desktop
+debian/tmp/usr/share/applications/lxqt-config-powermanagement.desktop
+debian/tmp/usr/share/icons/hicolor/scalable/devices/laptop-lid.svg
+debian/tmp/usr/bin/lxqt-config-powermanagement
+debian/tmp/usr/bin/lxqt-powermanagement

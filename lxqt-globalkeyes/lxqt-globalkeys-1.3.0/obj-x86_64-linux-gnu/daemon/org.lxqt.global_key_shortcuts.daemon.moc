@@ -1,0 +1,535 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'org.lxqt.global_key_shortcuts.daemon.h'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.15.8)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <memory>
+#include "org.lxqt.global_key_shortcuts.daemon.h"
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'org.lxqt.global_key_shortcuts.daemon.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.15.8. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_OrgLxqtGlobalActionDaemonAdaptor_t {
+    QByteArrayData data[65];
+    char stringdata0[8082];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_OrgLxqtGlobalActionDaemonAdaptor_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_OrgLxqtGlobalActionDaemonAdaptor_t qt_meta_stringdata_OrgLxqtGlobalActionDaemonAdaptor = {
+    {
+QT_MOC_LITERAL(0, 0, 32), // "OrgLxqtGlobalActionDaemonAdaptor"
+QT_MOC_LITERAL(1, 33, 15), // "D-Bus Interface"
+QT_MOC_LITERAL(2, 49, 36), // "org.lxqt.global_key_shortcuts..."
+QT_MOC_LITERAL(3, 86, 19), // "D-Bus Introspection"
+QT_MOC_LITERAL(4, 106, 7143), // "  <interface name=\"org.lxqt...."
+QT_MOC_LITERAL(5, 6506, 11), // "actionAdded"
+QT_MOC_LITERAL(6, 6518, 0), // ""
+QT_MOC_LITERAL(7, 6519, 2), // "id"
+QT_MOC_LITERAL(8, 6522, 13), // "actionEnabled"
+QT_MOC_LITERAL(9, 6536, 7), // "enabled"
+QT_MOC_LITERAL(10, 6544, 14), // "actionModified"
+QT_MOC_LITERAL(11, 6559, 13), // "actionRemoved"
+QT_MOC_LITERAL(12, 6573, 21), // "actionShortcutChanged"
+QT_MOC_LITERAL(13, 6595, 14), // "actionsSwapped"
+QT_MOC_LITERAL(14, 6610, 3), // "id1"
+QT_MOC_LITERAL(15, 6614, 3), // "id2"
+QT_MOC_LITERAL(16, 6618, 25), // "clientActionSenderChanged"
+QT_MOC_LITERAL(17, 6644, 6), // "sender"
+QT_MOC_LITERAL(18, 6651, 31), // "multipleActionsBehaviourChanged"
+QT_MOC_LITERAL(19, 6683, 9), // "behaviour"
+QT_MOC_LITERAL(20, 6693, 16), // "addCommandAction"
+QT_MOC_LITERAL(21, 6710, 8), // "shortcut"
+QT_MOC_LITERAL(22, 6719, 7), // "command"
+QT_MOC_LITERAL(23, 6727, 9), // "arguments"
+QT_MOC_LITERAL(24, 6737, 11), // "description"
+QT_MOC_LITERAL(25, 6749, 11), // "qulonglong&"
+QT_MOC_LITERAL(26, 6761, 15), // "addMethodAction"
+QT_MOC_LITERAL(27, 6777, 7), // "service"
+QT_MOC_LITERAL(28, 6785, 15), // "QDBusObjectPath"
+QT_MOC_LITERAL(29, 6801, 4), // "path"
+QT_MOC_LITERAL(30, 6806, 9), // "interface"
+QT_MOC_LITERAL(31, 6816, 6), // "method"
+QT_MOC_LITERAL(32, 6823, 18), // "cancelShortcutGrab"
+QT_MOC_LITERAL(33, 6842, 14), // "changeShortcut"
+QT_MOC_LITERAL(34, 6857, 12), // "enableAction"
+QT_MOC_LITERAL(35, 6870, 13), // "getActionById"
+QT_MOC_LITERAL(36, 6884, 8), // "QString&"
+QT_MOC_LITERAL(37, 6893, 5), // "bool&"
+QT_MOC_LITERAL(38, 6899, 4), // "type"
+QT_MOC_LITERAL(39, 6904, 4), // "info"
+QT_MOC_LITERAL(40, 6909, 15), // "getAllActionIds"
+QT_MOC_LITERAL(41, 6925, 17), // "QList<qulonglong>"
+QT_MOC_LITERAL(42, 6943, 13), // "getAllActions"
+QT_MOC_LITERAL(43, 6957, 33), // "QMap_qulonglong_GeneralAction..."
+QT_MOC_LITERAL(44, 6991, 23), // "getClientActionInfoById"
+QT_MOC_LITERAL(45, 7015, 16), // "QDBusObjectPath&"
+QT_MOC_LITERAL(46, 7032, 21), // "getClientActionSender"
+QT_MOC_LITERAL(47, 7054, 24), // "getCommandActionInfoById"
+QT_MOC_LITERAL(48, 7079, 12), // "QStringList&"
+QT_MOC_LITERAL(49, 7092, 23), // "getMethodActionInfoById"
+QT_MOC_LITERAL(50, 7116, 27), // "getMultipleActionsBehaviour"
+QT_MOC_LITERAL(51, 7144, 12), // "grabShortcut"
+QT_MOC_LITERAL(52, 7157, 7), // "timeout"
+QT_MOC_LITERAL(53, 7165, 6), // "failed"
+QT_MOC_LITERAL(54, 7172, 9), // "cancelled"
+QT_MOC_LITERAL(55, 7182, 8), // "timedout"
+QT_MOC_LITERAL(56, 7191, 15), // "isActionEnabled"
+QT_MOC_LITERAL(57, 7207, 23), // "modifyActionDescription"
+QT_MOC_LITERAL(58, 7231, 19), // "modifyCommandAction"
+QT_MOC_LITERAL(59, 7251, 18), // "modifyMethodAction"
+QT_MOC_LITERAL(60, 7270, 4), // "quit"
+QT_MOC_LITERAL(61, 7275, 9), // "Q_NOREPLY"
+QT_MOC_LITERAL(62, 7285, 12), // "removeAction"
+QT_MOC_LITERAL(63, 7298, 27), // "setMultipleActionsBehaviour"
+QT_MOC_LITERAL(64, 7326, 11) // "swapActions"
+
+    },
+    "OrgLxqtGlobalActionDaemonAdaptor\0"
+    "D-Bus Interface\0org.lxqt.global_key_shortcuts.daemon\0"
+    "D-Bus Introspection\0"
+    "  <interface name=\"org.lxqt.global_key_shortcuts.daemon\">\n    <meth"
+    "od name=\"addMethodAction\">\n      <arg direction=\"in\" type=\"s\" n"
+    "ame=\"shortcut\"/>\n      <arg direction=\"in\" type=\"s\" name=\"serv"
+    "ice\"/>\n      <arg direction=\"in\" type=\"o\" name=\"path\"/>\n     "
+    " <arg direction=\"in\" type=\"s\" name=\"interface\"/>\n      <arg dir"
+    "ection=\"in\" type=\"s\" name=\"method\"/>\n      <arg direction=\"in\""
+    " type=\"s\" name=\"description\"/>\n      <arg direction=\"out\" type="
+    "\"s\" name=\"usedShortcut\"/>\n      <arg direction=\"out\" type=\"t\""
+    " name=\"id\"/>\n    </method>\n    <method name=\"addCommandAction\">\n"
+    "      <arg direction=\"in\" type=\"s\" name=\"shortcut\"/>\n      <arg"
+    " direction=\"in\" type=\"s\" name=\"command\"/>\n      <arg direction="
+    "\"in\" type=\"as\" name=\"arguments\"/>\n      <arg direction=\"in\" t"
+    "ype=\"s\" name=\"description\"/>\n      <arg direction=\"out\" type=\""
+    "s\" name=\"usedShortcut\"/>\n      <arg direction=\"out\" type=\"t\" n"
+    "ame=\"id\"/>\n    </method>\n    <signal name=\"actionAdded\">\n      "
+    "<arg type=\"t\" name=\"id\"/>\n    </signal>\n    <method name=\"modif"
+    "yActionDescription\">\n      <arg direction=\"in\" type=\"t\" name=\"i"
+    "d\"/>\n      <arg direction=\"in\" type=\"s\" name=\"description\"/>\n"
+    "      <arg direction=\"out\" type=\"b\"/>\n    </method>\n    <method "
+    "name=\"modifyMethodAction\">\n      <arg direction=\"in\" type=\"t\" n"
+    "ame=\"id\"/>\n      <arg direction=\"in\" type=\"s\" name=\"service\"/"
+    ">\n      <arg direction=\"in\" type=\"o\" name=\"path\"/>\n      <arg "
+    "direction=\"in\" type=\"s\" name=\"interface\"/>\n      <arg direction"
+    "=\"in\" type=\"s\" name=\"method\"/>\n      <arg direction=\"in\" type"
+    "=\"s\" name=\"description\"/>\n      <arg direction=\"out\" type=\"b\""
+    "/>\n    </method>\n    <method name=\"modifyCommandAction\">\n      <a"
+    "rg direction=\"in\" type=\"t\" name=\"id\"/>\n      <arg direction=\"i"
+    "n\" type=\"s\" name=\"command\"/>\n      <arg direction=\"in\" type=\""
+    "as\" name=\"arguments\"/>\n      <arg direction=\"in\" type=\"s\" name"
+    "=\"description\"/>\n      <arg direction=\"out\" type=\"b\"/>\n    </m"
+    "ethod>\n    <signal name=\"actionModified\">\n      <arg type=\"t\" na"
+    "me=\"id\"/>\n    </signal>\n    <method name=\"enableAction\">\n      "
+    "<arg direction=\"in\" type=\"t\" name=\"id\"/>\n      <arg direction=\""
+    "in\" type=\"b\" name=\"enabled\"/>\n      <arg direction=\"out\" type="
+    "\"b\"/>\n    </method>\n    <method name=\"isActionEnabled\">\n      <"
+    "arg direction=\"in\" type=\"t\" name=\"id\"/>\n      <arg direction=\""
+    "out\" type=\"b\"/>\n    </method>\n    <signal name=\"actionEnabled\">"
+    "\n      <arg type=\"t\" name=\"id\"/>\n      <arg type=\"b\" name=\"en"
+    "abled\"/>\n    </signal>\n    <method name=\"getClientActionSender\">\n"
+    "      <arg direction=\"in\" type=\"t\" name=\"id\"/>\n      <arg direc"
+    "tion=\"out\" type=\"s\"/>\n    </method>\n    <signal name=\"clientAct"
+    "ionSenderChanged\">\n      <arg type=\"t\" name=\"id\"/>\n      <arg t"
+    "ype=\"s\" name=\"sender\"/>\n    </signal>\n    <method name=\"changeS"
+    "hortcut\">\n      <arg direction=\"in\" type=\"t\" name=\"id\"/>\n    "
+    "  <arg direction=\"in\" type=\"s\" name=\"shortcut\"/>\n      <arg dir"
+    "ection=\"out\" type=\"s\" name=\"usedShortcut\"/>\n    </method>\n    "
+    "<signal name=\"actionShortcutChanged\">\n      <arg type=\"t\" name=\""
+    "id\"/>\n    </signal>\n    <method name=\"swapActions\">\n      <arg d"
+    "irection=\"in\" type=\"t\" name=\"id1\"/>\n      <arg direction=\"in\""
+    " type=\"t\" name=\"id2\"/>\n      <arg direction=\"out\" type=\"b\"/>\n"
+    "    </method>\n    <signal name=\"actionsSwapped\">\n      <arg type=\""
+    "t\" name=\"id1\"/>\n      <arg type=\"t\" name=\"id2\"/>\n    </signal"
+    ">\n    <method name=\"removeAction\">\n      <arg direction=\"in\" typ"
+    "e=\"t\" name=\"id\"/>\n      <arg direction=\"out\" type=\"b\"/>\n    "
+    "</method>\n    <signal name=\"actionRemoved\">\n      <arg type=\"t\" "
+    "name=\"id\"/>\n    </signal>\n    <method name=\"setMultipleActionsBeh"
+    "aviour\">\n      <arg direction=\"in\" type=\"u\" name=\"behaviour\"/>"
+    "\n      <arg direction=\"out\" type=\"b\"/>\n    </method>\n    <metho"
+    "d name=\"getMultipleActionsBehaviour\">\n      <arg direction=\"out\" "
+    "type=\"u\"/>\n    </method>\n    <signal name=\"multipleActionsBehavio"
+    "urChanged\">\n      <arg type=\"u\" name=\"behaviour\"/>\n    </signal"
+    ">\n    <method name=\"getAllActionIds\">\n      <annotation value=\"QL"
+    "ist&lt;qulonglong&gt;\" name=\"org.qtproject.QtDBus.QtTypeName.Out0\"/"
+    ">\n      <arg direction=\"out\" type=\"at\"/>\n    </method>\n    <met"
+    "hod name=\"getActionById\">\n      <arg direction=\"in\" type=\"t\" na"
+    "me=\"id\"/>\n      <arg direction=\"out\" type=\"b\"/>\n      <arg dir"
+    "ection=\"out\" type=\"s\" name=\"shortcut\"/>\n      <arg direction=\""
+    "out\" type=\"s\" name=\"description\"/>\n      <arg direction=\"out\" "
+    "type=\"b\" name=\"enabled\"/>\n      <arg direction=\"out\" type=\"s\""
+    " name=\"type\"/>\n      <arg direction=\"out\" type=\"s\" name=\"info\""
+    "/>\n    </method>\n    <method name=\"getAllActions\">\n      <annotat"
+    "ion value=\"QMap_qulonglong_GeneralActionInfo\" name=\"org.qtproject.Q"
+    "tDBus.QtTypeName.Out0\"/>\n      <arg direction=\"out\" type=\"a{t(ssb"
+    "ss)}\" name=\"info\"/>\n    </method>\n    <method name=\"getClientAct"
+    "ionInfoById\">\n      <arg direction=\"in\" type=\"t\" name=\"id\"/>\n"
+    "      <arg direction=\"out\" type=\"b\"/>\n      <arg direction=\"out\""
+    " type=\"s\" name=\"shortcut\"/>\n      <arg direction=\"out\" type=\"s"
+    "\" name=\"description\"/>\n      <arg direction=\"out\" type=\"b\" nam"
+    "e=\"enabled\"/>\n      <arg direction=\"out\" type=\"o\" name=\"path\""
+    "/>\n    </method>\n    <method name=\"getMethodActionInfoById\">\n    "
+    "  <arg direction=\"in\" type=\"t\" name=\"id\"/>\n      <arg direction"
+    "=\"out\" type=\"b\"/>\n      <arg direction=\"out\" type=\"s\" name=\""
+    "shortcut\"/>\n      <arg direction=\"out\" type=\"s\" name=\"descripti"
+    "on\"/>\n      <arg direction=\"out\" type=\"b\" name=\"enabled\"/>\n  "
+    "    <arg direction=\"out\" type=\"s\" name=\"service\"/>\n      <arg d"
+    "irection=\"out\" type=\"o\" name=\"path\"/>\n      <arg direction=\"ou"
+    "t\" type=\"s\" name=\"interface\"/>\n      <arg direction=\"out\" type"
+    "=\"s\" name=\"method\"/>\n    </method>\n    <method name=\"getCommand"
+    "ActionInfoById\">\n      <arg direction=\"in\" type=\"t\" name=\"id\"/"
+    ">\n      <arg direction=\"out\" type=\"b\"/>\n      <arg direction=\"o"
+    "ut\" type=\"s\" name=\"shortcut\"/>\n      <arg direction=\"out\" type"
+    "=\"s\" name=\"description\"/>\n      <arg direction=\"out\" type=\"b\""
+    " name=\"enabled\"/>\n      <arg direction=\"out\" type=\"s\" name=\"co"
+    "mmand\"/>\n      <arg direction=\"out\" type=\"as\" name=\"arguments\""
+    "/>\n    </method>\n    <method name=\"grabShortcut\">\n      <arg dire"
+    "ction=\"in\" type=\"u\" name=\"timeout\"/>\n      <arg direction=\"out"
+    "\" type=\"s\" name=\"shortcut\"/>\n      <arg direction=\"out\" type=\""
+    "b\" name=\"failed\"/>\n      <arg direction=\"out\" type=\"b\" name=\""
+    "cancelled\"/>\n      <arg direction=\"out\" type=\"b\" name=\"timedout"
+    "\"/>\n    </method>\n    <method name=\"cancelShortcutGrab\"/>\n    <m"
+    "ethod name=\"quit\">\n      <annotation value=\"true\" name=\"org.free"
+    "desktop.DBus.Method.NoReply\"/>\n    </method>\n  </interface>\n\0"
+    "actionAdded\0\0id\0actionEnabled\0enabled\0"
+    "actionModified\0actionRemoved\0"
+    "actionShortcutChanged\0actionsSwapped\0"
+    "id1\0id2\0clientActionSenderChanged\0"
+    "sender\0multipleActionsBehaviourChanged\0"
+    "behaviour\0addCommandAction\0shortcut\0"
+    "command\0arguments\0description\0qulonglong&\0"
+    "addMethodAction\0service\0QDBusObjectPath\0"
+    "path\0interface\0method\0cancelShortcutGrab\0"
+    "changeShortcut\0enableAction\0getActionById\0"
+    "QString&\0bool&\0type\0info\0getAllActionIds\0"
+    "QList<qulonglong>\0getAllActions\0"
+    "QMap_qulonglong_GeneralActionInfo\0"
+    "getClientActionInfoById\0QDBusObjectPath&\0"
+    "getClientActionSender\0getCommandActionInfoById\0"
+    "QStringList&\0getMethodActionInfoById\0"
+    "getMultipleActionsBehaviour\0grabShortcut\0"
+    "timeout\0failed\0cancelled\0timedout\0"
+    "isActionEnabled\0modifyActionDescription\0"
+    "modifyCommandAction\0modifyMethodAction\0"
+    "quit\0Q_NOREPLY\0removeAction\0"
+    "setMultipleActionsBehaviour\0swapActions"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_OrgLxqtGlobalActionDaemonAdaptor[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       2,   14, // classinfo
+      30,   18, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       8,       // signalCount
+
+ // classinfo: key, value
+       1,    2,
+       3,    4,
+
+ // signals: name, argc, parameters, tag, flags
+       5,    1,  168,    6, 0x06 /* Public */,
+       8,    2,  171,    6, 0x06 /* Public */,
+      10,    1,  176,    6, 0x06 /* Public */,
+      11,    1,  179,    6, 0x06 /* Public */,
+      12,    1,  182,    6, 0x06 /* Public */,
+      13,    2,  185,    6, 0x06 /* Public */,
+      16,    2,  190,    6, 0x06 /* Public */,
+      18,    1,  195,    6, 0x06 /* Public */,
+
+ // slots: name, argc, parameters, tag, flags
+      20,    5,  198,    6, 0x0a /* Public */,
+      26,    7,  209,    6, 0x0a /* Public */,
+      32,    0,  224,    6, 0x0a /* Public */,
+      33,    2,  225,    6, 0x0a /* Public */,
+      34,    2,  230,    6, 0x0a /* Public */,
+      35,    6,  235,    6, 0x0a /* Public */,
+      40,    0,  248,    6, 0x0a /* Public */,
+      42,    0,  249,    6, 0x0a /* Public */,
+      44,    5,  250,    6, 0x0a /* Public */,
+      46,    1,  261,    6, 0x0a /* Public */,
+      47,    6,  264,    6, 0x0a /* Public */,
+      49,    8,  277,    6, 0x0a /* Public */,
+      50,    0,  294,    6, 0x0a /* Public */,
+      51,    4,  295,    6, 0x0a /* Public */,
+      56,    1,  304,    6, 0x0a /* Public */,
+      57,    2,  307,    6, 0x0a /* Public */,
+      58,    4,  312,    6, 0x0a /* Public */,
+      59,    6,  321,    6, 0x0a /* Public */,
+      60,    0,  334,   61, 0x0a /* Public */,
+      62,    1,  335,    6, 0x0a /* Public */,
+      63,    1,  338,    6, 0x0a /* Public */,
+      64,    2,  341,    6, 0x0a /* Public */,
+
+ // signals: parameters
+    QMetaType::Void, QMetaType::ULongLong,    7,
+    QMetaType::Void, QMetaType::ULongLong, QMetaType::Bool,    7,    9,
+    QMetaType::Void, QMetaType::ULongLong,    7,
+    QMetaType::Void, QMetaType::ULongLong,    7,
+    QMetaType::Void, QMetaType::ULongLong,    7,
+    QMetaType::Void, QMetaType::ULongLong, QMetaType::ULongLong,   14,   15,
+    QMetaType::Void, QMetaType::ULongLong, QMetaType::QString,    7,   17,
+    QMetaType::Void, QMetaType::UInt,   19,
+
+ // slots: parameters
+    QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QStringList, QMetaType::QString, 0x80000000 | 25,   21,   22,   23,   24,    7,
+    QMetaType::QString, QMetaType::QString, QMetaType::QString, 0x80000000 | 28, QMetaType::QString, QMetaType::QString, QMetaType::QString, 0x80000000 | 25,   21,   27,   29,   30,   31,   24,    7,
+    QMetaType::Void,
+    QMetaType::QString, QMetaType::ULongLong, QMetaType::QString,    7,   21,
+    QMetaType::Bool, QMetaType::ULongLong, QMetaType::Bool,    7,    9,
+    QMetaType::Bool, QMetaType::ULongLong, 0x80000000 | 36, 0x80000000 | 36, 0x80000000 | 37, 0x80000000 | 36, 0x80000000 | 36,    7,   21,   24,    9,   38,   39,
+    0x80000000 | 41,
+    0x80000000 | 43,
+    QMetaType::Bool, QMetaType::ULongLong, 0x80000000 | 36, 0x80000000 | 36, 0x80000000 | 37, 0x80000000 | 45,    7,   21,   24,    9,   29,
+    QMetaType::QString, QMetaType::ULongLong,    7,
+    QMetaType::Bool, QMetaType::ULongLong, 0x80000000 | 36, 0x80000000 | 36, 0x80000000 | 37, 0x80000000 | 36, 0x80000000 | 48,    7,   21,   24,    9,   22,   23,
+    QMetaType::Bool, QMetaType::ULongLong, 0x80000000 | 36, 0x80000000 | 36, 0x80000000 | 37, 0x80000000 | 36, 0x80000000 | 45, 0x80000000 | 36, 0x80000000 | 36,    7,   21,   24,    9,   27,   29,   30,   31,
+    QMetaType::UInt,
+    QMetaType::QString, QMetaType::UInt, 0x80000000 | 37, 0x80000000 | 37, 0x80000000 | 37,   52,   53,   54,   55,
+    QMetaType::Bool, QMetaType::ULongLong,    7,
+    QMetaType::Bool, QMetaType::ULongLong, QMetaType::QString,    7,   24,
+    QMetaType::Bool, QMetaType::ULongLong, QMetaType::QString, QMetaType::QStringList, QMetaType::QString,    7,   22,   23,   24,
+    QMetaType::Bool, QMetaType::ULongLong, QMetaType::QString, 0x80000000 | 28, QMetaType::QString, QMetaType::QString, QMetaType::QString,    7,   27,   29,   30,   31,   24,
+    QMetaType::Void,
+    QMetaType::Bool, QMetaType::ULongLong,    7,
+    QMetaType::Bool, QMetaType::UInt,   19,
+    QMetaType::Bool, QMetaType::ULongLong, QMetaType::ULongLong,   14,   15,
+
+       0        // eod
+};
+
+void OrgLxqtGlobalActionDaemonAdaptor::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<OrgLxqtGlobalActionDaemonAdaptor *>(_o);
+        (void)_t;
+        switch (_id) {
+        case 0: _t->actionAdded((*reinterpret_cast< qulonglong(*)>(_a[1]))); break;
+        case 1: _t->actionEnabled((*reinterpret_cast< qulonglong(*)>(_a[1])),(*reinterpret_cast< bool(*)>(_a[2]))); break;
+        case 2: _t->actionModified((*reinterpret_cast< qulonglong(*)>(_a[1]))); break;
+        case 3: _t->actionRemoved((*reinterpret_cast< qulonglong(*)>(_a[1]))); break;
+        case 4: _t->actionShortcutChanged((*reinterpret_cast< qulonglong(*)>(_a[1]))); break;
+        case 5: _t->actionsSwapped((*reinterpret_cast< qulonglong(*)>(_a[1])),(*reinterpret_cast< qulonglong(*)>(_a[2]))); break;
+        case 6: _t->clientActionSenderChanged((*reinterpret_cast< qulonglong(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2]))); break;
+        case 7: _t->multipleActionsBehaviourChanged((*reinterpret_cast< uint(*)>(_a[1]))); break;
+        case 8: { QString _r = _t->addCommandAction((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< const QStringList(*)>(_a[3])),(*reinterpret_cast< const QString(*)>(_a[4])),(*reinterpret_cast< qulonglong(*)>(_a[5])));
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
+        case 9: { QString _r = _t->addMethodAction((*reinterpret_cast< const QString(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< const QDBusObjectPath(*)>(_a[3])),(*reinterpret_cast< const QString(*)>(_a[4])),(*reinterpret_cast< const QString(*)>(_a[5])),(*reinterpret_cast< const QString(*)>(_a[6])),(*reinterpret_cast< qulonglong(*)>(_a[7])));
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
+        case 10: _t->cancelShortcutGrab(); break;
+        case 11: { QString _r = _t->changeShortcut((*reinterpret_cast< qulonglong(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
+        case 12: { bool _r = _t->enableAction((*reinterpret_cast< qulonglong(*)>(_a[1])),(*reinterpret_cast< bool(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
+        case 13: { bool _r = _t->getActionById((*reinterpret_cast< qulonglong(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< QString(*)>(_a[3])),(*reinterpret_cast< bool(*)>(_a[4])),(*reinterpret_cast< QString(*)>(_a[5])),(*reinterpret_cast< QString(*)>(_a[6])));
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
+        case 14: { QList<qulonglong> _r = _t->getAllActionIds();
+            if (_a[0]) *reinterpret_cast< QList<qulonglong>*>(_a[0]) = std::move(_r); }  break;
+        case 15: { QMap_qulonglong_GeneralActionInfo _r = _t->getAllActions();
+            if (_a[0]) *reinterpret_cast< QMap_qulonglong_GeneralActionInfo*>(_a[0]) = std::move(_r); }  break;
+        case 16: { bool _r = _t->getClientActionInfoById((*reinterpret_cast< qulonglong(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< QString(*)>(_a[3])),(*reinterpret_cast< bool(*)>(_a[4])),(*reinterpret_cast< QDBusObjectPath(*)>(_a[5])));
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
+        case 17: { QString _r = _t->getClientActionSender((*reinterpret_cast< qulonglong(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
+        case 18: { bool _r = _t->getCommandActionInfoById((*reinterpret_cast< qulonglong(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< QString(*)>(_a[3])),(*reinterpret_cast< bool(*)>(_a[4])),(*reinterpret_cast< QString(*)>(_a[5])),(*reinterpret_cast< QStringList(*)>(_a[6])));
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
+        case 19: { bool _r = _t->getMethodActionInfoById((*reinterpret_cast< qulonglong(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< QString(*)>(_a[3])),(*reinterpret_cast< bool(*)>(_a[4])),(*reinterpret_cast< QString(*)>(_a[5])),(*reinterpret_cast< QDBusObjectPath(*)>(_a[6])),(*reinterpret_cast< QString(*)>(_a[7])),(*reinterpret_cast< QString(*)>(_a[8])));
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
+        case 20: { uint _r = _t->getMultipleActionsBehaviour();
+            if (_a[0]) *reinterpret_cast< uint*>(_a[0]) = std::move(_r); }  break;
+        case 21: { QString _r = _t->grabShortcut((*reinterpret_cast< uint(*)>(_a[1])),(*reinterpret_cast< bool(*)>(_a[2])),(*reinterpret_cast< bool(*)>(_a[3])),(*reinterpret_cast< bool(*)>(_a[4])));
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
+        case 22: { bool _r = _t->isActionEnabled((*reinterpret_cast< qulonglong(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
+        case 23: { bool _r = _t->modifyActionDescription((*reinterpret_cast< qulonglong(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
+        case 24: { bool _r = _t->modifyCommandAction((*reinterpret_cast< qulonglong(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< const QStringList(*)>(_a[3])),(*reinterpret_cast< const QString(*)>(_a[4])));
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
+        case 25: { bool _r = _t->modifyMethodAction((*reinterpret_cast< qulonglong(*)>(_a[1])),(*reinterpret_cast< const QString(*)>(_a[2])),(*reinterpret_cast< const QDBusObjectPath(*)>(_a[3])),(*reinterpret_cast< const QString(*)>(_a[4])),(*reinterpret_cast< const QString(*)>(_a[5])),(*reinterpret_cast< const QString(*)>(_a[6])));
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
+        case 26: _t->quit(); break;
+        case 27: { bool _r = _t->removeAction((*reinterpret_cast< qulonglong(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
+        case 28: { bool _r = _t->setMultipleActionsBehaviour((*reinterpret_cast< uint(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
+        case 29: { bool _r = _t->swapActions((*reinterpret_cast< qulonglong(*)>(_a[1])),(*reinterpret_cast< qulonglong(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            using _t = void (OrgLxqtGlobalActionDaemonAdaptor::*)(qulonglong );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&OrgLxqtGlobalActionDaemonAdaptor::actionAdded)) {
+                *result = 0;
+                return;
+            }
+        }
+        {
+            using _t = void (OrgLxqtGlobalActionDaemonAdaptor::*)(qulonglong , bool );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&OrgLxqtGlobalActionDaemonAdaptor::actionEnabled)) {
+                *result = 1;
+                return;
+            }
+        }
+        {
+            using _t = void (OrgLxqtGlobalActionDaemonAdaptor::*)(qulonglong );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&OrgLxqtGlobalActionDaemonAdaptor::actionModified)) {
+                *result = 2;
+                return;
+            }
+        }
+        {
+            using _t = void (OrgLxqtGlobalActionDaemonAdaptor::*)(qulonglong );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&OrgLxqtGlobalActionDaemonAdaptor::actionRemoved)) {
+                *result = 3;
+                return;
+            }
+        }
+        {
+            using _t = void (OrgLxqtGlobalActionDaemonAdaptor::*)(qulonglong );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&OrgLxqtGlobalActionDaemonAdaptor::actionShortcutChanged)) {
+                *result = 4;
+                return;
+            }
+        }
+        {
+            using _t = void (OrgLxqtGlobalActionDaemonAdaptor::*)(qulonglong , qulonglong );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&OrgLxqtGlobalActionDaemonAdaptor::actionsSwapped)) {
+                *result = 5;
+                return;
+            }
+        }
+        {
+            using _t = void (OrgLxqtGlobalActionDaemonAdaptor::*)(qulonglong , const QString & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&OrgLxqtGlobalActionDaemonAdaptor::clientActionSenderChanged)) {
+                *result = 6;
+                return;
+            }
+        }
+        {
+            using _t = void (OrgLxqtGlobalActionDaemonAdaptor::*)(uint );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&OrgLxqtGlobalActionDaemonAdaptor::multipleActionsBehaviourChanged)) {
+                *result = 7;
+                return;
+            }
+        }
+    }
+}
+
+QT_INIT_METAOBJECT const QMetaObject OrgLxqtGlobalActionDaemonAdaptor::staticMetaObject = { {
+    QMetaObject::SuperData::link<QDBusAbstractAdaptor::staticMetaObject>(),
+    qt_meta_stringdata_OrgLxqtGlobalActionDaemonAdaptor.data,
+    qt_meta_data_OrgLxqtGlobalActionDaemonAdaptor,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *OrgLxqtGlobalActionDaemonAdaptor::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *OrgLxqtGlobalActionDaemonAdaptor::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_OrgLxqtGlobalActionDaemonAdaptor.stringdata0))
+        return static_cast<void*>(this);
+    return QDBusAbstractAdaptor::qt_metacast(_clname);
+}
+
+int OrgLxqtGlobalActionDaemonAdaptor::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QDBusAbstractAdaptor::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 30)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 30;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 30)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 30;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void OrgLxqtGlobalActionDaemonAdaptor::actionAdded(qulonglong _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+
+// SIGNAL 1
+void OrgLxqtGlobalActionDaemonAdaptor::actionEnabled(qulonglong _t1, bool _t2)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t2))) };
+    QMetaObject::activate(this, &staticMetaObject, 1, _a);
+}
+
+// SIGNAL 2
+void OrgLxqtGlobalActionDaemonAdaptor::actionModified(qulonglong _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 2, _a);
+}
+
+// SIGNAL 3
+void OrgLxqtGlobalActionDaemonAdaptor::actionRemoved(qulonglong _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 3, _a);
+}
+
+// SIGNAL 4
+void OrgLxqtGlobalActionDaemonAdaptor::actionShortcutChanged(qulonglong _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 4, _a);
+}
+
+// SIGNAL 5
+void OrgLxqtGlobalActionDaemonAdaptor::actionsSwapped(qulonglong _t1, qulonglong _t2)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t2))) };
+    QMetaObject::activate(this, &staticMetaObject, 5, _a);
+}
+
+// SIGNAL 6
+void OrgLxqtGlobalActionDaemonAdaptor::clientActionSenderChanged(qulonglong _t1, const QString & _t2)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t2))) };
+    QMetaObject::activate(this, &staticMetaObject, 6, _a);
+}
+
+// SIGNAL 7
+void OrgLxqtGlobalActionDaemonAdaptor::multipleActionsBehaviourChanged(uint _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 7, _a);
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

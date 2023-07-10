@@ -1,0 +1,27 @@
+{
+	"BUILD_DIR" : "/home/debian/Lxqt1.3/qps/qps-2.7.0/obj-x86_64-linux-gnu/src/qps_autogen",
+	"CMAKE_BINARY_DIR" : "/home/debian/Lxqt1.3/qps/qps-2.7.0/obj-x86_64-linux-gnu",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/debian/Lxqt1.3/qps/qps-2.7.0/obj-x86_64-linux-gnu/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/debian/Lxqt1.3/qps/qps-2.7.0/src",
+	"CMAKE_SOURCE_DIR" : "/home/debian/Lxqt1.3/qps/qps-2.7.0",
+	"INCLUDE_DIR" : "/home/debian/Lxqt1.3/qps/qps-2.7.0/obj-x86_64-linux-gnu/src/qps_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/debian/Lxqt1.3/qps/qps-2.7.0/icon/vpointer.png",
+		"/home/debian/Lxqt1.3/qps/qps-2.7.0/icon/vista.png",
+		"/home/debian/Lxqt1.3/qps/qps-2.7.0/icon/superman.png",
+		"/home/debian/Lxqt1.3/qps/qps-2.7.0/icon/letters.png",
+		"/home/debian/Lxqt1.3/qps/qps-2.7.0/icon/vcross.png",
+		"/home/debian/Lxqt1.3/qps/qps-2.7.0/icon/pause.png"
+	],
+	"LOCK_FILE" : "/home/debian/Lxqt1.3/qps/qps-2.7.0/obj-x86_64-linux-gnu/src/CMakeFiles/qps_autogen.dir/AutoRcc_qps_YCDLW3T4OG_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "qps" ],
+	"OUTPUT_CHECKSUM" : "YCDLW3T4OG",
+	"OUTPUT_NAME" : "qrc_qps.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/debian/Lxqt1.3/qps/qps-2.7.0/obj-x86_64-linux-gnu/src/CMakeFiles/qps_autogen.dir/AutoRcc_qps_YCDLW3T4OG_Used.txt",
+	"SOURCE" : "/home/debian/Lxqt1.3/qps/qps-2.7.0/qps.qrc",
+	"VERBOSITY" : 0
+}

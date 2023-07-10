@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec=lxqt-config-notificationd
+Icon=preferences-desktop-notification
+Categories=Settings;DesktopSettings;Qt;LXQt;
+OnlyShowIn=LXQt;
+
+#TRANSLATIONS_DIR=translations

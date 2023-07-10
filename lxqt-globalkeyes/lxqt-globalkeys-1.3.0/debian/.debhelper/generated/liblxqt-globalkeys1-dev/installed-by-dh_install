@@ -1,0 +1,7 @@
+debian/tmp/usr/include/lxqt-globalkeys/
+debian/tmp/usr/lib/x86_64-linux-gnu/liblxqt-globalkeys.so
+debian/tmp/usr/lib/x86_64-linux-gnu/pkgconfig/lxqt-globalkeys.pc
+debian/tmp/usr/share/cmake/lxqt-globalkeys/lxqt-globalkeys-config-version.cmake
+debian/tmp/usr/share/cmake/lxqt-globalkeys/lxqt-globalkeys-config.cmake
+debian/tmp/usr/share/cmake/lxqt-globalkeys/lxqt-globalkeys-targets-relwithdebinfo.cmake
+debian/tmp/usr/share/cmake/lxqt-globalkeys/lxqt-globalkeys-targets.cmake

@@ -1,0 +1,36 @@
+Package: lxqt-openssh-askpass
+Version: 1.3.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 54
+Depends: libc6 (>= 2.34), liblxqt1 (>= 1.2.0~), libqt5core5a (>= 5.15.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5)
+Recommends: lxqt-openssh-askpass-l10n, lxqt-qtplugin, lxqt-session
+Suggests: lxqt | lxqt-core
+Provides: ssh-askpass
+Section: x11
+Priority: optional
+Homepage: https://github.com/lxqt/lxqt-openssh-askpass
+Description: OpenSSH user/password GUI dialog for LXQt
+ This module handles openssh security password access for LXQt. The openssh
+ askpass module, will perform security test over scale access privileges.
+ .
+ The LXQt modules are desktop independent tools, and operate as daemons for the
+ local user for desktop specific operations.
+ .
+ LXQt is an advanced, easy-to-use, and fast desktop environment based on Qt
+ technologies, ships several core desktop components, all of which are
+ optional:
+ .
+  * Panel
+  * Desktop
+  * Application launcher
+  * Settings center
+  * Session handler
+  * Polkit handler
+  * SSH password access (this)
+  * Display manager handler
+ .
+ These components perform similar actions to those available in other
+ desktop environments, and their names are self-descriptive. They are usually
+ not launched by hand but automatically, when choosing a LXQt session in the
+ Display Manager.

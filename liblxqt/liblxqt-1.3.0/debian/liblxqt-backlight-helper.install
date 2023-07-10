@@ -1,0 +1,2 @@
+#!/usr/bin/dh-exec
+[linux-any] usr/bin/lxqt-backlight_backend

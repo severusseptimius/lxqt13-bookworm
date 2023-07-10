@@ -1,0 +1,4 @@
+lxqt-runner-dbgsym_1.3.0-0.1~S7_amd64.deb debug optional automatic=yes
+lxqt-runner-l10n_1.3.0-0.1~S7_all.deb localization optional
+lxqt-runner_1.3.0-0.1~S7_amd64.buildinfo x11 optional
+lxqt-runner_1.3.0-0.1~S7_amd64.deb x11 optional

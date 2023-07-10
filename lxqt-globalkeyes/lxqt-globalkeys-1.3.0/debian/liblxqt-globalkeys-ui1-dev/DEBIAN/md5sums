@@ -1,0 +1,11 @@
+bb5f374d69d184dc205ee1e8e77ac8ee  usr/include/lxqt-globalkeys-ui/LXQtGlobalKeysUi/ShortcutSelector
+e0a5393d3657a8c354c4b711bac501c7  usr/include/lxqt-globalkeys-ui/shortcut_selector.h
+e0a5393d3657a8c354c4b711bac501c7  usr/include/lxqt-globalkeys-ui/shortcutselector.h
+0a743bdea3bd224b3f860a483ae3fd2d  usr/lib/x86_64-linux-gnu/pkgconfig/lxqt-globalkeys-ui.pc
+804617ab95596159a090e1fc69f24d31  usr/share/cmake/lxqt-globalkeys-ui/lxqt-globalkeys-ui-config-version.cmake
+d58d7e562066afce3eace6a82d973ded  usr/share/cmake/lxqt-globalkeys-ui/lxqt-globalkeys-ui-config.cmake
+1c265f0ef93d9860a235c2c44f26cbf7  usr/share/cmake/lxqt-globalkeys-ui/lxqt-globalkeys-ui-targets-relwithdebinfo.cmake
+fc061915c9cfe6c07d83a6af670c0aeb  usr/share/cmake/lxqt-globalkeys-ui/lxqt-globalkeys-ui-targets.cmake
+24329cfa1dc91fcab32bfc8009c482a4  usr/share/doc/liblxqt-globalkeys-ui1-dev/changelog.Debian.gz
+25e356807737a37cc01822b7349cd436  usr/share/doc/liblxqt-globalkeys-ui1-dev/changelog.gz
+bb0555c443b070063ba96c6ccb65aa8e  usr/share/doc/liblxqt-globalkeys-ui1-dev/copyright

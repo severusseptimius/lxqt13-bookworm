@@ -1,0 +1,15 @@
+91a678e33d8a5ac92d15b0a78bdb2ed5  usr/include/lxqt-globalkeys/LXQtGlobalKeys/Action
+ad0b86b0434951589fd5516eb8d5aa8f  usr/include/lxqt-globalkeys/LXQtGlobalKeys/Client
+21f0a39fc543336e21ae19d8813e4e08  usr/include/lxqt-globalkeys/LXQtGlobalKeys/LXQtGlobalKeys
+82b00b12d5ca3f7c7636235b3dd09551  usr/include/lxqt-globalkeys/action.h
+a1b783afc2aee8f3d1831bce21787387  usr/include/lxqt-globalkeys/client.h
+604961b6f5a0b4c55504992df39a6799  usr/include/lxqt-globalkeys/lxqt-globalkeys.h
+604961b6f5a0b4c55504992df39a6799  usr/include/lxqt-globalkeys/lxqtglobalkeys.h
+0e1354f28e9cdfd8c1d38cf273d2e765  usr/lib/x86_64-linux-gnu/pkgconfig/lxqt-globalkeys.pc
+804617ab95596159a090e1fc69f24d31  usr/share/cmake/lxqt-globalkeys/lxqt-globalkeys-config-version.cmake
+3f369ca5dd9fa8732050a5bdf927de62  usr/share/cmake/lxqt-globalkeys/lxqt-globalkeys-config.cmake
+363b2f8eb367bbec0af9e7cf654b2849  usr/share/cmake/lxqt-globalkeys/lxqt-globalkeys-targets-relwithdebinfo.cmake
+c82540e5ffe5076d9ab85495389d2ccf  usr/share/cmake/lxqt-globalkeys/lxqt-globalkeys-targets.cmake
+70fff19280a7d07efabb83968ef7b1fd  usr/share/doc/liblxqt-globalkeys1-dev/changelog.Debian.gz
+25e356807737a37cc01822b7349cd436  usr/share/doc/liblxqt-globalkeys1-dev/changelog.gz
+bb0555c443b070063ba96c6ccb65aa8e  usr/share/doc/liblxqt-globalkeys1-dev/copyright

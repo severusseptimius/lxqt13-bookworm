@@ -1,0 +1,4 @@
+/usr/share/xdg-desktop-portal/portals/lxqt.portal
+/usr/share/dbus-1/services/org.freedesktop.impl.portal.desktop.lxqt.service
+/usr/share/applications/org.freedesktop.impl.portal.desktop.lxqt.desktop
+/usr/libexec/xdg-desktop-portal-lxqt

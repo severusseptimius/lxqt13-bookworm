@@ -1,0 +1,12 @@
+Package: lxqt-notificationd-dbgsym
+Source: lxqt-notificationd
+Version: 1.3.0-0.1~S7
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 1938
+Depends: lxqt-notificationd (= 1.3.0-0.1~S7)
+Section: debug
+Priority: optional
+Description: debug symbols for lxqt-notificationd
+Build-Ids: 07cc2528f804afe7aac1d2cb3e16088d655a2069 d244a2577bb105e0766e3ad248cee318f1f2dae2

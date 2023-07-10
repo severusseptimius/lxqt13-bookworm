@@ -1,0 +1,12 @@
+Package: xdg-desktop-portal-lxqt-dbgsym
+Source: xdg-desktop-portal-lxqt
+Version: 0.4.0-0.1~S7
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 866
+Depends: xdg-desktop-portal-lxqt (= 0.4.0-0.1~S7)
+Section: debug
+Priority: optional
+Description: debug symbols for xdg-desktop-portal-lxqt
+Build-Ids: b40fba056ef4c19760b4fd7bdc4f353a1cb45824

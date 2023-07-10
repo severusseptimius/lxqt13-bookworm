@@ -1,0 +1,4 @@
+lxqt-session-dbgsym_1.3.0-0.3~S7_amd64.deb debug optional automatic=yes
+lxqt-session-l10n_1.3.0-0.3~S7_all.deb localization optional
+lxqt-session_1.3.0-0.3~S7_amd64.buildinfo x11 optional
+lxqt-session_1.3.0-0.3~S7_amd64.deb x11 optional

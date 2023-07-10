@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec=lxqt-leave --suspend
+Icon=system-suspend
+Categories=System;X-Leave;
+OnlyShowIn=LXQt;
+
+#TRANSLATIONS_DIR=../translations

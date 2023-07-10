@@ -1,0 +1,8 @@
+/home/debian/Lxqt1.3/qtermwidget/qtermwidget-1.3.0/obj-x86_64-linux-gnu/CMakeFiles/qtermwidget5.dir
+/home/debian/Lxqt1.3/qtermwidget/qtermwidget-1.3.0/obj-x86_64-linux-gnu/CMakeFiles/uninstall.dir
+/home/debian/Lxqt1.3/qtermwidget/qtermwidget-1.3.0/obj-x86_64-linux-gnu/CMakeFiles/edit_cache.dir
+/home/debian/Lxqt1.3/qtermwidget/qtermwidget-1.3.0/obj-x86_64-linux-gnu/CMakeFiles/rebuild_cache.dir
+/home/debian/Lxqt1.3/qtermwidget/qtermwidget-1.3.0/obj-x86_64-linux-gnu/CMakeFiles/list_install_components.dir
+/home/debian/Lxqt1.3/qtermwidget/qtermwidget-1.3.0/obj-x86_64-linux-gnu/CMakeFiles/install.dir
+/home/debian/Lxqt1.3/qtermwidget/qtermwidget-1.3.0/obj-x86_64-linux-gnu/CMakeFiles/install/local.dir
+/home/debian/Lxqt1.3/qtermwidget/qtermwidget-1.3.0/obj-x86_64-linux-gnu/CMakeFiles/install/strip.dir

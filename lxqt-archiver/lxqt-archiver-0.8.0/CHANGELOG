@@ -1,0 +1,72 @@
+lxqt-archiver-0.8.0 / 2023-04-15
+===================================
+ * Updated translations and dependencies and bumped the version.
+
+lxqt-archiver-0.7.0 / 2022-11-05
+===================================
+ * Removed the redundant function `n_fields()` from `glib-utils`.
+ * Silenced some compilation warnings.
+
+lxqt-archiver-0.6.0 / 2022-04-15
+===================================
+ * Allow changing of view icon size.
+ * Allow sorting by any column (but only sort by the first column at startup).
+ * Forget previous password (if any) on reloading archive.
+ * Fixed the link in About dialog.
+
+lxqt-archiver-0.5.0 / 2021-11-04
+===================================
+ * Bumped minimum required Qt version to 5.15.
+ * Show password prompt for archives with encrypted lists.
+ * Added milliseconds to name of temporary extraction folder.
+ * Removed a duplicate assignment.
+ * Fixed listing RAR archive contents with encrypted file list.
+
+lxqt-archiver-0.4.0 / 2021-04-15
+===================================
+  * Support opening and extracting of disk images.
+  * Also, support xz-compressed disk images.
+  * Added "application/vnd.debian.binary-package" to mimetypes list.
+  * Made directory view horizontally scrollable.
+  * Remember window settings.
+
+lxqt-archiver-0.3.0 / 2020-11-01
+===================================
+  * Avoid memory leak in "java-utils.c".
+  * Fixed comparison of integer expressions of different signedness.
+  * Removed "g_ptr_array_free_full" from "glib-utils.c" and used GLib's "g_ptr_array_free" instead.
+  * Use bsdtar to handle RPM packages.
+
+lxqt-archiver-0.2.0 / 2020-05-16
+===================================
+  * Set json-glib dependency as required.
+  * Added an icon for lxqt-archiver.
+  * Prevent mixing extracted files with others if overwriting isn't chosen.
+  * Added expand and collapse actions.
+  * Fixed build with GCC 10.
+
+lxqt-archiver-0.1.1 / 2020-04-23
+===================================
+  * CMake: Used 'LIBEXECDIR' instead of 'LIBDIR' for executables.
+  * CMake: Removed unused qtdbus dependency.
+  * Removed comment about json-glib in CMakeLists.
+  * Fixed handling of RPM archives.
+
+lxqt-archiver-0.1.0 / 2020-04-19
+===================================
+
+  * Supported viewing (launching) current item.
+  * Supported opening archives by dropping.
+  * File DND to other apps.
+  * Remember window size and splitter position.
+  * Open file dialog in work directory on compressing/extracting.
+  * Fix infinite loop on extracting an already extracted archive.
+  * Prevent dropping into self.
+  * Fixed gzip mimetype.
+  * Fixed crash on creating impossible archives.
+  * Fixed a memory leak with archive creation.
+  * Use qint64 for modification time.
+  * Fixed item sorting.
+  * Choose an appropriate name when creating archive with `--add`.
+  * Made the toolbar unmovable.
+  * Added support for Zstd (Zstandard-compressed).

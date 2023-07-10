@@ -1,0 +1,12 @@
+Package: lxqt-sudo-dbgsym
+Source: lxqt-sudo
+Version: 1.3.0-0.1~S7
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 661
+Depends: lxqt-sudo (= 1.3.0-0.1~S7)
+Section: debug
+Priority: optional
+Description: debug symbols for lxqt-sudo
+Build-Ids: d39bc6eda4fac9c2efcbf708f773b196504076fe

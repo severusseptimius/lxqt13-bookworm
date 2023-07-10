@@ -1,0 +1,9 @@
+13545ce92238e7f0b2b68f97b757771c  usr/bin/lxqt-config-globalkeyshortcuts
+609a8b200ee8bf403c684437c472fe17  usr/bin/lxqt-globalkeysd
+348e708723f052967dab7c0c7f7444f2  usr/share/applications/lxqt-config-globalkeyshortcuts.desktop
+aeecad0a8ccbb19efede34e268917a7f  usr/share/doc/lxqt-globalkeys/AUTHORS
+32fca1c6b5337b0d0c51eaebe1e0f984  usr/share/doc/lxqt-globalkeys/README.md
+285d2bd616758d1c0034e8bd06071648  usr/share/doc/lxqt-globalkeys/changelog.Debian.gz
+25e356807737a37cc01822b7349cd436  usr/share/doc/lxqt-globalkeys/changelog.gz
+bb0555c443b070063ba96c6ccb65aa8e  usr/share/doc/lxqt-globalkeys/copyright
+7d666855f3ddb2e7f5753d6b165010c2  usr/share/lintian/overrides/lxqt-globalkeys

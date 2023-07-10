@@ -1,0 +1,13 @@
+Package: liblxqt-globalkeys-ui1-dbgsym
+Source: lxqt-globalkeys
+Version: 1.3.0-0.1~S7
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 255
+Depends: liblxqt-globalkeys-ui1 (= 1.3.0-0.1~S7)
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for liblxqt-globalkeys-ui1
+Build-Ids: ca78d8a8caf2cfa3d8c76aa5acf14bdb7b3516aa

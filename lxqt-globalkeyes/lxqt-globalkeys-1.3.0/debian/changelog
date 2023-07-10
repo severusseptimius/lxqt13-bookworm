@@ -1,0 +1,256 @@
+lxqt-globalkeys (1.3.0-0.1~S7) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- S.7 <severusseptimius7@gmail.com>  Sun, 21 May 2023 06:52:01 -0400
+
+lxqt-globalkeys (1.2.0-1) unstable; urgency=medium
+
+  * New upstream releases.
+  * Use shlibs file instead of symbols files.
+  * Remove symbol file in favor of shlib file.
+  * Update d/control indent.
+  * Update d/copyright format and indent.
+  * Update d/watch for GitHub.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Wed, 14 Dec 2022 23:48:20 +0800
+
+lxqt-globalkeys (1.1.0-2) unstable; urgency=medium
+
+  * Merge to unstable.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Sat, 19 Nov 2022 16:02:44 +0800
+
+lxqt-globalkeys (1.1.0-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Cleaned up gbp.conf trailing whitespace.
+  * Upstreamed compatible changes from Ubuntu, modifying the following files:
+    - control
+    - copyright
+    - *.install
+    - *.symbols
+    - lxqt-globalkeys.lintian-overrides
+    - rules
+    - upstream/*
+
+ -- Aaron Rainbolt <arraybolt3@gmail.com>  Wed, 13 Jul 2022 13:02:01 -0500
+
+lxqt-globalkeys (0.16.0-1) unstable; urgency=medium
+
+  * New upstream release. (Closes: #964648)
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Wed, 06 Jan 2021 17:04:29 +0800
+
+lxqt-globalkeys (0.14.3-1) unstable; urgency=medium
+
+  * New upstream version 0.14.3 (Closes: #883035)
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 16 Oct 2019 23:33:20 +0200
+
+lxqt-globalkeys (0.14.2-1) unstable; urgency=medium
+
+  * Imported new upstream release 0.14.2.
+  * Switched to gbp
+  * Bumped Standards-Version to 4.4.1, no changes needed
+  * Fixed installation path for globalkeyshortcuts.conf to /usr/share/lxqt
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 10 Oct 2019 23:34:49 +0200
+
+lxqt-globalkeys (0.14.1-1) unstable; urgency=medium
+
+  * Cherry-picking new upstream version 0.14.1.
+  * Bumped minimum version liblxqt0-dev (>= 0.14.1~)
+  * Extended the long descriptions a bit
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 24 Feb 2019 21:28:30 +0100
+
+lxqt-globalkeys (0.14.0-1) unstable; urgency=medium
+
+  * Cherry-picking new upstream version 0.14.0.
+  * Bumped Standards to 4.3.0, no changes needed
+  * Dropped d/compat, use debhelper-compat = 12, no changes needed
+  * Fixed years in d/copyright
+  * Bumped minimum version liblxqt0-dev (>= 0.14.0~)
+  * Removed obsolete PULL_TRANSLATIONS= OFF from dh_auto_configure
+  * Added Build-Depends-Package fields to symbols
+  * Added l10n-package, moved from lxqt-l10n
+  * Added build dependency xserver-xorg-input-libinput-dev
+  * Added d/upstream/metadata
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 27 Jan 2019 17:37:07 +0100
+
+lxqt-globalkeys (0.13.0-1) unstable; urgency=medium
+
+  * Cherry-picking new upstream version 0.13.0.
+  * Bumped build dependency liblxqt0-dev to >= 0.13.0~
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 24 May 2018 21:23:58 +0200
+
+lxqt-globalkeys (0.12.0-4) unstable; urgency=medium
+
+  * Bumped compat to 11
+  * Bumped debhelper to >= 11~
+  * Bumped Standards to 4.1.4, no changes needed
+  * Changed VCS fields for salsa
+  * Changed Homepage, Source and watch to lxqt
+  * Bumped years in copyright
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 28 Apr 2018 13:53:23 +0200
+
+lxqt-globalkeys (0.12.0-3) unstable; urgency=medium
+
+  * Bumped Standards to 4.1.2, no changes needed
+  * Removed branch from VCS fields
+  * Removed debian/gbp.conf
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 14 Dec 2017 19:41:44 +0100
+
+lxqt-globalkeys (0.12.0-2) unstable; urgency=medium
+
+  * Transition to unstable
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 04 Dec 2017 22:32:04 +0100
+
+lxqt-globalkeys (0.12.0-1) experimental; urgency=medium
+
+  * Cherry-picking upstream release 0.12.0.
+  * Switched to experimental
+  * Bumped liblxqt0-dev to >= 0.12.0
+  * Bumped Standards to 4.1.1 +Vcs-Browser:
+  * Added Breaks/Replaces for lxqt-common << 0.12.0
+  * Added override_dh_missing
+  * Added autostart things to install
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 24 Oct 2017 17:24:29 +0200
+
+lxqt-globalkeys (0.11.1-2) unstable; urgency=medium
+
+  * Bump Standards to 4.0.0 - no changes needed
+  * Recommend lxqt-qtplugin (Closes: #866235)
+  * Recommend lxqt-session - globalkeys make only sense with the session
+  * Suggest lxqt | lxqt-core
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 01 Jul 2017 21:47:02 +0200
+
+lxqt-globalkeys (0.11.1-1) unstable; urgency=medium
+
+  * Cherry-picking upstream release 0.11.1.
+  * Removed some build dependencies:
+    -cmake
+    -libqt5xdg-dev
+    -libqt5xdgiconloader-dev
+    -pkg-config
+    -qttools5-dev
+    -qttools5-dev-tools
+  * Bumped build dependency liblxqt0-dev (>= 0.11.1)
+  * Bumped years in d/copyright
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 02 Jan 2017 13:28:07 +0100
+
+lxqt-globalkeys (0.11.0-3) unstable; urgency=medium
+
+  * Cherry-picking upstream release 0.11.0.
+  * Sync debian foo with experimental
+  * Bumped Standards to 3.9.8, no changes needed
+  * Bumped compat to 10
+  * Removed --parallel from rules, compat 10 standard
+  * Bumped minimum version debhelper (>= 10)
+  * Bumped minimum version libqtxdg-dev (>= 2.0.0)
+  * Bumped minimum version liblxqt-dev (>= 0.11.0)
+  * Added build dependency libqt5svg5-dev
+  * Added build dependency libqt5xdgiconloader-dev (>= 2.0.0),
+  * Added Recommends lxqt-globalkeys-l10n
+  * Followin the Multiarch hinter:
+    - Marked liblxqt-globalkeys-ui0 Multi-Arch: same
+    - Marked liblxqt-globalkeys0 Multi-Arch: same
+  * Fixed VCS-Fields, use https and plain /git/
+  * Fixed copyright Format field
+  * Bumped copyright years
+  * Don't install translations
+  * Added translation control to rules
+  * Set CMAKE_BUILD_TYPE=RelWithDebInfo
+  * Exported LC_ALL=C.UTF-8, make builds reproducible
+  * Added hardening options to rules
+  * Fixed .gitignore
+  * Removed Patches, applied upstream
+  * Fixed *-dev.install
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 18 Oct 2016 02:47:50 +0200
+
+lxqt-globalkeys (0.10.0-5) unstable; urgency=medium
+
+  * use static_cast for errno
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 13 Jan 2016 21:30:24 +0100
+
+lxqt-globalkeys (0.10.0-4) unstable; urgency=medium
+
+  * cast some error_t's to make hurd happy
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 27 Dec 2015 23:26:32 +0100
+
+lxqt-globalkeys (0.10.0-3) unstable; urgency=medium
+
+  * some cleanup in debian/rules
+  * build new -dbgsym-packages
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 26 Dec 2015 19:00:17 +0100
+
+lxqt-globalkeys (0.10.0-2) unstable; urgency=medium
+
+  * Merge from experimental.
+  * New upstream release.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Sun, 15 Nov 2015 15:40:51 +0800
+
+lxqt-globalkeys (0.9.0+20150806-2) unstable; urgency=medium
+
+  * Remove --list-missing from rules, it's included in --fail-missing
+  * Fixed .gitignore
+  * Removed breaks/replaces
+  * Removed the most minimum versions
+  * Beautified debian/control
+  * Added linker flags -Wl,--as-needed
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 11 Nov 2015 21:59:30 +0100
+
+lxqt-globalkeys (0.9.0+20150806-1) unstable; urgency=low
+
+  [ Alf Gaida ]
+  * inititial debian files.
+  * Initial release. (Closes: #747601)
+
+  [ ChangZhuo Chen (陳昌倬) ]
+  * Add *.symbols.
+
+  [ Alf Gaida ]
+  * Imported Upstream version 0.8.0.
+  * bump standards 3.9.6.
+  * Min liblxqt-qt5-0-dev version 0.8.0.
+  * Min Qt version 5.3.2.
+  * install fixed (translation path).
+  * mangled symbol files added.
+  * lintian-overrides for missed manpages and unknown category warnings.
+  * desktop file OnlyShowIn patched.
+  * new release 0.9.0 fix symbols fix package names add source/options fix
+    debian $foo.
+  * Some cleanup in debian $foo
+  * some changes for debian $foo
+  * dependencies fixed.
+  * installs fixed.
+  * current symbols.
+  * multiarch removed, handled by cmake.
+  * drop transitional packages.
+
+  [ Andrew Lee (李健秋) ]
+  * Merging upstream version 0.9.0+20150806.
+  * Added myself as Uploader.
+  * Sorting build-depends.
+  * Removing whitespaces at EOL and EOF.
+  * Drop GPL-2+ license from copyright as it hasn't been mentioned
+    anywhere in headers.
+  * Added fullstop in descriptions.
+  * Use lower-case for description.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Sun, 16 Aug 2015 02:18:03 +0800

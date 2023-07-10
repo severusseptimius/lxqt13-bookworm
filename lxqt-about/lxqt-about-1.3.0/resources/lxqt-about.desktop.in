@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec=lxqt-about
+Icon=lxqt-about
+Categories=System;Documentation;
+OnlyShowIn=LXQt;
+
+#TRANSLATIONS_DIR=translations

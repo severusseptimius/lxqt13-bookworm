@@ -1,0 +1,159 @@
+qps (2.7.0-0.1~S7) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- S.7 <severusseptimius7@gmail.com>  Sat, 20 May 2023 15:34:27 +0300
+
+qps (2.6.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-Version to 4.6.2:
+    * Add "Rules-Requires-Root: no" in d/control.
+  * Remove unnecessary -Wl,--as-needed in d/rules
+  * Update d/watch for GitHub.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Thu, 05 Jan 2023 12:32:58 +0800
+
+qps (2.5.0-2) unstable; urgency=medium
+
+  * Merge to unstable.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Sat, 19 Nov 2022 09:45:51 +0800
+
+qps (2.5.0-1) experimental; urgency=medium
+
+  [ Andrew Lee (李健秋) ]
+  * Add debian/salsa-ci.yml file.
+  * Update debian/upstream/signing-key.asc.
+  * New upstream version 2.4.0
+
+  [ suman rajan ]
+  * New upstream version 2.5.0
+  * debian/upstream/metadata: Fixed Repository-Browse field
+  * debian/control: Bumped version for liblxqt1-dev
+  * debian/salsa-ci.yml: Added release for experimental
+  * debian/copyright: Fix license inconsistencies
+
+ -- suman rajan <suman@cryptolab.net>  Sat, 16 Jul 2022 17:56:21 +0200
+
+qps (2.4.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Bumped Standards-Version to 4.6.0, no changes needed
+  * Update debian/copyright
+
+ -- S. 7 <severusseptimius7@gmail.com>  Thu, 25 Nov 2021 18:19:55 +0200
+
+qps (2.2.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * debian/control: update build-deps.
+  * debian/copyright: reformatted to fit DEP-5.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Thu, 07 Jan 2021 18:36:35 +0800
+
+qps (2.0.0-1) unstable; urgency=medium
+
+  * New upstream version 2.0.0
+  * Switched to gbp
+  * Bumped Standards-Version to 4.4.1, no changes needed
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 08 Oct 2019 20:56:07 +0200
+
+qps (1.10.20-1) unstable; urgency=medium
+
+  * Cherry-picking upstream-version 1.10.20.
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 25 Feb 2019 23:41:57 +0100
+
+qps (1.10.19-1) unstable; urgency=medium
+
+  * Cherry-picking upstream-version 1.10.19.
+  * Bumped Standards to 4.3.0, no changes needed
+  * Dropped d/compat, use debhelper-compat = 12, no changes needed
+  * Fixed years in d/copyright
+  * Removed some deprecated files from d/copyright
+  * Added build dependency lxqt-build-tools (>= 0.6.0~)
+  * Added d/upstream/metadata
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 27 Jan 2019 14:05:17 +0100
+
+qps (1.10.18-1) unstable; urgency=medium
+
+  * Cherry-picking upstream-version 1.10.18.
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 21 May 2018 18:51:56 +0200
+
+qps (1.10.17-3) unstable; urgency=medium
+
+  * Bumped compat to 11
+  * Bumped debhelper to >= 11~
+  * Removed not needed cmake minimum version
+  * Bumped Standards to 4.1.4, no changes needed
+  * Changed VCS fields for salsa
+  * Changed Homepage, Source and watch to lxqt
+  * Bumped year in copyright
+  * Removed trailing whitespaces in changelog
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 28 Apr 2018 19:04:42 +0200
+
+qps (1.10.17-2) unstable; urgency=medium
+
+  * Bumped Standards to 4.1.2
+  * Removed branch from VCS fields
+  * Removed debian/gbp.conf
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 15 Dec 2017 17:08:38 +0100
+
+qps (1.10.17-1) unstable; urgency=medium
+
+  * Cherry-picking upstream-version 1.10.17.
+  * Bumped Standards to 4.1.0 - no changes needed
+  * Changed CMAKE_BUILD_TYPE to RelWithDebInfo
+  * Bumped dephelper to >= 10 and compat to 10 - removed --parallel from rules
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 22 Sep 2017 00:41:35 +0200
+
+qps (1.10.16-29-g7e679db-1) unstable; urgency=medium
+
+  * Cherry-picking upstream version 1.10.16-29-g7e679db.
+  * Removed patches, applied upstream
+  * Fixed VCS fields, using plain /git/
+  * Fixed copyrights Format field, using https
+  * Exported LC_ALL=C.UTF-8 to prevent problems with reproducible builds
+  * Set CMAKE_BUILD_TYPE=RelWithDebInfo
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 22 Jul 2016 18:47:51 +0200
+
+qps (1.10.16+20151210-3) unstable; urgency=medium
+
+  * Fixed Architecture - qps supports in the current state only
+    linux and solaris kernels#
+  * Bump Standards to 3.9.8, no changes needed
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 09 Jul 2016 11:28:10 +0200
+
+qps (1.10.16+20151210-2) unstable; urgency=medium
+
+  * Bump Standards to 3.9.7
+  * Secured VCS-Fields
+  * Fix years in copyright
+  * Add hardening=+all
+  * Fix new grep behaviour in LXQtTranslateDesktop.cmake
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 25 Feb 2016 23:37:08 +0100
+
+qps (1.10.16+20151210-1) unstable; urgency=medium
+
+  * Cherry-picking upstream version 1.10.16+20151210.
+  * Removed dbg package in favor of dbgsym.
+  * Removed unused files and licenses from copyright.
+  * Installed manpage.
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 27 Dec 2015 03:37:11 +0100
+
+qps (1.10.16+20150823-1) unstable; urgency=medium
+
+  * Initial Release (Closes: #795697)
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 06 Sep 2015 02:17:51 +0200

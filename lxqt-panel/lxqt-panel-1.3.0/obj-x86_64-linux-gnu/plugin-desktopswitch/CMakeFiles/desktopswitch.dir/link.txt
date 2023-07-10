@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdesktopswitch.a CMakeFiles/desktopswitch.dir/desktopswitch_autogen/mocs_compilation.cpp.o CMakeFiles/desktopswitch.dir/desktopswitch.cpp.o CMakeFiles/desktopswitch.dir/desktopswitchbutton.cpp.o CMakeFiles/desktopswitch.dir/desktopswitchconfiguration.cpp.o CMakeFiles/desktopswitch.dir/LXQtPluginTranslationLoader.cpp.o
+/usr/bin/ranlib libdesktopswitch.a

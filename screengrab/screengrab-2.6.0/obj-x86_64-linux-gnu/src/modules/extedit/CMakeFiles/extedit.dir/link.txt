@@ -1,0 +1,2 @@
+/usr/bin/ar qc libextedit.a CMakeFiles/extedit.dir/extedit_autogen/mocs_compilation.cpp.o CMakeFiles/extedit.dir/moduleextedit.cpp.o CMakeFiles/extedit.dir/extedit.cpp.o CMakeFiles/extedit.dir/Qt5TranslationLoader.cpp.o
+/usr/bin/ranlib libextedit.a

@@ -1,0 +1,16 @@
+Package: liblxqt-globalkeys1-dev
+Source: lxqt-globalkeys
+Version: 1.3.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 47
+Depends: liblxqt-globalkeys1 (= 1.3.0-0.1~S7)
+Breaks: liblxqt-globalkeys0-dev (<< 0.99.0)
+Replaces: liblxqt-globalkeys0-dev (<< 0.99.0)
+Section: libdevel
+Priority: optional
+Homepage: https://github.com/lxqt/lxqt-globalkeys
+Description: daemon used to register global keyboard shortcuts (dev files)
+ Daemon used to register global keyboard shortcuts.
+ .
+ This package contain the development files.

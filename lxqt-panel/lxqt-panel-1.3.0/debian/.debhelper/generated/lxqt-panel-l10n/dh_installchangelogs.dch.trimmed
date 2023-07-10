@@ -1,0 +1,66 @@
+lxqt-panel (1.3.0-0.1~S7) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- S.7 <severusseptimius7@gmail.com>  Sun, 21 May 2023 12:47:27 -0400
+
+lxqt-panel (1.2.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-Version to 4.6.2.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Thu, 05 Jan 2023 00:10:18 +0800
+
+lxqt-panel (1.2.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-Version to 4.6.1.
+    * Add Rules-Requires-Root: no
+  * Bump compat to 13.
+    * Remove unnecessary -Wl,--as-needed in d/rules
+    * Remove unnecessary --fail-missing in d/rules
+  * Fix d/upstream/metadata.
+  * Update d/copyright.
+  * Update d/watch for GitHub.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Fri, 16 Dec 2022 01:24:07 +0800
+
+lxqt-panel (1.1.0-2) unstable; urgency=medium
+
+  * Merge to unstable.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Sat, 19 Nov 2022 16:14:37 +0800
+
+lxqt-panel (1.1.0-1) experimental; urgency=medium
+
+  * Add debian/salsa-ci.yml file.
+  * Update debian/upstream/signing-key.asc.
+  * New upstream version 1.0.0
+  * New upstream version 1.1.0
+  * Build-deps on liblxqt1-dev (>= 1.1.0~).
+  * Build-deps on liblxqt-globalkeys1-dev (>= 1.1.0~).
+  * Build-deps on liblxqt-globalkeys-ui1-dev (>= 1.1.0~).
+  * Build-deps on libsysstat-qt5-0-dev (>= 0.4.6~).
+  * Drop obsoleted Breaks and Replaces lines.
+  * debian/copyright: update years.
+  * Build-deps on libxcb-randr0-dev.
+  * Build-deps on libxcb-image0-dev.
+  * Build-deps on libxtst-dev.
+  * Build-deps on libxcb-composite0-dev.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Sat, 16 Jul 2022 00:26:18 +0800
+
+lxqt-panel (0.16.1-1) unstable; urgency=medium
+
+  [ Alf Gaida ]
+  * Switched to gbp
+  * Bumped Standards-Version to 4.4.0, no changes needed
+  * improved debian/rules
+
+  [ Andrew Lee (李健秋) ]
+  * New upstream release. (Closes: #916105, #953154, #978204)
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Wed, 06 Jan 2021 18:30:22 +0800
+
+# Older entries have been removed from this changelog.
+# To read the complete changelog use `apt changelog lxqt-panel-l10n`.

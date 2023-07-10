@@ -1,0 +1,244 @@
+screengrab (2.6.0-0.1~S7) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- S.7 <severusseptimius7@gmail.com>  Sat, 20 May 2023 16:08:10 +0300
+
+screengrab (2.5.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Thu, 05 Jan 2023 12:15:05 +0800
+
+screengrab (2.4.0-3) unstable; urgency=medium
+
+  * Update d/watch for GitHub.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Thu, 05 Jan 2023 00:21:40 +0800
+
+screengrab (2.4.0-2) unstable; urgency=medium
+
+  * Merge to unstable.
+  * Bump Standards-Version to 4.6.2:
+    * Add Rules-Requires-Root: no in d/control.
+  * Bump compat to 13:
+    * Remove unnecessary -Wl,--as-needed in d/rules.
+  * Add d/upstream/metadata.
+  * Update d/copyright.
+  * Fix d/lintian-overrides.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Thu, 05 Jan 2023 00:08:37 +0800
+
+screengrab (2.4.0-1) experimental; urgency=medium
+
+  * Team Upload
+
+  [ Andrew Lee (李健秋) ]
+  * Add debian/salsa-ci.yml file.
+  * Update debian/upstream/signing-key.asc.
+  * New upstream version 2.3.0
+
+  [ suman rajan ]
+  * New upstream version 2.4.0
+  * debian/copyright: Added cc-by-4.0 license
+  * debian/control: bumped depends version for libqt5xdg-dev
+  * salsa-ci.yml: Added release experimental
+
+ -- suman rajan <suman@protonmail.com>  Thu, 14 Jul 2022 00:21:31 +0530
+
+screengrab (2.1.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Thu, 07 Jan 2021 17:21:24 +0800
+
+screengrab (2.0.0-1) unstable; urgency=medium
+
+  * New upstream version 2.0.0
+  * Bumped Standards-Version to 4.4.1, no changes needed
+  * Switched to gbp
+  * Removed patches - not needed anymore
+  * Added build dependency lxqt-build-tools (Closes: #948917)
+  * Removed explicit build dependencies covered by lxqt-build-tools
+  * Make dh_config more verbose about used options
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 08 Feb 2020 17:05:20 +0100
+
+screengrab (1.101-1) unstable; urgency=medium
+
+  * Cherry-picked upstream version 1.101.
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 25 Feb 2019 23:55:11 +0100
+
+screengrab (1.100-1) unstable; urgency=medium
+
+  * Cherry-picked upstream version 1.100.
+  * Bumped Standards to 4.3.0, no changes needed
+  * Dropped d/compat, use debhelper-compat = 12, no changes needed
+  * Fixed years in d/copyright
+  * Removed fix-reading-config.patch, applied upstream
+  * Bumped minimum version libqt5xdg-dev (>= 3.3.0~)
+  * Bumped minimum version libqt5xdgiconloader-dev (>= 3.3.0~)
+  * Added d/upstream/metadata
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 27 Jan 2019 13:20:28 +0100
+
+screengrab (1.99-1) unstable; urgency=medium
+
+  * Cherry-picked upstream version 1.99.
+  * Picked fix-reading-config.patch from upstream
+    Big thanks to Helge Kreutzmann <debian@helgefjell.de> and
+    Bernhard Übelacker <bernhardu@mailbox.org>
+    (Closes: #905967)
+  * Bumped Standards to 4.2.0, no changes needed
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 18 Aug 2018 15:26:53 +0200
+
+screengrab (1.98-1) unstable; urgency=medium
+
+  * Cherry-picked upstream version 1.98.
+  * Removed date-time patch, applied upstream
+  * Refreshed the remaining patches
+  * Fixed system-wide configuration (Closes: #893809)
+  * Fixed default file format (Closes: LP1733461)
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 22 May 2018 18:01:45 +0200
+
+screengrab (1.97-3) unstable; urgency=medium
+
+  * Bumped compat to 11
+  * Bumped debhelper to >= 11~
+  * Removed not needed cmake minimum version
+  * Bumped Standards to 4.1.4, no changes needed
+  * Changed VCS fields for salsa
+  * Changed Homepage, Source and watch to lxqt
+  * Use a secure url for copyright-format
+  * Bumped years in copyright
+  * Removed trailing whitespaces from changelog
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 28 Apr 2018 23:05:53 +0200
+
+screengrab (1.97-2) unstable; urgency=medium
+
+  * Bumped Standards to 4.1.2, no changes needed
+  * Removed branch from VCS fields
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 15 Dec 2017 19:20:30 +0100
+
+screengrab (1.97-1) unstable; urgency=medium
+
+  * Cherry-picked upstream version 1.97.
+  * Bumped Standards to  4.1.0, no changes needed
+  * Bumped year in copyrights
+  * Added CMAKE_BUILD_TYPE=RelWithDebInfo
+  * Added pgpsignmangle to watch file
+  * Added upstream signing key to debian
+  * Fixed spelling error in changelog
+  * Closes: #876853
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 26 Sep 2017 22:56:04 +0200
+
+screengrab (1.96-1) unstable; urgency=medium
+
+  * Cherry-picked upstream version 1.96.
+  * Removed disable-upload.patch, applied upstream
+  * Bumped minimum version libqt5xdg-dev (>= 2.0.0)
+  * Added build dependency libqt5svg5-dev
+  * Added build dependency libqt5xdgiconloader-dev
+  * Removed --parallel from rules, compat 10 standard
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 18 Oct 2016 23:59:57 +0200
+
+screengrab (1.96~38-g975f8ce-1) unstable; urgency=medium
+
+  * Cherry-picked upstream snapshot 1.96~38-g975f8ce
+  * Removed not needed reproducible.patch, merged upstream
+  * Added patch build-date-time.patch
+  * Added patch disable-uploads.patch, core-cli-upload-option.patch,
+    disable-cli-upload-option.patch (Closes: #834517)
+  * Bumped compat to 10
+  * Bumped dependency debhelper (>= 10)
+  * Bumped Standards to 3.9.8, no changes needed
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 19 Sep 2016 03:56:48 +0200
+
+screengrab (1.95+20160128-3) unstable; urgency=medium
+
+  * Set LC_ALL for reproducible builds.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Mon, 08 Aug 2016 00:20:01 +0800
+
+screengrab (1.95+20160128-2) unstable; urgency=medium
+
+  * make builds reproducible again (Closes: #815899), thanks to Eduard Sanou
+    for the patch, but i fixed this already upstream
+  * Bump Standard to 3.9.7
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 25 Feb 2016 21:03:01 +0100
+
+screengrab (1.95+20160128-1) unstable; urgency=medium
+
+  * Cherry-picking upstream version 1.95+20160128.
+  * Fixed upload to Imgur
+  * Drop debug package
+  * use secure VCS uris
+  * add hardening=+all
+  * make builds reproducible (Closes: #813167)
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 30 Jan 2016 03:19:31 +0100
+
+screengrab (1.95+20151117-4) unstable; urgency=medium
+
+  * modify some build dependencies - and remove the limit of
+    xfixes0-dev:
+    Added libx11-xcb-dev,
+    Added libxcb1-dev,
+    Removed x11-utils
+  * move from experimental to unstable
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 20 Dec 2015 20:29:31 +0100
+
+screengrab (1.95+20151117-3) experimental; urgency=medium
+
+  * Build  dependency libxcb-xfixes0-dev leads to FTBFS when not limited
+    to [linux-any]
+  * Removed build dependency libqxt-dev, it's not used with Qt 5
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 26 Nov 2015 02:58:26 +0100
+
+screengrab (1.95+20151117-2) experimental; urgency=medium
+
+  * Added X11-Utils as build dependency
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 20 Nov 2015 02:37:20 +0100
+
+screengrab (1.95+20151117-1) experimental; urgency=medium
+
+  * Cherry-picking upstream version 1.95+20151117.
+  * Added libxcb-xfixes0-dev as build dependency
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 20 Nov 2015 00:23:43 +0100
+
+screengrab (1.95+20150929-1) experimental; urgency=medium
+
+  [Alf Gaida ]
+  * Cherry-picking upstream version 1.95+20150929.
+  * Changed mail address of czchen
+  * Added .gitignore
+  * Added watch file
+  * Added lintian-overrides
+  * Added debug package
+  * Fixed copyright
+  * Deleted debian/install, use override_dh_auto_install instead
+  * Cleaned source/options
+  * Initial packaging (Closes: #795791)
+
+  [ ChangZhuo Chen (陳昌倬) ]
+  * Fix changelog package name in changelog
+  * Reformat control
+  * Remove non upstream file
+
+  [ Andrew Lee (李健秋) ]
+  * Adding upstream version 1.95_pr1.
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 01 Nov 2015 23:34:44 +0100

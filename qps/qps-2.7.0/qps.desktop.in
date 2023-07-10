@@ -1,0 +1,10 @@
+[Desktop Entry]
+Exec=qps
+TryExec=qps
+Type=Application
+Icon=qps
+Categories=System;
+Terminal=false
+StartupNotify=false
+
+#TRANSLATIONS_DIR=src/translations

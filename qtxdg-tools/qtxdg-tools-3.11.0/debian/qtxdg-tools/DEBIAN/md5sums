@@ -1,0 +1,9 @@
+86c93718f9c9c6b9ad412d115800a80c  usr/bin/qtxdg-mat
+51490fc6dded758a4b465eb3b79cfbb1  usr/share/cmake/qtxdg-tools/qtxdg-tools-config-version.cmake
+7bd9b38dd47d39163f1b75bc5dd24f67  usr/share/cmake/qtxdg-tools/qtxdg-tools-config.cmake
+c115133f0401332864d63d3a2b33a7a6  usr/share/cmake/qtxdg-tools/qtxdg-tools-targets-relwithdebinfo.cmake
+bb27fbab107b1f495fe3e0d185964c16  usr/share/cmake/qtxdg-tools/qtxdg-tools-targets.cmake
+1d9fcb6594642d8c866e205bae2e5f64  usr/share/doc/qtxdg-tools/changelog.Debian.gz
+0ed47f4383ec6416f52598cf28701715  usr/share/doc/qtxdg-tools/changelog.gz
+c2660dc359c87ca61358410901d7fe09  usr/share/doc/qtxdg-tools/copyright
+4a9109a2010405aa855c87d9f1edb2a2  usr/share/lintian/overrides/qtxdg-tools

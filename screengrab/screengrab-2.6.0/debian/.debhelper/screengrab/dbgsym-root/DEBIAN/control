@@ -1,0 +1,12 @@
+Package: screengrab-dbgsym
+Source: screengrab
+Version: 2.6.0-0.1~S7
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 2736
+Depends: screengrab (= 2.6.0-0.1~S7)
+Section: debug
+Priority: optional
+Description: debug symbols for screengrab
+Build-Ids: b9e0286e58d41da54f06cb4ccf675c9dc6f9611a

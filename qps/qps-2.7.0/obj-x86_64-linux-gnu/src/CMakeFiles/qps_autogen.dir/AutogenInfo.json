@@ -1,0 +1,266 @@
+{
+	"BUILD_DIR" : "/home/debian/Lxqt1.3/qps/qps-2.7.0/obj-x86_64-linux-gnu/src/qps_autogen",
+	"CMAKE_BINARY_DIR" : "/home/debian/Lxqt1.3/qps/qps-2.7.0/obj-x86_64-linux-gnu",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/debian/Lxqt1.3/qps/qps-2.7.0/obj-x86_64-linux-gnu/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/debian/Lxqt1.3/qps/qps-2.7.0/src",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/debian/Lxqt1.3/qps/qps-2.7.0/src/CMakeLists.txt",
+		"/usr/share/cmake/lxqt-build-tools/modules/Qt5TranslationLoader.cpp.in",
+		"/home/debian/Lxqt1.3/qps/qps-2.7.0/qps.qrc"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/debian/Lxqt1.3/qps/qps-2.7.0",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/debian/Lxqt1.3/qps/qps-2.7.0/src/checkboxdelegate.h",
+			"MU",
+			"EWIEGA46WW/moc_checkboxdelegate.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/qps/qps-2.7.0/src/details.h",
+			"MU",
+			"EWIEGA46WW/moc_details.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/qps/qps-2.7.0/src/dialogs.h",
+			"MU",
+			"EWIEGA46WW/moc_dialogs.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/qps/qps-2.7.0/src/fieldsel.h",
+			"MU",
+			"EWIEGA46WW/moc_fieldsel.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/qps/qps-2.7.0/src/htable.h",
+			"MU",
+			"EWIEGA46WW/moc_htable.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/qps/qps-2.7.0/src/infobar.h",
+			"MU",
+			"EWIEGA46WW/moc_infobar.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/qps/qps-2.7.0/src/lookup.h",
+			"MU",
+			"EWIEGA46WW/moc_lookup.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/qps/qps-2.7.0/src/misc.h",
+			"MU",
+			"EWIEGA46WW/moc_misc.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/qps/qps-2.7.0/src/prefs.h",
+			"MU",
+			"EWIEGA46WW/moc_prefs.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/qps/qps-2.7.0/src/proc.h",
+			"MU",
+			"EWIEGA46WW/moc_proc.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/qps/qps-2.7.0/src/pstable.h",
+			"MU",
+			"EWIEGA46WW/moc_pstable.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/qps/qps-2.7.0/src/qps.h",
+			"MU",
+			"EWIEGA46WW/moc_qps.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/qps/qps-2.7.0/src/qpsapp.h",
+			"MU",
+			"EWIEGA46WW/moc_qpsapp.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/qps/qps-2.7.0/src/qttableview.h",
+			"MU",
+			"EWIEGA46WW/moc_qttableview.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/qps/qps-2.7.0/src/svec.h",
+			"MU",
+			"EWIEGA46WW/moc_svec.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/qps/qps-2.7.0/src/tablefield.h",
+			"MU",
+			"EWIEGA46WW/moc_tablefield.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/qps/qps-2.7.0/src/trayicon.h",
+			"MU",
+			"EWIEGA46WW/moc_trayicon.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/qps/qps-2.7.0/src/ttystr.h",
+			"MU",
+			"EWIEGA46WW/moc_ttystr.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/qps/qps-2.7.0/src/uidstr.h",
+			"MU",
+			"EWIEGA46WW/moc_uidstr.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/qps/qps-2.7.0/src/watchcond.h",
+			"MU",
+			"EWIEGA46WW/moc_watchcond.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/qps/qps-2.7.0/src/wchan.h",
+			"MU",
+			"EWIEGA46WW/moc_wchan.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/debian/Lxqt1.3/qps/qps-2.7.0/obj-x86_64-linux-gnu/src/qps_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/debian/Lxqt1.3/qps/qps-2.7.0/obj-x86_64-linux-gnu/src/qps_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"LXQT_DATA_DIR=\"/usr/share\"",
+		"LXQT_ETC_XDG_DIR=\"/etc/xdg\"",
+		"LXQT_GRAPHICS_DIR=\"/usr/share/lxqt/graphics\"",
+		"LXQT_MAJOR_VERSION=\"1\"",
+		"LXQT_MINOR_VERSION=\"3\"",
+		"LXQT_PATCH_VERSION=\"0\"",
+		"LXQT_RELATIVE_SHARE_DIR=\"lxqt\"",
+		"LXQT_RELATIVE_SHARE_TRANSLATIONS_DIR=\"lxqt/translations\"",
+		"LXQT_SHARE_DIR=\"/usr/share/lxqt\"",
+		"LXQT_SHARE_TRANSLATIONS_DIR=\"/usr/share/lxqt/translations\"",
+		"LXQT_VERSION=\"1.3.0\"",
+		"QPS_VERSION=\"2.7.0\"",
+		"QT_CORE_LIB",
+		"QT_DBUS_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_NO_FOREACH",
+		"QT_SVG_LIB",
+		"QT_USE_QSTRINGBUILDER",
+		"QT_WIDGETS_LIB",
+		"QT_X11EXTRAS_LIB",
+		"QT_XML_LIB"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/debian/Lxqt1.3/qps/qps-2.7.0/obj-x86_64-linux-gnu/src",
+		"/home/debian/Lxqt1.3/qps/qps-2.7.0/src",
+		"/usr/include/lxqt",
+		"/usr/include/lxqt/LXQt",
+		"/usr/include/KF5/KWindowSystem",
+		"/usr/include/KF5",
+		"/usr/include/x86_64-linux-gnu/qt5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
+		"/usr/include/x86_64-linux-gnu/qt5/QtDBus",
+		"/usr/include/qt5xdg",
+		"/usr/include/x86_64-linux-gnu/qt5/QtXml",
+		"/usr/include/qt5xdgiconloader",
+		"/usr/include/qt5xdgiconloader/3.11.0",
+		"/usr/include/x86_64-linux-gnu/qt5/QtSvg",
+		"/usr/include/x86_64-linux-gnu/qt5/QtX11Extras",
+		"/usr/include",
+		"/usr/include/c++/12",
+		"/usr/include/x86_64-linux-gnu/c++/12",
+		"/usr/include/c++/12/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/12/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/debian/Lxqt1.3/qps/qps-2.7.0/obj-x86_64-linux-gnu/src/qps_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/debian/Lxqt1.3/qps/qps-2.7.0/obj-x86_64-linux-gnu/src/CMakeFiles/qps_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/debian/Lxqt1.3/qps/qps-2.7.0/obj-x86_64-linux-gnu/src/CMakeFiles/qps_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/debian/Lxqt1.3/qps/qps-2.7.0/obj-x86_64-linux-gnu/src/Qt5TranslationLoader.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/qps/qps-2.7.0/src/checkboxdelegate.cpp",
+			"MU",
+			null
+		],
+		[ "/home/debian/Lxqt1.3/qps/qps-2.7.0/src/details.cpp", "MU", null ],
+		[ "/home/debian/Lxqt1.3/qps/qps-2.7.0/src/dialogs.cpp", "MU", null ],
+		[ "/home/debian/Lxqt1.3/qps/qps-2.7.0/src/fieldsel.cpp", "MU", null ],
+		[ "/home/debian/Lxqt1.3/qps/qps-2.7.0/src/htable.cpp", "MU", null ],
+		[ "/home/debian/Lxqt1.3/qps/qps-2.7.0/src/infobar.cpp", "MU", null ],
+		[ "/home/debian/Lxqt1.3/qps/qps-2.7.0/src/lookup.cpp", "MU", null ],
+		[ "/home/debian/Lxqt1.3/qps/qps-2.7.0/src/misc.cpp", "MU", null ],
+		[ "/home/debian/Lxqt1.3/qps/qps-2.7.0/src/prefs.cpp", "MU", null ],
+		[ "/home/debian/Lxqt1.3/qps/qps-2.7.0/src/proc.cpp", "MU", null ],
+		[ "/home/debian/Lxqt1.3/qps/qps-2.7.0/src/pstable.cpp", "MU", null ],
+		[ "/home/debian/Lxqt1.3/qps/qps-2.7.0/src/qps.cpp", "MU", null ],
+		[ "/home/debian/Lxqt1.3/qps/qps-2.7.0/src/qpsapp.cpp", "MU", null ],
+		[ "/home/debian/Lxqt1.3/qps/qps-2.7.0/src/qttableview.cpp", "MU", null ],
+		[ "/home/debian/Lxqt1.3/qps/qps-2.7.0/src/trayicon.cpp", "MU", null ],
+		[ "/home/debian/Lxqt1.3/qps/qps-2.7.0/src/ttystr.cpp", "MU", null ],
+		[ "/home/debian/Lxqt1.3/qps/qps-2.7.0/src/uidstr.cpp", "MU", null ],
+		[ "/home/debian/Lxqt1.3/qps/qps-2.7.0/src/watchcond.cpp", "MU", null ],
+		[ "/home/debian/Lxqt1.3/qps/qps-2.7.0/src/wchan.cpp", "MU", null ]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

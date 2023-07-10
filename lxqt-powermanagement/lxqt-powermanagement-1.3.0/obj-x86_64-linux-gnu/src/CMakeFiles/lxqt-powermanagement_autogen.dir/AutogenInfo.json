@@ -1,0 +1,275 @@
+{
+	"BUILD_DIR" : "/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/obj-x86_64-linux-gnu/src/lxqt-powermanagement_autogen",
+	"CMAKE_BINARY_DIR" : "/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/obj-x86_64-linux-gnu",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/obj-x86_64-linux-gnu/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/src",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/src/CMakeLists.txt",
+		"/usr/share/cmake/lxqt-build-tools/modules/LXQtAppTranslationLoader.cpp.in"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/config/powermanagementsettings.h",
+			"MU",
+			"WLG764I3XK/moc_powermanagementsettings.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/src/batteryhelper.h",
+			"MU",
+			"EWIEGA46WW/moc_batteryhelper.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/src/batteryinfodialog.h",
+			"MU",
+			"EWIEGA46WW/moc_batteryinfodialog.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/src/batteryinfoframe.h",
+			"MU",
+			"EWIEGA46WW/moc_batteryinfoframe.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/src/batterywatcher.h",
+			"MU",
+			"EWIEGA46WW/moc_batterywatcher.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/src/iconproducer.h",
+			"MU",
+			"EWIEGA46WW/moc_iconproducer.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/src/idlenesswatcher.h",
+			"MU",
+			"EWIEGA46WW/moc_idlenesswatcher.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/src/lid.h",
+			"MU",
+			"EWIEGA46WW/moc_lid.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/src/lidwatcher.h",
+			"MU",
+			"EWIEGA46WW/moc_lidwatcher.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/src/powerbutton.h",
+			"MU",
+			"EWIEGA46WW/moc_powerbutton.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/src/powermanagementd.h",
+			"MU",
+			"EWIEGA46WW/moc_powermanagementd.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/src/trayicon.h",
+			"MU",
+			"EWIEGA46WW/moc_trayicon.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/src/watcher.h",
+			"MU",
+			"EWIEGA46WW/moc_watcher.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/obj-x86_64-linux-gnu/src/lxqt-powermanagement_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/obj-x86_64-linux-gnu/src/lxqt-powermanagement_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"LXQT_DATA_DIR=\"/usr/share\"",
+		"LXQT_ETC_XDG_DIR=\"/etc/xdg\"",
+		"LXQT_GRAPHICS_DIR=\"/usr/share/lxqt/graphics\"",
+		"LXQT_MAJOR_VERSION=\"1\"",
+		"LXQT_MINOR_VERSION=\"3\"",
+		"LXQT_PATCH_VERSION=\"0\"",
+		"LXQT_POWERMANAGEMENT_VERSION=\"1.3.0\"",
+		"LXQT_RELATIVE_SHARE_DIR=\"lxqt\"",
+		"LXQT_RELATIVE_SHARE_TRANSLATIONS_DIR=\"lxqt/translations\"",
+		"LXQT_SHARE_DIR=\"/usr/share/lxqt\"",
+		"LXQT_SHARE_TRANSLATIONS_DIR=\"/usr/share/lxqt/translations\"",
+		"LXQT_VERSION=\"1.3.0\"",
+		"QT_CORE_LIB",
+		"QT_DBUS_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_CAST_FROM_ASCII",
+		"QT_NO_CAST_FROM_BYTEARRAY",
+		"QT_NO_CAST_TO_ASCII",
+		"QT_NO_DEBUG",
+		"QT_NO_FOREACH",
+		"QT_NO_URL_CAST_FROM_STRING",
+		"QT_SVG_LIB",
+		"QT_USE_QSTRINGBUILDER",
+		"QT_WIDGETS_LIB",
+		"QT_X11EXTRAS_LIB",
+		"QT_XML_LIB"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/obj-x86_64-linux-gnu/src",
+		"/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/src",
+		"/usr/include/x86_64-linux-gnu/qt5/QtGui/5.15.8",
+		"/usr/include/x86_64-linux-gnu/qt5/QtGui/5.15.8/QtGui",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore/5.15.8",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore/5.15.8/QtCore",
+		"/usr/include/lxqt",
+		"/usr/include/lxqt/LXQt",
+		"/usr/include/KF5/KWindowSystem",
+		"/usr/include/KF5",
+		"/usr/include/x86_64-linux-gnu/qt5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
+		"/usr/include/x86_64-linux-gnu/qt5/QtDBus",
+		"/usr/include/qt5xdg",
+		"/usr/include/x86_64-linux-gnu/qt5/QtXml",
+		"/usr/include/qt5xdgiconloader",
+		"/usr/include/qt5xdgiconloader/3.11.0",
+		"/usr/include/x86_64-linux-gnu/qt5/QtSvg",
+		"/usr/include/x86_64-linux-gnu/qt5/QtX11Extras",
+		"/usr/include/KF5/Solid",
+		"/usr/include/KF5/KIdleTime",
+		"/usr/include/lxqt-globalkeys",
+		"/usr/include",
+		"/usr/include/c++/12",
+		"/usr/include/x86_64-linux-gnu/c++/12",
+		"/usr/include/c++/12/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/12/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/obj-x86_64-linux-gnu/src/lxqt-powermanagement_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 2,
+	"PARSE_CACHE_FILE" : "/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/obj-x86_64-linux-gnu/src/CMakeFiles/lxqt-powermanagement_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/obj-x86_64-linux-gnu/src/CMakeFiles/lxqt-powermanagement_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/config/powermanagementsettings.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/obj-x86_64-linux-gnu/src/LXQtAppTranslationLoader.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/src/batteryhelper.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/src/batteryinfodialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/src/batteryinfoframe.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/src/batterywatcher.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/src/iconproducer.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/src/idlenesswatcher.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/src/lid.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/src/lidwatcher.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/src/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/src/powerbutton.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/src/powermanagementd.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/src/trayicon.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-powermanagement/lxqt-powermanagement-1.3.0/src/watcher.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

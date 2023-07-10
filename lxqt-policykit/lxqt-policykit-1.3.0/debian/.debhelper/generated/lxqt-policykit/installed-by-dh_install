@@ -1,0 +1,2 @@
+debian/tmp/etc/xdg/autostart/lxqt-policykit-agent.desktop
+debian/tmp/usr/bin/lxqt-policykit-agent

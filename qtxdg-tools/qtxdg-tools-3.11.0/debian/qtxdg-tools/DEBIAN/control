@@ -1,0 +1,19 @@
+Package: qtxdg-tools
+Version: 3.11.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 104
+Depends: libc6 (>= 2.34), libqt5core5a (>= 5.15.1), libqt5xdg3 (>= 3.10.0~), libstdc++6 (>= 5)
+Breaks: qtxdg-dev-tools (<< 3.10.1)
+Replaces: qtxdg-dev-tools (<< 3.10.1)
+Section: libs
+Priority: optional
+Homepage: https://github.com/lxqt/qtxdg-tools
+Description: User tools for libqtxdg
+ LXQt is an advanced, easy-to-use, and fast desktop environment based on Qt
+ technologies. It has been tailored for users who value simplicity, speed, and
+ an intuitive interface. Unlike most desktop environments, LXQt also works
+ fine with less powerful machines.
+ .
+ This package contains a CLI MIME tool, qtxdg-mat, for handling file
+ associations and opening files with their default applications.

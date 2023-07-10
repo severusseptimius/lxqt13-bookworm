@@ -1,0 +1,353 @@
+liblxqt (1.3.0-0.1~S7) bookworm; urgency=medium
+
+  * New upstream release 
+
+ -- S.7 <severusseptimius7@gmail.com>  Sat, 20 May 2023 11:08:50 +0300
+
+liblxqt (1.2.0-7) unstable; urgency=medium
+
+  * liblxqt1-dev: sufficient Breaks and Replaces declarations.
+    Thanks Helmut Grohne <helmut@subdivi.de>. (Closes:#1034943)
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Sat, 13 May 2023 11:41:17 +0200
+
+liblxqt (1.2.0-6) unstable; urgency=medium
+
+  * Add missing Breaks/Replaces (Closes: #1034894)
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Thu, 27 Apr 2023 13:10:28 +0800
+
+liblxqt (1.2.0-5) unstable; urgency=medium
+
+  [ Aaron Rainbolt ]
+  * debian/control: Set liblxqt1-dev package section to libdevel again.
+  * debian/copyright: Overhauled copyright file.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Thu, 05 Jan 2023 13:02:36 +0800
+
+liblxqt (1.2.0-4) unstable; urgency=medium
+
+  * Bump Standards-Version to 4.6.2.
+  * Add Multi-Arch: same in liblxqt1.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Sat, 24 Dec 2022 02:17:13 +0800
+
+liblxqt (1.2.0-3) unstable; urgency=medium
+
+  * Fix d/liblxqt-backlight-helper.lintian-overrides.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Sat, 17 Dec 2022 00:35:39 +0800
+
+liblxqt (1.2.0-2) unstable; urgency=medium
+
+  * Move bin/lxqt-backlight_backend into liblxqt-backlight-helper (Closes: #933189).
+  * Fix liblxqt1-dev Depends.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Wed, 14 Dec 2022 00:05:12 +0800
+
+liblxqt (1.2.0-1) unstable; urgency=medium
+
+  [ Palo Kisa ]
+  * New upstream release.
+
+  [ ChangZhuo Chen (陳昌倬) ]
+  * Update d/watch for GitHub.
+  * Add shlibs file.
+  * Add Rules-Requires-Root: no.
+
+  [ Pino Toscano ]
+  * debian/rules: fix non-Linux check by comparing against "linux" directly.
+  * debian/liblxqt1.install: install backlight-related files only on Linux.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Tue, 13 Dec 2022 22:23:24 +0800
+
+liblxqt (1.1.0-2) unstable; urgency=medium
+
+  * Team upload. (Closes: #1013334)
+  * debian/watch: fix uscan error.
+  * Drop C++ symbols according to
+    https://wiki.debian.org/UsingSymbolsFiles.
+  * debian/rules: Remove unnecessary -Wl,--as-needed.
+  * debian/rules: Drop --fail-missing argument to dh_missing which is now
+    default in debhelper 13.
+  * debian/upstream/metadata: Change Repository-Browser field to
+    Repository-Browse.
+  * debian/liblxqt1.lintian-overrides: change binary-without-manpage to
+    no-manual-page.
+  * debian/liblxqt1.install: drop dh-exec, relying instead on debhelper 13
+    for substitutions.
+  * debian/liblxqt1.lintian-overrides: drop application-in-library-
+    section, the false positive has been fixed in lintian.
+  * debian/rules: link time optimizations enabled. (Closes: #1015501)
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Sat, 22 Oct 2022 23:58:13 +0800
+
+liblxqt (1.1.0-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Rename liblxqt0 -> liblxqt1.
+  * Bump Standards-version, no changes needed.
+  * Bump debhelper compat to 13, no changes needed.
+  * Add my name to Uploaders.
+  * Run wrap-and-sort.
+
+ -- Simon Quigley <tsimonq2@debian.org>  Tue, 28 Jun 2022 23:54:37 -0500
+
+liblxqt (0.16.0-1) unstable; urgency=medium
+
+  [ Alf Gaida ]
+  * Switched to gbp
+  * Bumped Standards-Version to 4.4.0, no changes needed.
+
+  [ Andrew Lee (李健秋) ]
+  * New upstream release. (Closes: #964658)
+  * Drop backported upstream patches.
+  * Refresh debian/liblxqt0.symbols file.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Tue, 05 Jan 2021 17:23:10 +0800
+
+liblxqt (0.14.1-4) unstable; urgency=medium
+
+  * Added kfreebsd as non-linux to rules
+  * New build dependency dh-exec
+  * Don't install backlight things for hurd and kfreebsd
+  * Prepared helper package
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 27 Jul 2019 22:59:58 +0200
+
+liblxqt (0.14.1-3) unstable; urgency=medium
+
+  * Modified debian/rules for Hurd.
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 27 Jul 2019 14:43:27 +0200
+
+liblxqt (0.14.1-2) unstable; urgency=medium
+
+  * Applied upstream CMakeLists patches for non-linux.
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 27 Jul 2019 14:20:35 +0200
+
+liblxqt (0.14.1-1) unstable; urgency=medium
+
+  * Cherry-picking upstream version 0.14.1.
+  * Bumped minimum version libqt5xdg-dev (>= 3.3.1~)
+  * Bumped minimum version libqt5xdgiconloader-dev (>= 3.3.1~)
+  * Added new symbol
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 24 Feb 2019 18:01:40 +0100
+
+liblxqt (0.14.0-1) unstable; urgency=medium
+
+  * Cherry-picking upstream version 0.14.0.
+  * Added Build-Depends-Package: liblxqt0-dev to d/liblxqt0-dev.symbols
+  * Dropped d/compat, use debhelper-compat = 12, no changes needed
+  * Fixed years in d/copyright
+  * Bumped minimum version libqt5xdg-dev (>= 3.3.0~)
+  * Bumped minimum version libqt5xdgiconloader-dev (>= 3.3.0~)
+  * Bumped minimum version lxqt-build-tools (>= 0.6.0~)
+  * Removed obsolete PULL_TRANSLATIONS= OFF from dh_auto_configure
+  * Added l10n-package, moved from lxqt-l10n
+  * Added d/upstream/metadata
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 27 Jan 2019 13:37:40 +0100
+
+liblxqt (0.13.0-1) unstable; urgency=medium
+
+  * Cherry-picking upstream version 0.12.0.
+  * Bumped build dependencies liblqt5xdg* to >= 3.2.0~
+  * Bumpde build dependency lxqt-build-tools to >= 0.5.0~
+  * Fixed symbols for the new release
+  * Added lintian overrides for the helper scripts and configurations
+  * Removed multiarch=same - packages will not be co-installable anymore
+  * Moved debian/.gitignore to ./.gitignore
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 24 May 2018 18:49:19 +0200
+
+liblxqt (0.12.0-7) unstable; urgency=medium
+
+  * Really fix VCS-Git
+  * Fixed watch file
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 29 Apr 2018 23:02:11 +0200
+
+liblxqt (0.12.0-6) unstable; urgency=medium
+
+  * Fixed Hompage and Source to lxqt
+  * Bumped compat to 11
+  * Bumped debhelper to >= 11~
+  * Bumped Standards to 4.1.4, no changes needed
+  * Changed VCS fields for salsa
+  * Bumped year in copyright
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 27 Apr 2018 18:02:45 +0200
+
+liblxqt (0.12.0-5) unstable; urgency=medium
+
+  * Bumped Standards to 4.1.2, no changes needed
+  * Removed debian/gbp.conf
+  * Removed branch from VCS fields
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 13 Dec 2017 20:16:30 +0100
+
+liblxqt (0.12.0-4) unstable; urgency=medium
+
+  * Transition to unstable
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 04 Dec 2017 03:17:57 +0100
+
+liblxqt (0.12.0-3) experimental; urgency=medium
+
+  * Fixed needed version to build-tools (>= 0.4.0)
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 23 Oct 2017 00:35:16 +0200
+
+liblxqt (0.12.0-2) experimental; urgency=medium
+
+  * Re-added explicit build dependencies, make the packaging more
+    understandable:
+    - libqt5xdg-dev (>= 3.1.0)
+    - libqt5xdgiconloader-dev (>= 3.1.0)
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 22 Oct 2017 17:28:18 +0200
+
+liblxqt (0.12.0-1) experimental; urgency=medium
+
+  * Cherry-picking upstream version 0.12.0.
+  * Switched to experimental
+  * Bumped Standards to 4.1.1
+  * Bumped dependencies
+  * Fixed symbols
+  * Added override for dh_missing in rules
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 22 Oct 2017 14:28:46 +0200
+
+liblxqt (0.11.1-2) unstable; urgency=medium
+
+  * Bumped Standards to 4.0.0
+  * Added dependencies desktop-file-utils and shared-mime-info
+    (Closes: #866904)
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 02 Jul 2017 20:03:10 +0200
+
+liblxqt (0.11.1-1) unstable; urgency=medium
+
+  * Cherry-picking upstream version 0.11.1.
+  * Bumped years in d/copyright
+  * Removed build dependencies:
+    - cmake
+    - libqt5xdg-dev
+    - libqt5xdgiconloader-dev
+    - pkg-config
+    - qttools5-dev
+    - qttools5-dev-tools
+   * Added build dependency lxqt-build-tools (>= 0.3.1)
+   * Added dependencies:
+     - libqt5xdg-dev
+     - libqt5xdgiconloader-dev
+     - lxqt-build-tools
+  * Fixed l-dev.install
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 02 Jan 2017 03:40:10 +0100
+
+liblxqt (0.11.0-2) unstable; urgency=medium
+
+  * Cherry-picking upstream version 0.11.0.
+  * Synced from experimental
+  * Bumped build dependency debhelper (>=10)
+  * Bump standards to 3.9.8
+  * Bump years in copyright
+  * Bumped compat to 10
+  * Removed --parallel from rules, now standard
+  * Bumped minimum version libqt5xdg-dev (>= 2.0.0)
+  * Added build dependency libqt5xdgiconloader-dev (>= 2.0.0)
+  * Added build dependency libxss-dev
+  * Added Recommends liblxqt-l10n
+  * Removed grep patch, merged upstream
+  * Removed virtual ABI, no longer needed
+  * Exported LC_ALL=C.UTF-8 - define language settings for reproducible
+    builds
+  * Fixed Format field in copyright
+  * Fixed VCS fields, use plain /git/
+  * Fix symbols, only use lxqt-abi-0-11-0
+  * Added translation handling in rules
+  * Deleted former patches
+  * Added DCMAKE_BUILD_TYPE=RelWithDebInfo
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 12 Jul 2016 21:17:33 +0200
+
+liblxqt (0.10.0-5) unstable; urgency=medium
+
+  * Bump Standards to 3.9.7
+  * Secured VCS-fields
+  * Added hardening=+all
+  * patched LXQtTranslateDesktop.cmake - it's already fixed upstream
+    but i don't want to catch up with upstream before the upcoming
+    release
+  * Fixed years in copyright
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 26 Feb 2016 19:00:57 +0100
+
+liblxqt (0.10.0-4) unstable; urgency=medium
+
+  * Remove dbg package in favor of dbgsym.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Sat, 26 Dec 2015 11:01:53 +0800
+
+liblxqt (0.10.0-3) unstable; urgency=medium
+
+  * Merge from experimental.
+  * New upstream release.
+  * Update symbols and provide lxqt-abi-0-10.0.
+  * Added minimum libqtxdg version.
+  * Removed the libdrm-dev build dependency, as libdrm-dev is thrown in
+    by other packages if needed in $architecture.
+  * Fixed copyright, only LGPL2.1+ is used.
+  * Fixed watch file.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Sun, 15 Nov 2015 00:02:02 +0800
+
+liblxqt (0.9.0+20150806-3) unstable; urgency=medium
+
+  * Provide lxqt-abi-0-9-0
+  * Fix VCS-Fields
+  * Modify symbols, preparing the migration to 0.10.0
+  * Removed breaks and replaces
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 09 Nov 2015 18:48:51 +0100
+
+liblxqt (0.9.0+20150806-2) unstable; urgency=medium
+
+  * Apply extra-libdrm.diff patch from Pino Toscano <pino@debian.org> to
+    fix ftbfs on hurd. (Closes:#795577)
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Mon, 17 Aug 2015 17:27:18 +0800
+
+liblxqt (0.9.0+20150806-1) unstable; urgency=medium
+
+  [ Alf Gaida ]
+  * source options added - don't provide .gitignore in package.
+  * make the rules less verbos and drop the not needed QT5 switch.
+  * drop remaining .tx directory.
+
+  [ ChangZhuo Chen (陳昌倬) ]
+  * Update d/watch with PGP key.
+  * Ignore anything except debian directory.
+
+  [ Alf Gaida ]
+  * changed team an vcs fields build dependency libqtxdg fixed.
+  * some changes in debian $foo.
+  * drop metapackages.
+
+  [ Andrew Lee (李健秋) ]
+  * Merging upstream version 0.9.0+20150806.
+  * Removing whitespaces at EOL and EOF.
+  * Added myself as Uploader.
+  * Sorting build-depends.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Thu, 13 Aug 2015 21:36:40 +0800
+
+liblxqt (0.9.0-1) experimental; urgency=low
+
+  * Initial release (Closes: #747620)
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 14 Feb 2015 15:59:22 +0100

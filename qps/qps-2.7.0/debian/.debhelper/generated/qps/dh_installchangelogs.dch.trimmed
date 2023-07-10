@@ -1,0 +1,64 @@
+qps (2.7.0-0.1~S7) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- S.7 <severusseptimius7@gmail.com>  Sat, 20 May 2023 15:34:27 +0300
+
+qps (2.6.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-Version to 4.6.2:
+    * Add "Rules-Requires-Root: no" in d/control.
+  * Remove unnecessary -Wl,--as-needed in d/rules
+  * Update d/watch for GitHub.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Thu, 05 Jan 2023 12:32:58 +0800
+
+qps (2.5.0-2) unstable; urgency=medium
+
+  * Merge to unstable.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Sat, 19 Nov 2022 09:45:51 +0800
+
+qps (2.5.0-1) experimental; urgency=medium
+
+  [ Andrew Lee (李健秋) ]
+  * Add debian/salsa-ci.yml file.
+  * Update debian/upstream/signing-key.asc.
+  * New upstream version 2.4.0
+
+  [ suman rajan ]
+  * New upstream version 2.5.0
+  * debian/upstream/metadata: Fixed Repository-Browse field
+  * debian/control: Bumped version for liblxqt1-dev
+  * debian/salsa-ci.yml: Added release for experimental
+  * debian/copyright: Fix license inconsistencies
+
+ -- suman rajan <suman@cryptolab.net>  Sat, 16 Jul 2022 17:56:21 +0200
+
+qps (2.4.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Bumped Standards-Version to 4.6.0, no changes needed
+  * Update debian/copyright
+
+ -- S. 7 <severusseptimius7@gmail.com>  Thu, 25 Nov 2021 18:19:55 +0200
+
+qps (2.2.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * debian/control: update build-deps.
+  * debian/copyright: reformatted to fit DEP-5.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Thu, 07 Jan 2021 18:36:35 +0800
+
+qps (2.0.0-1) unstable; urgency=medium
+
+  * New upstream version 2.0.0
+  * Switched to gbp
+  * Bumped Standards-Version to 4.4.1, no changes needed
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 08 Oct 2019 20:56:07 +0200
+
+# Older entries have been removed from this changelog.
+# To read the complete changelog use `apt changelog qps`.

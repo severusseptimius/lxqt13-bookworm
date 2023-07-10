@@ -1,0 +1,269 @@
+{
+	"BUILD_DIR" : "/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/obj-x86_64-linux-gnu/daemon/lxqt-globalkeysd_autogen",
+	"CMAKE_BINARY_DIR" : "/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/obj-x86_64-linux-gnu",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/obj-x86_64-linux-gnu/daemon",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/daemon",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/daemon/CMakeLists.txt",
+		"/usr/share/cmake-3.25/Modules/FindX11.cmake",
+		"/usr/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.25/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake-3.25/Modules/CheckFunctionExists.cmake",
+		"/usr/share/cmake-3.25/Modules/CheckLibraryExists.cmake",
+		"/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/daemon/org.lxqt.global_key_shortcuts.daemon.xml",
+		"/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/daemon/org.lxqt.global_key_shortcuts.native.xml",
+		"/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/daemon/org.lxqt.global_key_shortcuts.client.xml"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/daemon/base_action.h",
+			"MU",
+			"EWIEGA46WW/moc_base_action.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/daemon/client_action.h",
+			"MU",
+			"EWIEGA46WW/moc_client_action.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/daemon/client_proxy.h",
+			"MU",
+			"EWIEGA46WW/moc_client_proxy.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/daemon/command_action.h",
+			"MU",
+			"EWIEGA46WW/moc_command_action.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/daemon/core.h",
+			"MU",
+			"EWIEGA46WW/moc_core.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/daemon/daemon_adaptor.h",
+			"MU",
+			"EWIEGA46WW/moc_daemon_adaptor.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/daemon/log_target.h",
+			"MU",
+			"EWIEGA46WW/moc_log_target.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/daemon/meta_types.h",
+			"MU",
+			"EWIEGA46WW/moc_meta_types.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/daemon/method_action.h",
+			"MU",
+			"EWIEGA46WW/moc_method_action.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/daemon/native_adaptor.h",
+			"MU",
+			"EWIEGA46WW/moc_native_adaptor.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/daemon/pipe_utils.h",
+			"MU",
+			"EWIEGA46WW/moc_pipe_utils.cpp",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/daemon/string_utils.h",
+			"MU",
+			"EWIEGA46WW/moc_string_utils.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/obj-x86_64-linux-gnu/daemon/lxqt-globalkeysd_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/obj-x86_64-linux-gnu/daemon/lxqt-globalkeysd_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"LXQT_DATA_DIR=\"/usr/share\"",
+		"LXQT_ETC_XDG_DIR=\"/etc/xdg\"",
+		"LXQT_GLOBALKEYS_VERSION=\"1.3.0\"",
+		"LXQT_GRAPHICS_DIR=\"/usr/share/lxqt/graphics\"",
+		"LXQT_MAJOR_VERSION=\"1\"",
+		"LXQT_MINOR_VERSION=\"3\"",
+		"LXQT_PATCH_VERSION=\"0\"",
+		"LXQT_RELATIVE_SHARE_DIR=\"lxqt\"",
+		"LXQT_RELATIVE_SHARE_TRANSLATIONS_DIR=\"lxqt/translations\"",
+		"LXQT_SHARE_DIR=\"/usr/share/lxqt\"",
+		"LXQT_SHARE_TRANSLATIONS_DIR=\"/usr/share/lxqt/translations\"",
+		"LXQT_VERSION=\"1.3.0\"",
+		"QT_CORE_LIB",
+		"QT_DBUS_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_CAST_FROM_ASCII",
+		"QT_NO_CAST_FROM_BYTEARRAY",
+		"QT_NO_CAST_TO_ASCII",
+		"QT_NO_DEBUG",
+		"QT_NO_FOREACH",
+		"QT_NO_URL_CAST_FROM_STRING",
+		"QT_SVG_LIB",
+		"QT_USE_QSTRINGBUILDER",
+		"QT_WIDGETS_LIB",
+		"QT_X11EXTRAS_LIB",
+		"QT_XML_LIB"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/obj-x86_64-linux-gnu/daemon",
+		"/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/daemon",
+		"/usr/include/lxqt",
+		"/usr/include/lxqt/LXQt",
+		"/usr/include/KF5/KWindowSystem",
+		"/usr/include/KF5",
+		"/usr/include/x86_64-linux-gnu/qt5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
+		"/usr/include/x86_64-linux-gnu/qt5/QtDBus",
+		"/usr/include/qt5xdg",
+		"/usr/include/x86_64-linux-gnu/qt5/QtXml",
+		"/usr/include/qt5xdgiconloader",
+		"/usr/include/qt5xdgiconloader/3.11.0",
+		"/usr/include/x86_64-linux-gnu/qt5/QtSvg",
+		"/usr/include/x86_64-linux-gnu/qt5/QtX11Extras",
+		"/usr/include",
+		"/usr/include/c++/12",
+		"/usr/include/x86_64-linux-gnu/c++/12",
+		"/usr/include/c++/12/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/12/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/obj-x86_64-linux-gnu/daemon/lxqt-globalkeysd_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/obj-x86_64-linux-gnu/daemon/org.lxqt.global_key_shortcuts.client.h",
+		"/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/obj-x86_64-linux-gnu/daemon/org.lxqt.global_key_shortcuts.daemon.h",
+		"/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/obj-x86_64-linux-gnu/daemon/org.lxqt.global_key_shortcuts.native.h"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 2,
+	"PARSE_CACHE_FILE" : "/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/obj-x86_64-linux-gnu/daemon/CMakeFiles/lxqt-globalkeysd_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/obj-x86_64-linux-gnu/daemon/CMakeFiles/lxqt-globalkeysd_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/daemon/base_action.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/daemon/client_action.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/daemon/client_proxy.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/daemon/command_action.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/daemon/core.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/daemon/daemon_adaptor.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/daemon/log_target.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/daemon/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/daemon/meta_types.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/daemon/method_action.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/daemon/native_adaptor.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/daemon/pipe_utils.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/daemon/string_utils.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : 
+	[
+		"/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/obj-x86_64-linux-gnu/daemon/org.lxqt.global_key_shortcuts.client.h",
+		"/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/obj-x86_64-linux-gnu/daemon/org.lxqt.global_key_shortcuts.daemon.h",
+		"/home/debian/Lxqt1.3/lxqt-globalkeyes/lxqt-globalkeys-1.3.0/obj-x86_64-linux-gnu/daemon/org.lxqt.global_key_shortcuts.native.h"
+	],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

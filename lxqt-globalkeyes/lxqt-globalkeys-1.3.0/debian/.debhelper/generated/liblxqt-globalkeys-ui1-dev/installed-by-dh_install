@@ -1,0 +1,9 @@
+debian/tmp/usr/include/lxqt-globalkeys-ui/LXQtGlobalKeysUi/ShortcutSelector
+debian/tmp/usr/include/lxqt-globalkeys-ui/shortcut_selector.h
+debian/tmp/usr/include/lxqt-globalkeys-ui/shortcutselector.h
+debian/tmp/usr/lib/x86_64-linux-gnu/liblxqt-globalkeys-ui.so
+debian/tmp/usr/lib/x86_64-linux-gnu/pkgconfig/lxqt-globalkeys-ui.pc
+debian/tmp/usr/share/cmake/lxqt-globalkeys-ui/lxqt-globalkeys-ui-config-version.cmake
+debian/tmp/usr/share/cmake/lxqt-globalkeys-ui/lxqt-globalkeys-ui-config.cmake
+debian/tmp/usr/share/cmake/lxqt-globalkeys-ui/lxqt-globalkeys-ui-targets-relwithdebinfo.cmake
+debian/tmp/usr/share/cmake/lxqt-globalkeys-ui/lxqt-globalkeys-ui-targets.cmake

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec=lxqt-config-file-associations
+Icon=preferences-desktop-filetype-association
+Categories=Settings;DesktopSettings;Qt;LXQt;
+OnlyShowIn=LXQt;
+
+#TRANSLATIONS_DIR=translations

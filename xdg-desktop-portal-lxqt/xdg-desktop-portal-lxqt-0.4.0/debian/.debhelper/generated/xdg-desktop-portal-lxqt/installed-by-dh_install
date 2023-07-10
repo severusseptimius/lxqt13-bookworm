@@ -1,0 +1,4 @@
+debian/tmp/usr/share/applications/org.freedesktop.impl.portal.desktop.lxqt.desktop
+debian/tmp/usr/share/dbus-1/services/org.freedesktop.impl.portal.desktop.lxqt.service
+debian/tmp/usr/share/xdg-desktop-portal/portals/lxqt.portal
+debian/tmp/usr/libexec/xdg-desktop-portal-lxqt

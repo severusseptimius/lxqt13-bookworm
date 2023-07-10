@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtray.a CMakeFiles/tray.dir/tray_autogen/mocs_compilation.cpp.o CMakeFiles/tray.dir/xtestsender.cpp.o CMakeFiles/tray.dir/sniproxy.cpp.o CMakeFiles/tray.dir/snidbus.cpp.o CMakeFiles/tray.dir/fdoselectionmanager.cpp.o CMakeFiles/tray.dir/lxqttrayplugin.cpp.o CMakeFiles/tray.dir/statusnotifieritemadaptor.cpp.o CMakeFiles/tray.dir/statusnotifierwatcher_interface.cpp.o CMakeFiles/tray.dir/LXQtPluginTranslationLoader.cpp.o
+/usr/bin/ranlib libtray.a

@@ -1,0 +1,5 @@
+/usr/share/cmake/qtxdg-tools/qtxdg-tools-config.cmake
+/usr/share/cmake/qtxdg-tools/qtxdg-tools-config-version.cmake
+/usr/share/cmake/qtxdg-tools/qtxdg-tools-targets.cmake
+/usr/share/cmake/qtxdg-tools/qtxdg-tools-targets-relwithdebinfo.cmake
+/usr/bin/qtxdg-mat

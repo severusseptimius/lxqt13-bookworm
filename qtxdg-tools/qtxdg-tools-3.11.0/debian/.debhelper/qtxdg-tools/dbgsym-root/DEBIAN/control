@@ -1,0 +1,12 @@
+Package: qtxdg-tools-dbgsym
+Source: qtxdg-tools
+Version: 3.11.0-0.1~S7
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 741
+Depends: qtxdg-tools (= 3.11.0-0.1~S7)
+Section: debug
+Priority: optional
+Description: debug symbols for qtxdg-tools
+Build-Ids: 76ceabc615de34292cd781fb0f08557bfbbf06ed

@@ -1,0 +1,12 @@
+Package: lxqt-openssh-askpass-dbgsym
+Source: lxqt-openssh-askpass
+Version: 1.3.0-0.1~S7
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 458
+Depends: lxqt-openssh-askpass (= 1.3.0-0.1~S7)
+Section: debug
+Priority: optional
+Description: debug symbols for lxqt-openssh-askpass
+Build-Ids: 70ac5944216b9f50256e43eeabecc9939044f982

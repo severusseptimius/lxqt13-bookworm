@@ -1,0 +1,23 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=LXQtPanel/Plugin
+Icon=qeyes
+
+Name=QEyes
+Comment=A follow the mouse demo
+Name[fi]=QEyes
+Comment[fi]=Hiirtä seuraava testisovellus
+Name[fr]=QEyes
+Comment[fr]=Une démonstration de suivi de la souris
+Name[it]=QEyes
+Comment[it]=Seguire il Mouse - Demo
+Name[lt]=QEyes
+Comment[lt]=Sekimo paskui pelę demonstracija
+Name[nl]=QEyes
+Comment[nl]=Een volg-de-muistest
+Name[oc]=QEyes
+Comment[oc]=Una demonstracion de seguiment de la mirga
+Name[sr]=QEyes
+Comment[sr]=Прати демонстрацију миша
+Name[tr]=QEyes
+Comment[tr]=Fareyi izle demosu

@@ -1,0 +1,8 @@
+# configuration and autostart from lxqt-common
+#daemon
+#shortcuts
+etc/xdg/autostart/lxqt-globalkeyshortcuts.desktop
+usr/bin/lxqt-config-globalkeyshortcuts
+usr/bin/lxqt-globalkeysd
+usr/share/applications/lxqt-config-globalkeyshortcuts.desktop
+usr/share/lxqt/globalkeyshortcuts.conf etc/xdg/lxqt/globalkeyshortcuts.conf

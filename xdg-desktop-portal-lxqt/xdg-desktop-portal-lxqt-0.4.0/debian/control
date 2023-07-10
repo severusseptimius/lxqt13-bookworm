@@ -1,0 +1,25 @@
+Source: xdg-desktop-portal-lxqt
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Uploaders: Palo Kisa <palo.kisa@gmail.com>
+Section: x11
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               cmake,
+               qtbase5-dev,
+               libkf5windowsystem-dev,
+               libfm-qt-dev,
+               libqt5x11extras5-dev,
+               quilt
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/lxqt-team/xdg-desktop-portal-lxqt
+Vcs-Git: https://salsa.debian.org/lxqt-team/xdg-desktop-portal-lxqt.git
+Homepage: https://github.com/lxqt/xdg-desktop-portal-lxqt
+
+Package: xdg-desktop-portal-lxqt
+Architecture: any
+Provides: xdg-desktop-portal-backend
+Depends: ${misc:Depends},
+         ${shlibs:Depends}
+Description: LXQt portal backend for xdg-desktop-portal
+ xdg-desktop-portal-lxqt is backend implementation for xdg-desktop-portal,
+ that is using Qt/KF5/libfm-qt.

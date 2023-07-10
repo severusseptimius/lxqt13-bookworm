@@ -1,0 +1,8 @@
+debian/tmp/usr/bin/lxqt-sudo
+debian/tmp/usr/bin/lxsu
+debian/tmp/usr/bin/lxsudo
+debian/tmp/usr/bin/lxdoas
+debian/tmp/usr/share/man/man1/lxqt-sudo.1
+debian/tmp/usr/share/man/man1/lxsu.1
+debian/tmp/usr/share/man/man1/lxsudo.1
+debian/tmp/usr/share/man/man1/lxdoas.1

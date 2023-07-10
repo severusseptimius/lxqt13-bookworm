@@ -1,0 +1,20 @@
+#!/usr/bin/make -f
+# export DH_VERBOSE=1
+
+export LC_ALL=C.UTF-8
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all optimize=+lto
+
+include /usr/share/dpkg/architecture.mk
+
+ifneq ($(DEB_HOST_ARCH_OS),linux)
+    NOT_LINUX := -DBUILD_BACKLIGHT_LINUX_BACKEND=NO
+endif
+
+%:
+	dh ${@} --buildsystem cmake
+
+override_dh_auto_configure:
+	dh_auto_configure -- \
+		-DUPDATE_TRANSLATIONS=OFF \
+		-DCMAKE_BUILD_TYPE=RelWithDebInfo \
+		$(NOT_LINUX)

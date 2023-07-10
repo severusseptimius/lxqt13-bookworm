@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec=lxqt-leave --lockscreen
+Icon=system-lock-screen
+Categories=System;Screensaver;
+OnlyShowIn=LXQt;
+
+#TRANSLATIONS_DIR=../translations

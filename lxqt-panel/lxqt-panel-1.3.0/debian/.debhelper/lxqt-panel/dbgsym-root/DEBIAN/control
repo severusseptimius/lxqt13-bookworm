@@ -1,0 +1,12 @@
+Package: lxqt-panel-dbgsym
+Source: lxqt-panel
+Version: 1.3.0-0.1~S7
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 17839
+Depends: lxqt-panel (= 1.3.0-0.1~S7)
+Section: debug
+Priority: optional
+Description: debug symbols for lxqt-panel
+Build-Ids: 078491071e86da218caf07f8ff64010fb3188e39 23c701815c6d9421c7d1ce1992934f08d3490dae 2a29a6f4a2f000331ba14c944f92d178fd9d8378 34ba07b85db3cf913e7e4be5d76a2c8a971453aa 34dab6307cbd3c4338f5703d0b1c3bbfc19342a2 4dc697906aedb21187402e658c2558a711f4c50b 6bd8bf384e88e487fd62a032f864a292d954e7f5 7f2f917e14e3677d3ebb509bb2d634bddfb78c3d 99d659881d25b74256ace3f1706d293542e80c39 c2dc2de5a77c6c60d940314f74830d3e3b87a911 d8f84be2464d9a3b51e4cb100f7c6bcfd9cd061f f593fcef715b601a9f78f7cd8b3edfc477183a95 fd12919089dc78d1eb11c89f20a6bd49d50f8489 fe3ef34bca3887831e4f2b5181de55b35c55ea38

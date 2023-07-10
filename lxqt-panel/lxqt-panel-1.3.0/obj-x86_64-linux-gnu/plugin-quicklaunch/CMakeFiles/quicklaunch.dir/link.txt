@@ -1,0 +1,2 @@
+/usr/bin/ar qc libquicklaunch.a CMakeFiles/quicklaunch.dir/quicklaunch_autogen/mocs_compilation.cpp.o CMakeFiles/quicklaunch.dir/lxqtquicklaunchplugin.cpp.o CMakeFiles/quicklaunch.dir/lxqtquicklaunch.cpp.o CMakeFiles/quicklaunch.dir/quicklaunchbutton.cpp.o CMakeFiles/quicklaunch.dir/quicklaunchaction.cpp.o CMakeFiles/quicklaunch.dir/LXQtPluginTranslationLoader.cpp.o
+/usr/bin/ranlib libquicklaunch.a

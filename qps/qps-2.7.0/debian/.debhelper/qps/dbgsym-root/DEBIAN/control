@@ -1,0 +1,12 @@
+Package: qps-dbgsym
+Source: qps
+Version: 2.7.0-0.1~S7
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 3657
+Depends: qps (= 2.7.0-0.1~S7)
+Section: debug
+Priority: optional
+Description: debug symbols for qps
+Build-Ids: 4c6d67454170295d4af31a6302a5356c2e957b76

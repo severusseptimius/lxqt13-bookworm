@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+23872b223e330d7dedb25a91585fd193 src/CMakeFiles/qtlxqt_autogen
+192d5880afa2bc9a2be2485da864607c src/statusnotifieritemadaptor.cpp
+02589b1e76c7f8fcda8be952dbadffee src/statusnotifieritemadaptor.moc

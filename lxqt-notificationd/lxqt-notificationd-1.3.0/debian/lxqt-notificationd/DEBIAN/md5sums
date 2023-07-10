@@ -1,0 +1,9 @@
+43a0f8d74b5b6df12d1d8189661625e8  usr/bin/lxqt-config-notificationd
+441201dda49cbde52df57be9b54b1650  usr/bin/lxqt-notificationd
+7327ddf23c3c336951528fe519ce9063  usr/share/applications/lxqt-config-notificationd.desktop
+aeecad0a8ccbb19efede34e268917a7f  usr/share/doc/lxqt-notificationd/AUTHORS
+e1a00266f90562ba07d14c0ad5aea481  usr/share/doc/lxqt-notificationd/README.md
+f5b05d636e0eae3c12503863ca933e43  usr/share/doc/lxqt-notificationd/changelog.Debian.gz
+a0394f19d27681c928170d3b0d3d3366  usr/share/doc/lxqt-notificationd/changelog.gz
+7588054989421c85bed70ab82bb5ef27  usr/share/doc/lxqt-notificationd/copyright
+f164fb2f1326964976736ab2e63a261c  usr/share/lintian/overrides/lxqt-notificationd

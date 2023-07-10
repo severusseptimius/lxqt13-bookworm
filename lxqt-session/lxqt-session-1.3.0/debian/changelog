@@ -1,0 +1,307 @@
+lxqt-session (1.3.0-0.3~S7) bookworm; urgency=medium
+
+  * New upstream release
+
+ -- S.7 <severusseptimius7@gmail.com>  Sun, 21 May 2023 07:09:40 -0400
+
+lxqt-session (1.2.0-3) unstable; urgency=medium
+
+  * Merge to unstable.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Fri, 23 Dec 2022 00:31:41 +0800
+
+lxqt-session (1.2.0-2) experimental; urgency=medium
+
+  * Add patch to use libproc2.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Sat, 17 Dec 2022 19:10:39 +0800
+
+lxqt-session (1.2.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Remove unnecessary patch.
+  * Add Rules-Requires-Root: no.
+  * Fix d/lintian-overrides.
+  * Update d/watch for GitHub.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Sat, 17 Dec 2022 17:28:26 +0800
+
+lxqt-session (1.1.1-2) unstable; urgency=medium
+
+  * Revert previous improper uploaded changes. Reorganize
+    debian/experimental changes:
+    * debian/upstream/signing-key.asc: update.
+    * debian/copyright: update for new upstream changes.
+    * debian/control: build-deps on libprocps-dev and qtxdg-tools.
+    * debian/control: update descriptions for lxqt-session-l10n package.
+    * Added fix-bluetooth-saving-settings.patch: from upstream. See details:
+      https://github.com/lxqt/lxqt-session/pull/438.
+    * debian/lxqt-session.install: update for upstream changes.
+    * debian/lxqt-session-l10n.install: install into
+      /usr/share/lxqt/translations/lxqt-session.
+    * debian/rules: set -DPULL_TRANSLATIONS=OFF.
+  * debian/upstream/metadata: Change Repository-Browser field to
+    Repository-Browse.
+  * debian/rules: Remove unnecessary -Wl,--as-needed.
+  * debian/rules: Drop --fail-missing argument to dh_missing which is now
+    default in debhelper 13.
+  * debian/watch: fix uscan error.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Thu, 27 Oct 2022 13:46:17 +0800
+
+lxqt-session (1.1.1-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump debhelper compat to 13, no changes needed.
+  * Bump build dependencies.
+  * Bump Standards-version to 4.6.1, no changes needed.
+  * Drop some old Breaks/Replaces.
+  * Run wrap-and-sort.
+  * Pull some useful changes from Ubuntu so we can sync.
+
+ -- Simon Quigley <tsimonq2@debian.org>  Wed, 13 Jul 2022 19:57:58 -0500
+
+lxqt-session (1.0.1-1) unstable; urgency=medium
+
+  * New upstream release
+  * Bumped Standards-Version to 4.6.0, no changes needed
+  * Update debian/copyright
+
+ -- S. 7 <severusseptimius7@gmail.com>  Thu, 25 Nov 2021 18:19:55 +0200
+
+lxqt-session (0.16.0-1) unstable; urgency=medium
+
+  [ Alf Gaida ]
+  * Switched to gbp
+  * Bumped Standards-Version to 4.4.0, no changes needed
+
+  [ Andrew Lee (李健秋) ]
+  * New upstream release.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Wed, 06 Jan 2021 18:11:54 +0800
+
+lxqt-session (0.14.1-2) unstable; urgency=medium
+
+  * Fixes memory leak in lxqt-session, lxqt-session allocates memory for process
+    output never read (Closes: #928804)
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 11 May 2019 15:30:08 +0200
+
+lxqt-session (0.14.1-1) unstable; urgency=medium
+
+  * Cherry-picking new upstream version 0.14.1.
+  * Bumped minimum version liblxqt0-dev (>= 0.14.1~)
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 26 Feb 2019 02:58:20 +0100
+
+lxqt-session (0.14.0-1) unstable; urgency=medium
+
+  * Cherry-picking new upstream version 0.14.0.
+  * Bumped Standards to 4.3.0, no changes needed
+  * Dropped d/compat, use debhelper-compat = 12, no changes needed
+  * Fixed years in d/copyright
+  * Bumped minimum version liblxqt0-dev (>= 0.14.0~)
+  * Removed obsolete PULL_TRANSLATIONS= OFF from dh_auto_configure
+  * Added l10n-package, moved from lxqt-l10n
+  * Removed 01-lxqt-session-x-window-manager.patch - we automagically search
+    for a WM in the fixed WM list
+  * Added d/upstream/metadata
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 27 Jan 2019 19:26:06 +0100
+
+lxqt-session (0.13.0-3) unstable; urgency=medium
+
+  * Fixed typo in patch description
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 07 Jul 2018 19:32:29 +0200
+
+lxqt-session (0.13.0-2) unstable; urgency=medium
+
+  * Use x-window-manager as default WM (Closes: #900430)
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 16 Jun 2018 11:00:23 +0200
+
+lxqt-session (0.13.0-1) unstable; urgency=medium
+
+  * Cherry-picking new upstream version 0.13.0.
+  * Bumped build dependency liblxqt0-dev to >= 0.13.0~
+  * Removed patches - applied upstream
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 24 May 2018 23:56:43 +0200
+
+lxqt-session (0.12.0-6) unstable; urgency=medium
+
+  * Bumped compat to 11
+  * Bumped debhelper to >= 11~
+  * Bumped Standards to 4.1.4, no changes needed
+  * Changed VCS fields for salsa
+  * Changed Homepage, Source and watch to lxqt
+  * Bumped years in copyright
+  * Removed trailing whitespaces in changelog
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 28 Apr 2018 16:29:59 +0200
+
+lxqt-session (0.12.0-5) unstable; urgency=medium
+
+  * Bumped Standards to 4.1.2, no changes needed
+  * Removed branch from VCS fields
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 14 Dec 2017 22:58:32 +0100
+
+lxqt-session (0.12.0-4) unstable; urgency=medium
+
+  * Transition to unstable
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 05 Dec 2017 00:29:14 +0100
+
+lxqt-session (0.12.0-3) experimental; urgency=medium
+
+  * Added upstream pull request for moving upstream configurations
+    to /usr/share/lxqt (Closes: #883033)
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 01 Dec 2017 21:54:55 +0100
+
+lxqt-session (0.12.0-2) experimental; urgency=medium
+
+  * Added upstream pull request for improved xdg handling (Closes: #883032).
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 01 Dec 2017 21:53:35 +0100
+
+lxqt-session (0.12.0-1) experimental; urgency=medium
+
+  * Cherry-picking upstream release 0.12.0.
+  * Switched to experimental
+  * Bumped Standards to 4.1.1 - no changes needed
+  * Bumped liblxqt dependency to >= 0.12.0
+  * Breaks and Replaces lxqt-common << 0.12.0
+  * Added dependency to lxqt-themes | lxqt-theme instead
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 24 Oct 2017 21:17:51 +0200
+
+lxqt-session (0.11.1-6) unstable; urgency=medium
+
+  * Moved lxqt-qtplugin to dependencies (Closes: #870138)
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 06 Aug 2017 00:09:36 +0200
+
+lxqt-session (0.11.1-5) unstable; urgency=medium
+
+  * Fixed qps dependency to [linux-any] (Closes: #842649)
+  * Recommends lxqt-notificationd (Closes: #866887)
+  * Indirectly depend on desktop-file-utils via liblxqt (Closes: #866899)
+  * Remove alternative gksu, see #867236 "Unsuitable for release in buster"
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 05 Jul 2017 02:25:34 +0200
+
+lxqt-session (0.11.1-4) unstable; urgency=medium
+
+  * Added pcmanfm-qt to Recommends - the session should recommend at least one
+    application that is able to paint/manage the desktop.
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 02 Jul 2017 16:01:48 +0200
+
+lxqt-session (0.11.1-3) unstable; urgency=medium
+
+  * Bumped Standards to 4.0.0 - no changes needed
+  * Added to Recommends: lxqt-qtplugin and lxqt-policykit
+    (Closes: #866344)
+  * Added to Recommends: lxqt-config (Closes: #866346)
+  * Added to Recommends: lxqt-powermanagement (Closes: #866651)
+  * Added to Recommends: lxqt-sudo | gksu (Closes: #866650)
+    One graphical sudo should be enough on a system - we leave out
+    the ancient kdesudo for a reason.
+  * Added to Recommends: qps and qlipper (Closes: #866648)
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 30 Jun 2017 19:00:49 +0200
+
+lxqt-session (0.11.1-2) unstable; urgency=medium
+
+  * Recommend a screen-saver:
+    xscreensaver | gnome-screensaver | light-locker | i3lock | suckless-tools
+    (Closes: #824857)
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 02 Jan 2017 18:52:28 +0100
+
+lxqt-session (0.11.1-1) unstable; urgency=medium
+
+  * Cherry-picking upstream release 0.11.1.
+  * Removed some build dependencies:
+    -cmake
+    -libqt5xdg-dev
+    -libqt5xdgiconloader-dev
+    -pkg-config
+    -qttools5-dev
+    -qttools5-dev-tools
+  * Bumped build dependency liblxqt0-dev (>= 0.11.1)
+  * Bumped years in d/copyright
+  * Removed deleted files and BSD-License from d/copyright
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 02 Jan 2017 16:41:12 +0100
+
+lxqt-session (0.11.0-2) unstable; urgency=medium
+
+  * Cherry-picking upstream release 0.11.0
+  * Synced debian foo with experimental
+  * Bumped Standards to 3.9.8, no changes needed
+  * Bumped compat to 10
+  * Removed --parallel from rules, standard in compat 10
+  * Bumped build dependency debhelper (>= 10)
+  * Bumped minimum version libqtxdg-dev (>= 2.0.0)
+  * Bumped minimum version liblxqt-dev (>= 0.11.0)
+  * Added build dependency libqt5svg5-dev
+  * Added build dependency libqtxdgiconloader-dev
+  * Added build dependency xdg-user-dirs
+  * Move Pre-Depends lxqt-common to Depends
+  * Added Depends x11-xkb-utils
+  * Added Recommends lxqt-session-l10n
+  * Fixed copyrights Format field to https
+  * Fixed VCS fields, using plain /git/
+  * Fixed VCS fields, point to the right branch
+  * Added new files and license to copyright
+  * Changed LIBUDEV_MONITOR to WITH_LIBUDEV
+  * Added translation control to rules
+  * Set CMAKE_BUILD_TYPE=RelWithDebInfo
+  * Exported LC_ALL=C.UTF-8, make builds reproducible
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 18 Oct 2016 18:14:53 +0200
+
+lxqt-session (0.10.0-4) unstable; urgency=medium
+
+  * turn LIBUDEV_MONITOR on for linux, thanks RalfJ
+  * Fix years in copyright
+  * Bump Standards to 3.9.7
+  * Use secure VCS-Fields
+  * Added hardening=+all
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 23 Mar 2016 18:46:14 +0100
+
+lxqt-session (0.10.0-3) unstable; urgency=medium
+
+  * Remove dbg package in favor of dbgsym.
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 26 Dec 2015 23:31:49 +0100
+
+lxqt-session (0.10.0-2) unstable; urgency=medium
+
+  * Merge from experimental.
+  * New upstream release.
+  * Set new minimum version for liblxqt.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Thu, 19 Nov 2015 23:59:38 +0800
+
+lxqt-session (0.9.0+20150807-2) unstable; urgency=medium
+
+  * rename lxqt-session.manpages to manpages
+  * allow build on non-linux platforms (Thanks Pino Toscano)
+    (Closes: #803656)
+  * Added lintian-overrides for invalid category
+  * Fix some wording of debian/copyright
+  * Fixed some copyright dates
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 12 Nov 2015 20:11:50 +0100
+
+lxqt-session (0.9.0+20150807-1) unstable; urgency=low
+
+  * Initial release (Closes: #747608)
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Sat, 12 Sep 2015 00:05:13 +0800

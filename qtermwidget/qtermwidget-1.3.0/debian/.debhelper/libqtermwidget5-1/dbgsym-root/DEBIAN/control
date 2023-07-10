@@ -1,0 +1,13 @@
+Package: libqtermwidget5-1-dbgsym
+Source: qtermwidget
+Version: 1.3.0-0.1~S7
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 3930
+Depends: libqtermwidget5-1 (= 1.3.0-0.1~S7)
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for libqtermwidget5-1
+Build-Ids: a66ecda98a6ada2024465427095334dd293ce0e9

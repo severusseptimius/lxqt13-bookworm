@@ -1,0 +1,11 @@
+6a1dd827f3def061487bfc077d2e55be  usr/bin/pcmanfm-qt
+d8549eb18c38305e765680a98f750ddf  usr/share/applications/pcmanfm-qt-desktop-pref.desktop
+d09318dee6635c98495035f2064396d0  usr/share/applications/pcmanfm-qt.desktop
+507cb65554e31b5d06fe24e126313b82  usr/share/doc/pcmanfm-qt/AUTHORS
+28347d2c41daa50de3398a4e0c5847f6  usr/share/doc/pcmanfm-qt/README.md
+9c98ed954a3278fdf41b8eefc0c64c94  usr/share/doc/pcmanfm-qt/changelog.Debian.gz
+c5a635199b784ef34cb0bf760086c2e7  usr/share/doc/pcmanfm-qt/changelog.gz
+c0bbb8283aca89a5628a29d833aa820c  usr/share/doc/pcmanfm-qt/copyright
+e09f41c4e03f5f3f852218342b516dca  usr/share/lintian/overrides/pcmanfm-qt
+ccd6f2246f24fda1c0d95606f8edd727  usr/share/man/man1/pcmanfm-qt.1.gz
+f0685abcbd174e44eba5ab7d0376b998  usr/share/pcmanfm-qt/lxqt/settings.conf

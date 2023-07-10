@@ -1,0 +1,550 @@
+libfm-qt (1.3.0-0.1~S7) bookworm; urgency=medium
+
+  * New upstream release ;)
+
+ -- S.7 <severusseptimius7@gmail.com>  Sat, 20 May 2023 13:29:00 +0300
+
+libfm-qt (1.2.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-Version to 4.6.2.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Wed, 04 Jan 2023 23:51:37 +0800
+
+libfm-qt (1.2.0-5) unstable; urgency=medium
+
+  * Update shlibs file to prevent using broken version.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Sat, 10 Dec 2022 13:36:35 +0800
+
+libfm-qt (1.2.0-4) unstable; urgency=medium
+
+  * Merge to unstable.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Fri, 02 Dec 2022 11:19:50 +0800
+
+libfm-qt (1.2.0-3) experimental; urgency=medium
+
+  * Fix wrong Depends.
+  * Sort d/copyright.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Wed, 30 Nov 2022 08:47:36 +0800
+
+libfm-qt (1.2.0-2) experimental; urgency=medium
+
+  * Change package name for new soversion (Closes: #1024687).
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Sat, 26 Nov 2022 23:56:57 +0800
+
+libfm-qt (1.2.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Remove unnecessary --fail-missing.
+  * Remove unnecessary patches.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Tue, 22 Nov 2022 23:52:31 +0800
+
+libfm-qt (1.1.0-3) unstable; urgency=medium
+
+  * Team upload
+  * Bump libfm-qt8 to libfm-qt11
+    - Restored Breaks+Replaces: libfm-qt8 (Closes: #1016514)
+  * debian/control:
+    - Bump Standards-Version to 4.6.1
+    - Bump debhelper to 13
+    - debian/control: Add Rules-Requires-Root: no
+  * debian/rules: Remove "-Wl,--as-needed" in linker options
+  * debian/patches:
+    - Fix crash with empty URI scheme of folder path
+    - Support adding of pattern lists to entries of search dialog
+  * debian/*.symbols, debian/libfm-qt11.shlibs: Remove all symbols files and
+    use shlibs file to declare linking dependencies
+  * debian/upstream/metadata: Change Repository-Browser field to
+    Repository-Browse
+
+ -- Yao Wei (魏銘廷) <mwei@debian.org>  Sat, 08 Oct 2022 18:01:29 +0800
+
+libfm-qt (1.1.0-2) experimental; urgency=medium
+
+  * Upstreamed compatible changes from Ubuntu, modifying the following files:
+    - control
+    - copyright
+    - libfm-qt11.symbols
+    - libfm-qt-common.install
+    - libfm-qt-dev.install
+    - rules
+    - upstream/*
+    - patches directory
+
+ -- Aaron Rainbolt <arraybolt3@gmail.com>  Thu, 14 Jul 2022 15:45:41 -0500
+
+libfm-qt (1.1.0-1) experimental; urgency=medium
+
+  * debian/changelog: fix a typo.
+  * New upstream version 1.0.0
+  * Add debian/salsa-ci.yml file.
+  * Update debian/upstream/signing-key.asc.
+  * New upstream version 1.1.0
+  * debian/control: build-deps on lxqt-build-tools (>=0.11.0~).
+  * Bump to libfm-qt11 to match soname changes.
+  * debian/libfm-qt11.shlibs: Added, restrict to latest upstream version.
+  * Drop C++ symbols according to
+    https://wiki.debian.org/UsingSymbolsFiles.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Tue, 12 Jul 2022 22:33:35 +0800
+
+libfm-qt (0.16.0-3) unstable; urgency=high
+
+  * Update symbols for armel, armhf, i386, mipsel and s390x to fix FTBFS.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Sat, 09 Jan 2021 03:15:46 +0800
+
+libfm-qt (0.16.0-2) unstable; urgency=medium
+
+  * Source only upload.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Wed, 06 Jan 2021 21:31:49 +0800
+
+libfm-qt (0.16.0-1) unstable; urgency=medium
+
+  * New upstream release. (Closes: #978219)
+  * Drop fixed upstream patches.
+  * Bump to libfm-qt8 to match soname changes.
+  * Refresh debian/libfm-qt8.symbols file.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Wed, 06 Jan 2021 04:30:38 +0800
+
+libfm-qt (0.14.1-12.2) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Update symbols files from buildds’ logs to fix FTBFS on armel.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 23 Oct 2020 20:28:57 +0300
+
+libfm-qt (0.14.1-12.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Update symbols files for GCC 10 (closes: #957436).
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 17 Oct 2020 20:11:39 +0300
+
+libfm-qt (0.14.1-12) unstable; urgency=medium
+
+  * Fixed symbol QRegEx -> QRegularExpression
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 22 Oct 2019 23:52:39 +0200
+
+libfm-qt (0.14.1-11) unstable; urgency=medium
+
+  * Bumped Standards to 4.4.1, no changes needed
+  * Switched to gbp, gbp.conf added
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 05 Oct 2019 12:56:09 +0200
+
+libfm-qt (0.14.1-10) unstable; urgency=medium
+
+  * Fixed symbols for gcc 9.2.1 (Closes: #925742)
+  * Bumped Standards to 4.4.0, no changes needed
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 17 Aug 2019 13:00:08 +0200
+
+libfm-qt (0.14.1-9) unstable; urgency=medium
+
+  * Added upstream patch workaround-missed-file-monitoring.patch
+    (Closes: #926803)
+  * Added two new symbols - internal use only
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 08 Jun 2019 16:39:11 +0200
+
+libfm-qt (0.14.1-8) unstable; urgency=medium
+
+  * Removed the wrongly introduced build dependency on lxqt-qtplugin
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 27 Apr 2019 18:40:25 +0200
+
+libfm-qt (0.14.1-7) unstable; urgency=medium
+
+  * Workaround for GLib's recursive moving error (Closes: #927708)
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 27 Apr 2019 10:50:16 +0200
+
+libfm-qt (0.14.1-6) unstable; urgency=medium
+
+  * Fixed ignored creation-deletion sequences (Closes: #927707)
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 21 Apr 2019 20:50:23 +0200
+
+libfm-qt (0.14.1-5) unstable; urgency=medium
+
+  * Fixed license for vfs-search.c and vfs-menu.c - was forgotten upstream.
+  * Fixed d/copyright that way.
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 18 Apr 2019 20:52:30 +0200
+
+libfm-qt (0.14.1-4) unstable; urgency=medium
+
+  * Fix recursive copy to smb shares (and possible other remote filesystems)
+    (Closes: #926626)
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 08 Apr 2019 19:03:43 +0200
+
+libfm-qt (0.14.1-3) unstable; urgency=medium
+
+  * Fixed the remaining symbols
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 01 Mar 2019 01:34:43 +0100
+
+libfm-qt (0.14.1-2) unstable; urgency=medium
+
+  * Fixed new and optional symbols
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 26 Feb 2019 22:07:40 +0100
+
+libfm-qt (0.14.1-1) unstable; urgency=medium
+
+  * Cherry-picking upstream release 0.14.1.
+  * Fixed some symbols
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 24 Feb 2019 19:31:01 +0100
+
+libfm-qt (0.14.0-3) unstable; urgency=medium
+
+  * Switched to unstable
+  * Fixed some more symbols
+  * Ported back some upstream patches
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 05 Feb 2019 20:11:09 +0100
+
+libfm-qt (0.14.0-2) experimental; urgency=medium
+
+  * Fixed a bunch of symbols for misc. architectures.
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 02 Feb 2019 17:46:02 +0100
+
+libfm-qt (0.14.0-1) experimental; urgency=medium
+
+  * Cherry-picking upstream release 0.14.0.
+  * Switched to experimental
+  * Bumped Standards to 4.3.0, no changes needed
+  * Dropped d/compat, use debhelper-compat = 12, no changes needed
+  * Fixed years in d/copyright
+  * Bumped minimum version lxqt-build-tools (>= 0.6.0~)
+  * Removed obsolete PULL_TRANSLATIONS= OFF from dh_auto_configure
+  * Removed obsolete build dependency libfm-dev
+  * Added Build-Depends-Package field to symbols
+  * Added l10n-package, moved from lxqt-l10n
+  * Fixed symbols file for 0.14.0
+  * Added d/upstream/metadata
+  * Added new files do debian/copyright
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 30 Jan 2019 20:32:59 +0100
+
+libfm-qt (0.13.1-10) unstable; urgency=medium
+
+  * Added Build-Depends-Package: libfm-qt-dev to libfm-qt-dev.symbols
+  * Bumped Standards to 4.2.1
+  * Fixed the first symbols (Closes: #916158)
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 28 Dec 2018 16:41:09 +0100
+
+libfm-qt (0.13.1-9) unstable; urgency=medium
+
+  * Fixed armel and riscv symbols
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 31 Aug 2018 19:35:35 +0200
+
+libfm-qt (0.13.1-8) unstable; urgency=medium
+
+  * Fixed missed blank in symbols
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 31 Aug 2018 00:51:51 +0200
+
+libfm-qt (0.13.1-7) unstable; urgency=medium
+
+  * Fixed another bunch of symbols
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 30 Aug 2018 22:36:25 +0200
+
+libfm-qt (0.13.1-6) unstable; urgency=medium
+
+  * Fixed a bunch of symbols
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 31 Jul 2018 18:15:12 +0200
+
+libfm-qt (0.13.1-5) unstable; urgency=medium
+
+  * Switch to unstable
+  * Another round of symbol fixes
+  * Bumped Standards to 4.1.5, no changes needed
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 07 Jul 2018 13:05:18 +0200
+
+libfm-qt (0.13.1-4) experimental; urgency=medium
+
+  * Fixed some more symbols in architectures
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 29 Jun 2018 19:34:00 +0200
+
+libfm-qt (0.13.1-3) experimental; urgency=medium
+
+  * Fixed some powerpcspe symbols
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 28 Jun 2018 01:22:45 +0200
+
+libfm-qt (0.13.1-2) experimental; urgency=medium
+
+  * Added dependency libglib2.0-bin (Closes: #902053)
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 23 Jun 2018 14:45:18 +0200
+
+libfm-qt (0.13.1-1) experimental; urgency=medium
+
+  * Cherry-picking upstream release 0.13.1.
+  * Fixed some symbols
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 03 Jun 2018 01:30:24 +0200
+
+libfm-qt (0.13.0-2) experimental; urgency=medium
+
+  * Fixed the first big bunch of symbols
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 28 May 2018 19:36:36 +0200
+
+libfm-qt (0.13.0-1) experimental; urgency=medium
+
+  * Cherry-picking upstream release 0.13.0.
+  * Removed build dependency libglib2.0-dev, thrown in via lxqt-build-tools
+  * Bumped build dependency lxqt-build-tools to >= 0.5.0~
+  * Renamed libfm-qt3 -> libfm-qt5. soname bumped
+  * Added Breaks and replaces for libfm-qt3
+  * Bumped years in copyright
+  * Messed around with symbols (gcc7/gcc8, removals, new symbols)
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 23 May 2018 23:02:00 +0200
+
+libfm-qt (0.12.0-17) unstable; urgency=medium
+
+  * Fixed symbols for ia64
+  * Fixed watch file to lxqt
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 29 Apr 2018 02:31:23 +0200
+
+libfm-qt (0.12.0-16) unstable; urgency=medium
+
+  * fix some typos in symbols
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 23 Apr 2018 02:07:46 +0200
+
+libfm-qt (0.12.0-15) unstable; urgency=medium
+
+  * Added missed symbols (Closes: #896514)
+  * Bumped debhelper build dependency to 11~
+  * Bumped compat to 11
+  * Bumped Standards to 4.1.4
+  * Fixed VCS fields for salsa
+  * Fixed upstream homepage
+  * Fixed years and source in copyright
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 22 Apr 2018 22:39:57 +0200
+
+libfm-qt (0.12.0-14) unstable; urgency=medium
+
+  * Bumped Standards to 4.1.2, no changes needed
+  * Removed branch from VCS fields
+  * Removed debian/gbp.conf
+  * Removed trailing whitespaces
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 13 Dec 2017 20:08:02 +0100
+
+libfm-qt (0.12.0-13) unstable; urgency=medium
+
+  * Transition to unstable
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 04 Dec 2017 18:41:41 +0100
+
+libfm-qt (0.12.0-12) experimental; urgency=medium
+
+  * finally fixed the symbols for the very most architectures
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 01 Dec 2017 20:51:49 +0100
+
+libfm-qt (0.12.0-11) experimental; urgency=medium
+
+  * added new symbol to mips64el
+  * added and fixed a bunch of armel symbols
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 05 Nov 2017 00:27:13 +0100
+
+libfm-qt (0.12.0-10) experimental; urgency=medium
+
+  * fixed symbols for mips64el
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 04 Nov 2017 17:55:04 +0100
+
+libfm-qt (0.12.0-9) experimental; urgency=medium
+
+  * next round of symbols
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 29 Oct 2017 02:59:13 +0200
+
+libfm-qt (0.12.0-8) experimental; urgency=medium
+
+  * introduced two optional symbols
+  * fixed sh4 symbols
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 28 Oct 2017 17:45:54 +0200
+
+libfm-qt (0.12.0-7) experimental; urgency=medium
+
+  * Some more symbol fixes for armel, armhf, mips, mipsel. hppa, m68k,
+    ppc64 and sh4
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 26 Oct 2017 16:30:32 +0200
+
+libfm-qt (0.12.0-6) experimental; urgency=medium
+
+  * Fixed symbols for arm64, ppc64el, s390x, hppa, powerpc, ppc64 and sparc64
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 26 Oct 2017 02:56:20 +0200
+
+libfm-qt (0.12.0-5) experimental; urgency=medium
+
+  * Symbol fixes for i386 - this will introduce regressions for other
+    architectures
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 26 Oct 2017 00:57:28 +0200
+
+libfm-qt (0.12.0-4) experimental; urgency=medium
+
+  * Symbol fixes for armel, mipsel, hurd-i386, x32
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 24 Oct 2017 23:49:03 +0200
+
+libfm-qt (0.12.0-3) experimental; urgency=medium
+
+  * Next round of fixed symbols
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 23 Oct 2017 01:29:24 +0200
+
+libfm-qt (0.12.0-2) experimental; urgency=medium
+
+  * Fixed symbols for arm64 armhf i386 mips ppc64el alpha powerpc ppc64 sparc64
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 22 Oct 2017 20:42:08 +0200
+
+libfm-qt (0.12.0-1) experimental; urgency=medium
+
+  * Cherry-picking upstream release 0.12.0.
+  * Switched to experimental
+  * Bumped Standards to 4.1.1
+  * Fixed Symbols
+  * Added build dependency libexif-dev
+  * Added dependencies libexif-dev and libmenu-cache-dev to libfm-qt-dev
+  * Added override for dh_missing
+  * Bumped years in copyright
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 22 Oct 2017 16:34:45 +0200
+
+libfm-qt (0.11.2-2) unstable; urgency=medium
+
+  * Bumped Standards to 4.0.0
+  * Added dependency shared-mime-info (Closes: #866901)
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 02 Jul 2017 23:01:43 +0200
+
+libfm-qt (0.11.2-1) unstable; urgency=medium
+
+  * Cherry-picking upstream release 0.11.2
+  * Added new symbols
+  * Removed build dependencies:
+    - cmake
+    - liblxqt0-dev
+    - libqt5xdg-dev
+    - pkg-config
+    - qttools5-dev
+    - qttools5-dev-tools
+  * Added build dependency lxqt-build-tools
+  * Added build dependency libfm-dev to libfm-qt-dev
+  * Removed models.patch, applied upstream
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 22 Dec 2016 01:32:58 +0100
+
+libfm-qt (0.11.1-3) unstable; urgency=medium
+
+  * Backported a upstream fix for Icon Emblem Support.
+  * Added needed Symbols
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 20 Oct 2016 18:00:38 +0200
+
+libfm-qt (0.11.1-2) unstable; urgency=medium
+
+  * Cherry-picking upstream release 0.11.1.
+  * Syncded debian foo with experimental
+  * Bump compat to 10
+  * Removed --parallel from rules, standard compat 10
+  * Bumped Standards to 3.9.8, no changes needed
+  * Bump minimum version debhelper (>= 10)
+  * Bump minimum version libqt5xdg-dev (>= 2.0.0)
+  * Re-introduce build dependency liblxqt0-dev (>= 0.11.0)
+  * Added build dependency libqt5svg5-dev
+  * Added Recommends libfm-qt-l10n
+  * Exported LC_ALL=C.UTF-8 - define language settings for reproducible
+    builds
+  * Hard override translation control
+  * Use DCMAKE_BUILD_TYPE=RelWithDebInfo
+  * Fixed copyright Format field, using https
+  * Fixed copyrights, removed obsolete files
+  * Fixed libfm-qt3.install, don't install translations
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 18 Oct 2016 01:07:52 +0200
+
+libfm-qt (0.11.0-2) unstable; urgency=medium
+
+  * Merged changes into unstable
+  * Added five new symbols, leave the rest untouched
+  * Removed not needed build dependency liblxqt0-dev
+  * Removed not needed patches (libfm-qt contains no desktop files,
+    so the desktop translation must not be patched)
+  * Fixed VCS-* fields
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 31 Mar 2016 21:38:41 +0200
+
+libfm-qt (0.11.0-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump soversion to 3.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Sat, 19 Mar 2016 15:51:15 +0800
+
+libfm-qt (0.10.0+20151214-3) unstable; urgency=medium
+
+  * Add hardening=+all
+  * Bump Standards to 3.9.7
+  * Fix LXQtTranlateDesktop - just in case
+  * Fix year in copyrights
+  * fix grep usage in cmake/LXQtTranslateDesktop.cmake - just in case
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 25 Feb 2016 22:16:17 +0100
+
+libfm-qt (0.10.0+20151214-2) unstable; urgency=medium
+
+  [ Alf Gaida ]
+  * Dropped debug package, using the new -dbgsym
+  * Added initial arch-bits 32/64 in symbols
+
+  [ ChangZhuo Chen (陳昌倬) ]
+  * Update Vcs-* fields.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Sun, 07 Feb 2016 15:37:40 +0800
+
+libfm-qt (0.10.0+20151214-1) unstable; urgency=medium
+
+  [ Alf Gaida ]
+  * forked pcmanfm-qt debian/$foo
+  * Imported upstream version 0.10.0+20151214.
+  * Initial release (Closes: #808192)
+
+  [ ChangZhuo Chen (陳昌倬) ]
+  * Add Breaks for old library name libfm-qt5-2.
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 05 Nov 2015 00:28:39 +0100

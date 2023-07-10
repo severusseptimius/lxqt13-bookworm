@@ -1,0 +1,7 @@
+debian/tmp/usr/include
+debian/tmp/usr/lib/x86_64-linux-gnu/cmake/qtermwidget5/qtermwidget5-config-version.cmake
+debian/tmp/usr/lib/x86_64-linux-gnu/cmake/qtermwidget5/qtermwidget5-config.cmake
+debian/tmp/usr/lib/x86_64-linux-gnu/cmake/qtermwidget5/qtermwidget5-targets-relwithdebinfo.cmake
+debian/tmp/usr/lib/x86_64-linux-gnu/cmake/qtermwidget5/qtermwidget5-targets.cmake
+debian/tmp/usr/lib/x86_64-linux-gnu/libqtermwidget5.so
+debian/tmp/usr/lib/x86_64-linux-gnu/pkgconfig/qtermwidget5.pc

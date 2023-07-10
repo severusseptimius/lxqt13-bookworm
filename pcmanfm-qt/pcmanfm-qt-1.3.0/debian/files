@@ -1,0 +1,4 @@
+pcmanfm-qt-dbgsym_1.3.0-0.1~S7_amd64.deb debug optional automatic=yes
+pcmanfm-qt-l10n_1.3.0-0.1~S7_all.deb localization optional
+pcmanfm-qt_1.3.0-0.1~S7_amd64.buildinfo x11 optional
+pcmanfm-qt_1.3.0-0.1~S7_amd64.deb x11 optional

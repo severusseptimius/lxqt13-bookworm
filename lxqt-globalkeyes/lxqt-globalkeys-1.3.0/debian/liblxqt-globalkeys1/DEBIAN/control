@@ -1,0 +1,17 @@
+Package: liblxqt-globalkeys1
+Source: lxqt-globalkeys
+Version: 1.3.0-0.1~S7
+Architecture: amd64
+Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
+Installed-Size: 102
+Depends: libc6 (>= 2.14), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libstdc++6 (>= 5)
+Breaks: liblxqt-globalkeys0 (<< 0.99.0)
+Replaces: liblxqt-globalkeys0 (<< 0.99.0)
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/lxqt/lxqt-globalkeys
+Description: daemon used to register global keyboard shortcuts (shared libs)
+ Daemon used to register global keyboard shortcuts.
+ .
+ This package contain the shared libs for LXQt globalkeys.
